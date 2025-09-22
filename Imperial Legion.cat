@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b02d-1e65-9470-956c" name="Imperial Legion" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b02d-1e65-9470-956c" name="Imperial Legion" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="ea8e-4fe3-e4a5-c93b" name="Hadvar: Hero Of Helgen" publicationId="bcdd-038f-9aa1-3237" hidden="false">
       <constraints>
@@ -38,6 +38,13 @@
         <categoryLink id="38ea-1e5e-0f59-b634" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="7133-3b6b-18c2-d988" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="e6b3-14d1-5056-20a7" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="5f2c-7628-5e2d-a92f" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="3455-16e2-81d7-a05f" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="8a4d-1c91-a9fd-5680" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="7728-a51e-75c4-96d0" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="fcb4-9fad-deb0-73ec" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="a170-0a00-ac55-7bb4" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="3939-dd0e-ac57-4dbd" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a63e-a0e5-e1d8-295f" name="Hadvar: Hero Of Helgen" hidden="false" collective="false" import="true" targetId="8be8-d241-f20f-ebc9" type="selectionEntry">
@@ -46,6 +53,13 @@
         <categoryLink id="9ee4-34a2-8889-2ef0" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="bbe9-65b9-2d56-1a59" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="f481-24c7-84d3-4f9a" name="Hadvar: Hero Of Helgen" hidden="false" targetId="ea8e-4fe3-e4a5-c93b" primary="false"/>
+        <categoryLink id="79b8-e529-4bf4-dcc0" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="693f-cbcb-26a1-335c" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="44b9-8ae1-8fc4-1471" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="3f6f-a9e4-68e0-8ee9" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="2dfc-0da5-5ece-513a" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="36b7-1cb1-41b5-4981" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="966e-cfd7-6dd4-ff34" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0ebf-81c9-6945-3be9" name="General Tullius: Imperial Governor" hidden="false" collective="false" import="true" targetId="821f-2b39-4456-871d" type="selectionEntry">
@@ -56,6 +70,11 @@
         <categoryLink id="d131-e0c3-e8dc-42f8" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="6996-9130-ee8c-8d67" name="Born Leader" hidden="false" targetId="917c-eb56-30eb-a720" primary="false"/>
         <categoryLink id="a464-9857-372a-fe86" name="General Tullius Equipment" hidden="false" targetId="947a-333a-bb7d-95ed" primary="false"/>
+        <categoryLink id="4a40-5121-ff47-cf48" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="d09e-e54f-7328-7f8a" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="2c6d-9e24-feaf-ed46" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="1500-4da1-6811-dec7" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="3fd0-24de-c9ed-bd48" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e13c-ea90-fe40-ddbd" name="Legate Rikke: Chief Legate" hidden="false" collective="false" import="true" targetId="1014-5819-0aac-b059" type="selectionEntry">
@@ -64,6 +83,13 @@
         <categoryLink id="5be8-b279-364c-7897" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="4668-09be-835a-4388" name="Legate Rikke: Chief Legate" hidden="false" targetId="527a-9b3a-c39f-3225" primary="false"/>
         <categoryLink id="5b6f-4b96-d654-e631" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="eb81-f9f7-0875-3c45" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="7fa0-7fcf-3cd1-e36e" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="aba1-a84c-7daf-3baa" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="45ef-0b1a-3a4f-7293" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="c778-44c2-1d74-7dd0" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="fb8a-8e16-035a-e846" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="ecf1-5346-a929-5b03" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e2dd-5903-52b7-05c3" name="Legate Fasendil: Commander Of The Rift" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="8cff-5b1e-1e85-34e4" type="selectionEntry">
@@ -72,6 +98,12 @@
         <categoryLink id="0e08-0c0a-fcd9-35d8" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="675e-ee9c-d0f4-5f10" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="3f69-18c2-aeed-23af" name="Legate Fasendil: Commander Of The Rift" hidden="false" targetId="c113-4d4c-dc87-446c" primary="false"/>
+        <categoryLink id="402f-f8fa-e991-61ea" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="e765-2baf-fa38-9dab" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="5dce-1cb6-d4bc-2290" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="286d-1a90-5004-efa2" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="6604-bc24-3a01-2d63" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="7b96-2a0f-9150-79ee" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0b3b-562b-aec2-8550" name="Captain Aldis: Defender Of Solitude" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="0895-0dae-ed96-6aa6" type="selectionEntry">
@@ -80,6 +112,13 @@
         <categoryLink id="fd0d-7d2e-07cc-85ce" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="efcb-405c-f2b8-9b3a" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="8a3b-2716-89e4-162e" name="Captain Aldis: Defender Of Solitude" hidden="false" targetId="a368-d578-6bc0-83e0" primary="false"/>
+        <categoryLink id="42bf-44f7-672a-98f1" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="5f02-02cd-11cd-8ffa" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="ce54-7cc0-6fe9-9de0" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="851c-e886-ae13-69a3" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="b376-a7be-7864-5dad" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="7d05-23ed-1f67-54d7" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="f887-9e73-9677-bb90" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d6bf-664a-42bb-2800" name="Imperial Headsman: Grim Executioner" hidden="false" collective="false" import="true" targetId="d737-af1a-f6d7-226a" type="selectionEntry">
@@ -89,6 +128,8 @@
         <categoryLink id="ef82-bb93-a1d6-e6c7" name="Imperial Headsman: Grim Executioner" hidden="false" targetId="fafb-8832-9f19-047c" primary="false"/>
         <categoryLink id="d150-bfe3-9b81-8315" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="b251-f330-e4b8-a251" name="Imperial Headsman Equipment" hidden="false" targetId="6f69-9fe1-93c1-2909" primary="false"/>
+        <categoryLink id="c961-72ef-2b04-5976" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="de5f-30ad-be83-8926" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5057-a51e-4f9a-22f1" name="Imperial Captain: Garrison Commander" hidden="false" collective="false" import="true" targetId="e764-5fa7-0ea8-958e" type="selectionEntry">
@@ -96,6 +137,11 @@
         <categoryLink id="bce8-0338-d6a8-2c3a" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="2d71-a45a-f939-65cb" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="da1e-9b9b-4fb6-92a5" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="0fce-f9a6-3680-01a1" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="72ba-8927-0637-e317" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="6d13-861d-c5db-80ab" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="1e2f-e617-a384-b9f7" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="7d5a-2bb1-5c19-ef75" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6374-9535-0c3e-da34" name="Imperial Soldier: Heavy Armor" hidden="false" collective="false" import="true" targetId="f440-aaa7-8814-f988" type="selectionEntry">
@@ -124,6 +170,140 @@
         <categoryLink id="a095-8850-0d70-ae2b" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="3622-26ea-b695-424a" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="5f0c-e146-97a3-18b0" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5202-a07f-833b-15b5" name="Hadvar: Hero Of Helgen (Adversary)" hidden="false" collective="false" import="true" targetId="5aeb-1597-85dc-a277" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8787-ef37-d99d-a1be" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="f2e3-b892-291b-dd17" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="6faf-1cbe-e19b-a601" name="Hadvar: Hero Of Helgen" hidden="false" targetId="ea8e-4fe3-e4a5-c93b" primary="false"/>
+        <categoryLink id="c003-2923-b606-0de4" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="c56e-6cb8-f2cf-aec9" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="9544-c613-ce8d-0f51" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="bf91-9727-aec7-57c3" name="New CategoryLink" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ce0d-c5d6-817d-48b0" name="Imperial Soldier: Swordsman (Adversary)" hidden="false" collective="false" import="true" targetId="5873-1ffb-182f-4d0b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="414c-2e61-2458-981e" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="9b0f-b64b-e109-7418" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="2b31-503a-2227-0355" name="New CategoryLink" hidden="false" targetId="4470-2839-f56b-81ec" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6ae1-2d95-fea7-670f" name="The Dragonborn: Champion of Skyrim" hidden="false" collective="false" import="true" targetId="2038-fbad-32c1-0729" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c06c-5d0a-f27a-3385">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="00de-a491-fd7e-bcca" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a814-43ff-4455-91ed" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="2202-6a9a-fede-49fc" name="New CategoryLink" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="3236-682d-8694-f62f" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
+        <categoryLink id="bf7b-289b-5ab2-a9e3" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="c693-b568-b87a-c5a1" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
+        <categoryLink id="331d-902b-a4a2-7f73" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="4441-16e9-0be7-68fc" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+        <categoryLink id="a316-5f37-2001-773a" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="2afb-8166-ef0a-c79d" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="f505-f790-9e68-40bb" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="7b28-f6c2-3cca-ddff" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink id="0c41-617b-e99a-9df2" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="73db-a44b-1119-963f" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="bdad-ddd9-bc32-0f8e" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="a9b3-ad1b-cf3d-f215" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="788d-d1a6-7cab-7284" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="a4c3-048c-ed33-520c" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="4b38-8ac7-07a8-23bc" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="0eec-96dc-84c2-a9d0" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="39af-9c79-d791-46f0" name="Sulla Trebatius: Rogue Spellsword" hidden="false" collective="false" import="true" targetId="4c95-92ab-1b31-8e1f" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="7f5c-e062-7fd8-bdd5" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="d353-57d4-c0e0-9e1b" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="1b0b-fdf2-734a-1ac3" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="945d-3331-4bb1-f6ed" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="9575-335c-e017-535d" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="e6ca-c965-6c82-943b" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="97e3-df23-a0b7-35ca" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="85d7-7827-ff23-215d" name="Sulla Trebatius: Rogue Spellsword" hidden="false" targetId="2564-e09e-8058-ab5b" primary="false"/>
+        <categoryLink id="3906-d4c8-bd33-1588" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="9e4c-8b13-f044-addd" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
+        <categoryLink id="f9b9-2156-bdec-fb5c" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="be3e-45eb-6bb9-2437" name="Adelaisa Vendicci: East Empire Company Agent" hidden="false" collective="false" import="true" targetId="e041-76bc-db25-6ec1" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="d1df-3346-b476-73e1" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="6b7b-7176-9a28-60e7" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="e682-79b2-04cb-28a8" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="e0a9-6a93-250d-391b" name="Adelaisa Vendicci: East Empire Company Agent" hidden="false" targetId="3214-03da-4960-6e90" primary="false"/>
+        <categoryLink id="6fd3-3c87-24e1-da5a" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="780c-c7ae-b5eb-29a5" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="56b3-5289-74b3-05a9" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="1bbf-ff75-9c99-e6a0" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="4da0-00e5-5092-7f1a" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="4311-caf7-653a-e045" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="779e-b34f-52ab-2e8e" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink id="967e-681c-c571-75c7" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="f37b-12be-46df-1eca" name="Enchanting Skill" hidden="false" targetId="03bd-d045-659f-b234" primary="false"/>
+        <categoryLink id="a5ae-b4a2-1337-f025" name="Alchemy Skill" hidden="false" targetId="37d3-238a-d08a-1589" primary="false"/>
+        <categoryLink id="c38e-931b-70f6-67fa" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="83f3-8a4a-5f0a-818e" name="Priestess Of Arkay: Devout Healer" hidden="false" collective="false" import="true" targetId="d7f9-cad2-1ae1-8c02" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a42d-5cd6-77d3-e140" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="b9a4-31a5-b4ed-b4c7"/>
+            <modifier type="remove" field="category" value="c06c-5d0a-f27a-3385"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="7c51-82e9-997b-dc59" name="New CategoryLink" hidden="false" targetId="c06c-5d0a-f27a-3385" primary="true"/>
+        <categoryLink id="214c-40d7-c41f-98f0" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
+        <categoryLink id="aa65-b024-480a-d203" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="6ce9-0359-6f5d-6393" name="Path of Sorcery" hidden="false" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink id="2fff-7c1c-3bd4-e1ad" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
+        <categoryLink id="b64f-7e64-f8fd-ddad" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="3b3b-e038-8435-ae61" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="70b1-aa31-0026-b30a" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
+        <categoryLink id="9c43-7907-634e-f367" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -465,6 +645,31 @@
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5aeb-1597-85dc-a277" name="Hadvar: Hero Of Helgen (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="fc11-a496-9f10-0fed" name="Hold The Line" publicationId="bcdd-038f-9aa1-3237" hidden="false">
+          <description>Imperial Legion Adversaries with shields that end their activation within 3&quot; of Hadvar automatically receive a Block token.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b4a6-b861-7daa-8103" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="f2e8-e505-7d01-e23d" name="Hadvar: Hero Of Helgen (Adversary)" hidden="false" targetId="5089-8e23-c783-06cf" type="profile"/>
+        <infoLink id="4515-95fd-d5ae-953f" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5873-1ffb-182f-4d0b" name="Imperial Soldier: Swordsman (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="26c5-75f9-077b-bb20" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="f7a3-af28-c28f-3c00" name="Imperial Soldier: Swordsman (Adversary)" hidden="false" targetId="cb75-ad31-e5c9-ffb0" type="profile"/>
+        <infoLink id="4032-e3cc-b1e1-ddf5" name="Imperial" hidden="false" targetId="66c7-4688-41a0-3c0b" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="22.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1006,5 +1211,60 @@ Light Armor</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Imperial Legion</characteristic>
       </characteristics>
     </profile>
+    <profile id="5089-8e23-c783-06cf" name="Hadvar: Hero Of Helgen (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Master (Unique)</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Nord</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Cautious</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">Melee(One-Handed): [GREEN][RED]</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">None</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Heavy Armor
+[RED] (1)
+[HELMET]: [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">None</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">Resistance (Frost), Hold The Line</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">4
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">4</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">4
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">3</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">4</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">4</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Imperial Legion</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cb75-ad31-e5c9-ffb0" name="Imperial Soldier: Swordsman (Adversary)" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="9939-28a1-e93d-71d0" typeName="Adversary">
+      <characteristics>
+        <characteristic name="Adversary Rank" typeId="b506-46c3-0ff9-6650">Minion</characteristic>
+        <characteristic name="Race" typeId="c1d8-853a-18ad-4511">Imperial</characteristic>
+        <characteristic name="Path" typeId="faf6-3fcc-c353-3bc8">Might</characteristic>
+        <characteristic name="Attitude" typeId="f3f7-4ee3-dcdd-4b7d">Cautious</characteristic>
+        <characteristic name="Preferred Attack" typeId="217f-bbc9-46d6-2059">One-Handed: [GREEN][RED]
+[SWORDS]: Piercing (1)</characteristic>
+        <characteristic name="Secondary Attacks" typeId="7c26-1128-4676-f76d">None</characteristic>
+        <characteristic name="Armor" typeId="ce9a-405b-e3a2-c851">Light Armor: [YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
+        <characteristic name="Additional Defenses" typeId="03c8-da5c-440b-5c01">Shield (Block): [RED]</characteristic>
+        <characteristic name="Keywords" typeId="62a3-37ea-a582-3749">None</characteristic>
+        <characteristic name="Strength" typeId="0bea-bfaa-9fae-8083">3
+One-Handed
+Block</characteristic>
+        <characteristic name="Agility" typeId="9055-26ea-d7bd-ec06">3</characteristic>
+        <characteristic name="Endurance" typeId="f46e-babd-33e8-82ff">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="a7a3-1f58-b7ce-eb97">2</characteristic>
+        <characteristic name="Wisdom" typeId="9ff6-b34f-90f7-01bd">4</characteristic>
+        <characteristic name="Health" typeId="2f5d-48a4-3018-d0d9">1</characteristic>
+        <characteristic name="Height" typeId="5eb5-a408-61a8-c063">2</characteristic>
+        <characteristic name="Primary Faction" typeId="d211-84e5-473d-e07d">Imperial Legion</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="5563-a2cd-4201-fcc9" name="Adventurers" targetId="bed2-2069-45b8-9df1" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
 </catalogue>

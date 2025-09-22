@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5e8b-e62e-d6c5-41f2" name="Hold Guards" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5e8b-e62e-d6c5-41f2" name="Hold Guard" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="f97a-a510-bc8b-1b53" name="Hold Guard Captain: Commander Of The Watch" hidden="false" collective="false" import="true" targetId="0cc8-d2e1-973b-af19" type="selectionEntry">
       <categoryLinks>
@@ -8,27 +8,33 @@
         <categoryLink id="7054-999b-2cd2-9330" name="Imperial Legion" hidden="false" targetId="88ba-c208-bba9-5e1e" primary="false"/>
         <categoryLink id="dbfa-b327-0826-22ff" name="Stormcloaks" hidden="false" targetId="d77c-5e80-37d4-883b" primary="false"/>
         <categoryLink id="524d-5995-a5f6-5b74" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
+        <categoryLink id="b0d4-1700-37d0-1e63" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="bb75-f47e-4e6b-dc47" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink id="94f5-b452-29f0-702a" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="5305-05d2-7752-b58e" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="01b2-c2c6-bf7c-0831" name="Two-Handed Skill" hidden="false" targetId="74fd-ddce-0be6-02c5" primary="false"/>
+        <categoryLink id="e8c8-3146-f51c-21c5" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7eea-2a98-6a78-d3f2" name="Hold Guard: Enforcer" hidden="false" collective="false" import="true" targetId="1454-24be-fa85-cba3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a0d0-cae3-6438-4671" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="1d67-187a-a6b6-4c9c" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="7182-bbf5-0244-2c0d" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
+        <categoryLink id="454b-4654-60d7-13d4" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="609c-34fa-f01c-6592" name="Hold Guard: Sentry" hidden="false" collective="false" import="true" targetId="a021-3155-c447-8086" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="108b-3d84-90ad-20c4" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="e3db-50d3-041f-e48f" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
         <categoryLink id="f6f5-506e-1d16-5aa2" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
+        <categoryLink id="6815-975a-5ba7-a202" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1506-689a-2ef7-ae92" name="Hold Guard: Patroller" hidden="false" collective="false" import="true" targetId="0c8a-1c7f-7a54-4b64" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b285-7ef2-c758-63e4" name="New CategoryLink" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="3261-8ee7-de52-dc28" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="b6d6-dbf9-f62d-1fe9" name="Hold Guards" hidden="false" targetId="8571-e171-abd1-033f" primary="false"/>
+        <categoryLink id="58c7-aa67-e0e5-6176" name="New CategoryLink" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -66,10 +72,20 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="51fd-a077-796b-ddf3" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="1334-897e-2855-a02f" name="Champion" hidden="false" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+        <entryLink id="4a81-f8fe-9466-7609" name="Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a41-4348-2857-17c1" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5c7-5f87-8790-29fd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe6d-6215-e462-c40a" type="max"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink id="7f83-73b5-c7c2-7041" name="Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>

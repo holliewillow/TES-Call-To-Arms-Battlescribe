@@ -46,6 +46,13 @@
         <categoryLink id="103d-9920-f89a-9b6c" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
         <categoryLink id="ed9c-ab73-8889-e9e2" name="Butcher: Cragslane Boss" hidden="false" targetId="be3e-40fb-d1db-de99" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="a9c2-7205-2355-6c8b" name="Rigel Strong-Arm: Bandit Chieftain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="dced-cff2-068d-3337" type="selectionEntry">
       <categoryLinks>
@@ -60,6 +67,13 @@
         <categoryLink id="7749-5572-c3f8-3c9d" name="Rigel Strong-Arm: Bandit Chieftain" hidden="false" targetId="307b-2ebf-97f5-1271" primary="false"/>
         <categoryLink id="0cd3-3c42-2fec-8094" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="b3b1-fe13-fa90-a077" name="Deeja: Blackblood Assassin" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="8585-8ea8-6135-de0c" type="selectionEntry">
       <categoryLinks>
@@ -73,6 +87,13 @@
         <categoryLink id="16b9-7ad9-ac8f-b162" name="Illusion Skill" hidden="false" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
         <categoryLink id="f7f7-2d28-85d9-88ed" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="027c-97e5-6b03-4add" name="Raj&apos;irr: White River Rogue" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="5bee-e608-df02-ce3f" type="selectionEntry">
       <categoryLinks>
@@ -85,6 +106,13 @@
         <categoryLink id="dd69-a245-75c7-87f8" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="b5cc-f376-f4e5-523f" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="d2bd-9c8a-09b0-a81f" name="Elisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="b2c1-c5d8-2dba-86de" type="selectionEntry">
       <categoryLinks>
@@ -98,6 +126,13 @@
         <categoryLink id="b19f-8af6-0fc4-5de2" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="2e0d-5c90-310c-ebe8" name="Elisa Blackthorn: Frostmere Raider" hidden="false" targetId="f101-c96e-0e0e-e7f6" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="d066-1c04-6309-9743" name="Haldyn: Pirate Battlemage" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="221d-f091-32ad-c539" type="selectionEntry">
       <categoryLinks>
@@ -115,6 +150,13 @@
         <categoryLink id="b8d8-dbb1-ed4b-27af" name="Smithing Skill" hidden="false" targetId="c7db-eac8-21dc-49a0" primary="false"/>
         <categoryLink id="f7f8-1d7a-e9ce-e8d3" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="73bf-c9d3-b47e-265b" name="Bandit Chief: Vicious Marauder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="f4d4-a805-0779-4374" type="selectionEntry">
       <categoryLinks>
@@ -132,6 +174,13 @@
         <categoryLink id="e458-759d-8b56-1c23" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
         <categoryLink id="94ca-f6d9-6fa4-6762" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="c967-4d34-cf41-15dc" name="Bandit Plunderer: Nord Axeman" hidden="false" collective="false" import="true" targetId="1022-f408-89e4-8840" type="selectionEntry">
       <categoryLinks>
@@ -139,6 +188,13 @@
         <categoryLink id="3bcc-8826-18f3-8327" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="c432-c3f0-0b93-4f23" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="0eaa-0c2f-14e4-a0a9" name="Bandit Marauder: Nord Barbarian" hidden="false" collective="false" import="true" targetId="4842-defb-f766-aeb8" type="selectionEntry">
       <categoryLinks>
@@ -146,6 +202,13 @@
         <categoryLink id="397b-f59d-f748-e962" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="cdc2-4206-815b-38e5" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="267e-80bc-668c-a340" name="Bandit Warrior: Nord Warrior" hidden="false" collective="false" import="true" targetId="b8ec-2bcb-2a23-ce21" type="selectionEntry">
       <categoryLinks>
@@ -153,6 +216,13 @@
         <categoryLink id="5540-29e4-668c-aef9" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="3855-d8e2-0fc2-7361" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="cb36-919a-28fe-d7d8" name="Bandit Outlaw: Nord Ranger" hidden="false" collective="false" import="true" targetId="637f-682a-e7e9-4010" type="selectionEntry">
       <categoryLinks>
@@ -160,6 +230,13 @@
         <categoryLink id="8757-1006-f3fe-7cb6" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
         <categoryLink id="3d1e-0292-f1e5-ccbb" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="00e5-2a98-c246-0169" name="Bandit Warrior: Orc Warrior" hidden="false" collective="false" import="true" targetId="556b-d9cb-69e3-7b90" type="selectionEntry">
       <categoryLinks>
@@ -167,6 +244,13 @@
         <categoryLink id="ac2b-a3ff-44e1-dcd5" name="Follower" hidden="false" targetId="ba61-d304-9352-ec15" primary="true"/>
         <categoryLink id="d100-e4c4-ea94-b1cc" name="Bandits" hidden="false" targetId="d052-3a4c-7811-5d93" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>

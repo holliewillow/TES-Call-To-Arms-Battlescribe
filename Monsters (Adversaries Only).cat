@@ -7,6 +7,13 @@
         <categoryLink id="8144-ca76-a439-2f04" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="24d5-ec54-fa11-67bd" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="16df-f62e-7d42-004d" name="Troll: Raging Brute" hidden="false" collective="false" import="true" targetId="ee7b-31b9-a888-9bfa" type="selectionEntry">
       <categoryLinks>
@@ -14,6 +21,13 @@
         <categoryLink id="536f-ea06-e47c-403c" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
         <categoryLink id="263f-0f2e-48da-0e40" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="a20d-ef14-b04f-2005" name="Vengeful Spirit: Ghost of the Blades" hidden="false" collective="false" import="true" targetId="c2cc-6c9b-9149-9e1e" type="selectionEntry">
       <categoryLinks>
@@ -23,6 +37,13 @@
         <categoryLink id="33e0-78f6-27fd-8f2a" name="Undead (Non-Vampire)" hidden="false" targetId="ed75-2909-edc9-7369" primary="false"/>
         <categoryLink id="34e8-0245-a65f-6ea1" name="Skyrim: The Adventure Game" hidden="false" targetId="9bab-4b58-ba6c-73d9" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="f915-c2fc-713c-4878" name="Spriggan Matron: Forest Guardian" hidden="false" collective="false" import="true" targetId="c5ea-8e6b-e435-5569" type="selectionEntry">
       <categoryLinks>
@@ -31,6 +52,13 @@
         <categoryLink id="bfa5-1bf8-2f19-37f0" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
         <categoryLink id="3350-b03f-0366-3c33" name="Sneak Skill" hidden="false" targetId="bf6e-ed80-b16a-b9b9" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="bc02-708e-e35e-8fde" name="Spriggan: Forest Spirit" hidden="false" collective="false" import="true" targetId="e30c-51e4-cc55-c59c" type="selectionEntry">
       <categoryLinks>
@@ -41,6 +69,13 @@
         <categoryLink id="b636-e0e1-75e4-3168" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="a87c-4550-df9e-3ecd" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>

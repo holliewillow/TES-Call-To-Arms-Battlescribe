@@ -335,6 +335,8 @@ Low Priority: Adversaries</comment>
       <comment>referenced only</comment>
     </categoryEntry>
     <categoryEntry name="Commander Maro (Character)" id="b3c9-7fc0-a758-b922" hidden="false"/>
+    <categoryEntry id="8f46-4e02-54b3-0331" name="Red Eagle is Champion (First Among Reachmen)" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
+    <categoryEntry name="Dunmer" id="6df4-3d08-99df-65d2" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7138-2b60-74ce-a90b" name="Roster" hidden="false">
@@ -2962,6 +2964,21 @@ A: Yes</description>
             <rule id="1bfb-5787-6351-5fc1" name="Draugr Party Composition" publicationId="1d0d-fac6-d336-636f" hidden="false">
               <description>The Party Champion must be the faction Hero with the highest total Septim value, unless a model has the Born Leader rule. If several Eligible models have the Born Leader rule, the one with the highest total Septim cost takes precedence. Draugr Parties cannot include Hirelings except for Necromancers, Dragons, and Frostbite Spiders. No more than a quarter (25%) of the Party’s models may be Hirelings.</description>
               <alias>Draugr</alias>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="The Party Champion must be the faction Hero with the highest total Septim value, unless a model has the Born Leader rule. If several Eligible models have the Born Leader rule, the one with the highest total Septim cost takes precedence.
+
+[The Party Champion is Red Eagle: Ancient One, which changes the Composition rules to the following:
+- This Party can only include Necromancer, Dragon, Frostbite Spider, and Bandits Faction models as Hirelings
+- No more than half (50%) of the Party’s models may be Hirelings.]" field="description"/>
+                    <modifier type="set" value="Draugr Party Composition (First Among Reachmen)" field="name"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
             </rule>
           </rules>
           <categoryLinks>
@@ -2984,6 +3001,18 @@ A: Yes</description>
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="5b13-d81a-9048-0fb2" shared="true"/>
                     <condition type="atLeast" value="26" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+                    <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="No more than 50% of models in Red Eagle-led Draugr Party can be Hirelings." field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="5b13-d81a-9048-0fb2" shared="true"/>
+                    <condition type="atLeast" value="51" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="065c-f392-0c98-91f5" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -4479,6 +4508,13 @@ A: Yes</description>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="add" value="Cannot have more than one model with Born Leader in Party" field="error">
+              <conditions>
+                <condition type="greaterThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="917c-eb56-30eb-a720" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -6743,7 +6779,6 @@ Note: Strong Armor (X) cannot be negated by Piercing (X). [See BRB pg. 89 for ex
     <rule id="b048-ffef-95a3-aaf9" name="Resistance (Type)" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
       <description>This model has a Resistance to a specific Damage Type. They add [RED] Armor Rating against Attacks of that Type. If a model would ever be assigned a Token that it is Resistant to (i.e. Fire or Poison), it must take an Endurance Attribute Test. If the Test is passed, no Token is assigned.
 
-
 If a model ever has two or more Resistance types, it can only use one of these Resistances to add to its Armor Rating. This is most commonly seen against magical Attacks that have multiple Damage Types.</description>
     </rule>
     <rule id="fb8c-8d7e-9a59-e4a4" name="Sailor&apos;s Repose" publicationId="4d6f-8c48-a5ea-e83c" page="90" hidden="false">
@@ -7509,6 +7544,9 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
     </rule>
     <rule name="Dragons and Movement" id="5bb1-e560-23b7-d679" hidden="false" publicationId="1d0d-fac6-d336-636f" page="12">
       <description>In every even-numbered round, beginning in round 2 (so rounds 2, 4, 6, and so on), this model gains the Fly keyword for the duration of any Move or Fall Back Response it is required to take. This also applies to any Ancient Dragon and Mirmulnir.</description>
+    </rule>
+    <rule name="Talos Guide You" id="f557-12b1-08a1-d174" hidden="false" publicationId="2733-0fd1-3311-3be2">
+      <description>As a Special Action, target one friendly model with the Dragon Shouts keyword within 3&quot; and line of sight. That model restores 1 Thu&apos;um.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -9712,8 +9750,7 @@ Enchanted</characteristic>
         <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Ranged/Melee Attack</characteristic>
         <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">0</characteristic>
         <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">3&quot;</characteristic>
-        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction
-</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction</characteristic>
         <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[YELLOW] Absorb Health (3)</characteristic>
         <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (2): Add [YELLOW] per point.</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
@@ -10389,30 +10426,6 @@ This Spell only affects Undead and Vampire models within its area.</characterist
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutral</characteristic>
       </characteristics>
     </profile>
-    <profile name="Frost Atronach: Summoned Creature" typeId="4411-4dcc-01ea-2b7c" typeName="Follower" hidden="false" id="74f4-405e-1f69-93cc" publicationId="9ac9-edd2-53a7-2d58">
-      <characteristics>
-        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
-        <characteristic name="Race" typeId="1735-edc6-5600-9496">Daedra</characteristic>
-        <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
-        <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED] (Frost)
-[HELMET]: Follow-Up (1)
-[SWORDS] add [YELLOW][YELLOW]</characteristic>
-        <characteristic name="Ranged Attacks" typeId="9de9-c00b-18b9-7caf">None</characteristic>
-        <characteristic name="Armor" typeId="0d06-a248-7147-886d">No Type: [YELLOW]</characteristic>
-        <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
-        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Death Explosion (Frost), Immunity (Frost), Relentless, Shambling, Terrifying, Weakness (Fire)</characteristic>
-        <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">6</characteristic>
-        <characteristic name="Agility" typeId="8904-8c99-00e7-c376">2</characteristic>
-        <characteristic name="Endurance" typeId="89fb-032d-3fe8-42a8">6</characteristic>
-        <characteristic name="Intelligence" typeId="437f-b05a-e975-87cf">2</characteristic>
-        <characteristic name="Wisdom" typeId="4668-ed07-a347-bf37">3</characteristic>
-        <characteristic name="Health" typeId="e3fb-6d75-7508-4fd4">6</characteristic>
-        <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">1</characteristic>
-        <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
-        <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">3</characteristic>
-        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Yngvild Ghost: Bound Spirit" typeId="4411-4dcc-01ea-2b7c" typeName="Follower" hidden="false" id="9891-3b46-6658-28ea" publicationId="1d0d-fac6-d336-636f">
       <characteristics>
         <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
@@ -10436,6 +10449,19 @@ One-Handed</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutrals, Draugr</characteristic>
       </characteristics>
+    </profile>
+    <profile name="Summon Yngvild Ghost" typeId="031c-1555-fc2c-3d40" typeName="Spell" hidden="false" id="90cd-95d4-0190-de15" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Magicka Cost" typeId="312f-2d89-75cf-b482">1</characteristic>
+        <characteristic name="Targeting Type" typeId="6902-d063-1716-40ed">Summon</characteristic>
+        <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">-2</characteristic>
+        <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">6&quot;</characteristic>
+        <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Conjuration</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2"/>
+        <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">None</characteristic>
+        <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
+      </characteristics>
+      <comment>NEEDS STATS</comment>
     </profile>
   </sharedProfiles>
   <sharedInfoGroups>
@@ -10972,7 +10998,7 @@ One-Handed</characteristic>
       <infoLinks>
         <infoLink id="fd03-d69e-babc-b598" name="Subrace" hidden="false" targetId="21a9-2a71-b558-5118" type="rule"/>
         <infoLink id="f1ed-af55-44e5-06ec" name="Immunity (Type)" hidden="false" targetId="7c88-fc5e-9fde-1261" type="rule"/>
-        <infoLink id="4aff-b513-2f8a-7337" name="Teeth and Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule" page=""/>
+        <infoLink id="4aff-b513-2f8a-7337" name="Teeth and Claws" hidden="false" targetId="d79f-0962-6e0a-d20d" type="rule"/>
         <infoLink id="d454-309e-bca7-2e09" name="Night Eye" hidden="false" targetId="1b73-830e-6076-fc5c" type="rule"/>
         <infoLink id="720e-488b-d855-db9b" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
         <infoLink id="c03b-0c66-ed0b-49e7" name="Weakness (Type)" hidden="false" targetId="550d-354c-0e2a-c57b" type="rule"/>

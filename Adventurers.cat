@@ -1026,21 +1026,6 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="d20f-e86f-1319-7524" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="c101-9871-41a4-def7" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c30b-d948-f2d4-152e" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="3b30-9fd4-e0f4-b103" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
-          </categoryLinks>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38"/>
@@ -1136,21 +1121,6 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="54e6-9ae1-f579-ffc0" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
-        <entryLink id="40a1-68a9-c844-cbe6" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d90-7b3e-c42e-1d3e" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="30fa-eee2-a253-973b" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
-          </categoryLinks>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48"/>

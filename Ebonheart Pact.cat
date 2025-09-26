@@ -21,6 +21,13 @@
         <categoryLink id="e639-b545-ebde-c6bb" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
         <categoryLink id="6e11-c569-a3e0-2e0a" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="03b8-d846-d949-fc55" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="8791-21e7-a3d1-d8b7" name="The Nord: Champion Of The Pact (Adversary)" hidden="false" collective="false" import="true" targetId="8882-d48e-b40e-62ea" type="selectionEntry">
       <categoryLinks>
@@ -32,6 +39,13 @@
         <categoryLink id="8899-239b-780d-fcba" name="Adversary Master" hidden="false" targetId="e4f3-19d3-b4a8-4788" primary="true"/>
         <categoryLink id="9794-67af-f68b-7866" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>

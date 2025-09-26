@@ -51,6 +51,11 @@
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="db80-09fa-cde0-0d69" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="c226-81e5-2049-155b" name="Rayya: Housecarl of Falkreath" publicationId="1d0d-fac6-d336-636f" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3067-1bb1-99f8-b167" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <entryLinks>
     <entryLink id="cb03-f5b7-341c-9bb3" name="The Dragonborn: Champion of Skyrim" hidden="false" collective="false" import="true" targetId="2038-fbad-32c1-0729" type="selectionEntry">
@@ -92,6 +97,19 @@
           </conditionGroups>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="6628-18a9-c641-1dd4" name="The Dragonborn: Steadfast Adventurer" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="fbc5-4271-7f0a-7574" type="selectionEntry">
       <categoryLinks>
@@ -119,6 +137,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="250e-4359-7540-45b8" name="The Dragonborn: Nightingale" hidden="false" collective="false" import="true" targetId="6259-fe84-67ba-0f6c" type="selectionEntry">
       <categoryLinks>
@@ -155,6 +186,19 @@
           </conditionGroups>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="473c-7245-b270-b1cc" name="Aranea Ienith: Priestess of Azura" hidden="false" collective="false" import="true" targetId="fdd8-6e26-b1ba-e83b" type="selectionEntry">
       <categoryLinks>
@@ -168,6 +212,8 @@
         <categoryLink id="6c76-40b8-98e0-dee7" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="a9c8-b896-dca5-7452" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="3bd4-0558-4108-3a9b" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="e556-3a41-3eee-d9eb" primary="false" name="Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="4565-6259-14e6-e84e" primary="false" name="Elf"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -180,6 +226,18 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="2746-2b72-0271-6d25" name="Vorstag: Freelance Adventurer" hidden="false" collective="false" import="true" targetId="2036-309e-2b2d-0b44" type="selectionEntry">
       <categoryLinks>
@@ -204,6 +262,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="fb04-56bb-57aa-bba0" name="Banning: Dog Handler" hidden="false" collective="false" import="true" targetId="8fe9-7337-9def-f13d" type="selectionEntry">
       <categoryLinks>
@@ -227,6 +298,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="a6a8-5b9a-5748-69d3" name="Kharjo: Caravan Guard" hidden="false" collective="false" import="true" targetId="e4f2-9c8e-cfc1-fce0" type="selectionEntry">
       <categoryLinks>
@@ -250,6 +334,18 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="8e11-0eba-3ac0-5397" name="Jenassa: Dunmer Mercenary" hidden="false" collective="false" import="true" targetId="3bc4-e883-688e-2f3c" type="selectionEntry">
       <categoryLinks>
@@ -263,6 +359,8 @@
         <categoryLink id="d5e1-3ffb-6502-cf34" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="288b-8051-eca7-473a" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="7c2a-40c0-3472-1651" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="b5f2-1ceb-9902-6943" primary="false" name="Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="6dcd-3480-8027-4241" primary="false" name="Elf"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -275,6 +373,18 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="ddc5-9bc0-d062-c84b" name="Marcurio: Adventuring Mage" hidden="false" collective="false" import="true" targetId="5aaa-7a87-20a1-ecc5" type="selectionEntry">
       <categoryLinks>
@@ -299,6 +409,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="526f-b890-8b7c-875f" name="Mjoll: The Lioness" hidden="false" collective="false" import="true" targetId="b79a-31ec-9033-3f78" type="selectionEntry">
       <categoryLinks>
@@ -324,6 +447,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="d7c8-6938-dea4-2300" name="Orc Barbarian: Adventurer-For-Hire" hidden="false" collective="false" import="true" targetId="95ab-6c55-6fef-1305" type="selectionEntry">
       <categoryLinks>
@@ -342,6 +478,18 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="4bab-6e3f-44da-1c8b" name="Breton Ranger: Adventurer-For-Hire" hidden="false" collective="false" import="true" targetId="b23f-31ab-dd79-0880" type="selectionEntry">
       <categoryLinks>
@@ -360,6 +508,18 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="14fd-c147-edab-31e5" name="Khajiit Thief: Adventurer-For-Hire" hidden="false" collective="false" import="true" targetId="8805-cec0-32a1-5cc8" type="selectionEntry">
       <categoryLinks>
@@ -378,6 +538,17 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="38ae-380b-2c2c-71b4" name="Derkeethus: Goldenrock Miner" hidden="false" collective="false" import="true" targetId="07f9-bd77-8b75-db94" type="selectionEntry">
       <categoryLinks>
@@ -402,6 +573,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="29a2-e09e-5eec-58c9" name="Lydia: Dragonsreach Housecarl" hidden="false" collective="false" import="true" targetId="c5e2-c069-6e86-e350" type="selectionEntry">
       <categoryLinks>
@@ -425,6 +609,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="9327-d9ba-d771-97a0" name="The Dragonborn: Champion of the Dawnguard" hidden="false" collective="false" import="true" targetId="3213-e5af-02e0-727a" type="selectionEntry">
       <categoryLinks>
@@ -462,6 +659,19 @@
           </conditionGroups>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="f24b-eaa0-185b-34d9" name="Serana: Daughter of Coldharbour" hidden="false" collective="false" import="true" targetId="f52a-1b3f-2ec4-0a44" type="selectionEntry">
       <categoryLinks>
@@ -490,11 +700,25 @@
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="d6a3-9869-f1f0-db9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6890-bf2c-fee7-ea81" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="638c-35eb-8a8e-8c20" name="Serana: Cured of Vampirism" hidden="false" collective="false" import="true" targetId="f444-e3aa-e9f1-7225" type="selectionEntry">
       <categoryLinks>
@@ -521,6 +745,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="7c70-de16-52d0-2e4b" name="Borgakh: The Steel Heart" hidden="false" collective="false" import="true" targetId="8f80-e83c-cc14-43e1" type="selectionEntry">
       <categoryLinks>
@@ -546,6 +783,19 @@
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="a5b7-df2a-1c1e-a591" name="Umana: Alftand Explorer" hidden="true" collective="false" import="true" targetId="b9e6-1800-ab0c-955d" type="selectionEntry">
       <modifierGroups>
@@ -574,6 +824,19 @@
         <categoryLink targetId="065c-f392-0c98-91f5" id="79d5-9223-00ec-5b35" primary="false" name="Hireling Count"/>
         <categoryLink targetId="b9a4-31a5-b4ed-b4c7" id="f860-f3a2-47a8-3125" primary="false" name="Hero"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="e6ae-e65e-f853-df54" name="Sven: The Minstrel" hidden="false" collective="false" import="true" targetId="1fa4-7b37-8c2f-0a9e" type="selectionEntry">
       <modifierGroups>
@@ -603,6 +866,19 @@
         <categoryLink targetId="065c-f392-0c98-91f5" id="d1e9-4ac4-0b3d-1ca9" primary="false" name="Hireling Count"/>
         <categoryLink targetId="b9a4-31a5-b4ed-b4c7" id="536f-1b32-34a3-3855" primary="false" name="Hero"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="7c7e-a58e-7ae4-1f29" name="Pantea Ateia: Master Vocalist" hidden="false" collective="false" import="true" targetId="cd43-e14d-0ee4-20a1" type="selectionEntry">
       <modifierGroups>
@@ -629,6 +905,19 @@
         <categoryLink targetId="c06c-5d0a-f27a-3385" id="8b09-c483-1c7a-a788" primary="true" name="Hireling Hero"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="0e1e-9d67-5e15-791b" primary="false" name="Hireling Count"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="8121-3231-31d9-d9b4" name="Katria: Nord Spirit" hidden="false" collective="false" import="true" targetId="35b4-9427-1dd1-c693" type="selectionEntry">
       <modifierGroups>
@@ -657,6 +946,19 @@
         <categoryLink targetId="c06c-5d0a-f27a-3385" id="dd8a-0692-69c8-2d81" primary="true" name="Hireling Hero"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="2871-a40c-5717-678b" primary="false" name="Hireling Count"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="e343-8e13-db07-9696" name="Lob: Orsimer Ranger" hidden="false" collective="false" import="true" targetId="200a-a201-3b78-78dd" type="selectionEntry">
       <modifierGroups>
@@ -686,6 +988,100 @@
         <categoryLink targetId="c06c-5d0a-f27a-3385" id="604e-8877-476a-d1a9" primary="true" name="Hireling Hero"/>
         <categoryLink targetId="065c-f392-0c98-91f5" id="380a-c1db-7ea7-2b7b" primary="false" name="Hireling Count"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="36e1-37cf-1a0a-1fc8" name="Rayya: Housecarl of Falkreath" hidden="false" collective="false" import="true" targetId="c568-35f6-6e71-7ed6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bbec-ec47-9fc4-2404" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="3db7-143e-dc75-13d9" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="75cc-bf11-2ad0-042d" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="0f26-eb0e-4321-da49" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="2066-819b-c943-1620" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
+        <categoryLink id="04f5-7d27-e27e-d6e7" name="Heavy Armor Skill" hidden="false" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink targetId="c226-81e5-2049-155b" id="0ef9-7c4b-11b1-5429" primary="false" name="Rayya: Housecarl of Falkreath"/>
+        <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="e4ed-8798-7984-6654" primary="false" name="Sneak Skill"/>
+        <categoryLink targetId="8af2-ae59-4a5c-98b8" id="b7b1-1371-9460-a81f" primary="false" name="Light Armor Skill"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="d6a3-9869-f1f0-db9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="caaa-fc40-3ca1-7a86" name="The Dragonborn: Thu&apos;um Weaver" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" targetId="9031-782f-076c-4b4c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4eef-b710-52d7-aacb" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink id="2302-a37c-9054-c0ab" name="Adventurers" hidden="false" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink id="3a99-18ab-2d05-aa89" name="Path of Might" hidden="false" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink id="2ed1-1b1a-b6bd-4633" name="Dragonborn (Character)" hidden="false" targetId="cc62-17e3-76e5-4f96" primary="false"/>
+        <categoryLink id="5795-07b9-adf4-d733" name="Dragon Shouts" hidden="false" targetId="ca71-7b4a-9967-eaae" primary="false"/>
+        <categoryLink id="66ab-fc35-44b3-35c8" name="Block Skill" hidden="false" targetId="c65e-1c8e-613b-dc01" primary="false"/>
+        <categoryLink id="cd6e-d552-b56d-7a82" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink id="7e1c-4a74-1f18-2eb4" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink id="830e-527d-a438-4617" name="Alteration Skill" hidden="false" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink id="09d4-83cc-c9c9-5341" name="Restoration Skill" hidden="false" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink id="969f-7ddd-2964-9a42" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
+        <categoryLink targetId="74fd-ddce-0be6-02c5" id="3fa0-ce05-7856-6d01" primary="false" name="Two-Handed Skill"/>
+        <categoryLink targetId="4d42-f7a9-a2ca-654e" id="33e5-c48c-04d1-735f" primary="false" name="Archery Skill"/>
+        <categoryLink targetId="7d06-5fcb-c718-e106" id="5521-2173-312d-8571" primary="false" name="Lockpicking Skill"/>
+        <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="d72f-0fdf-32fb-20f3" primary="false" name="Sneak Skill"/>
+        <categoryLink targetId="4c5c-c1e0-77f2-cf34" id="5526-27a0-c47f-4e1b" primary="false" name="Destruction Skill"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="d6a3-9869-f1f0-db9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -1670,6 +2066,122 @@
         <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c568-35f6-6e71-7ed6" name="Rayya: Housecarl of Falkreath" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="d2f5-a694-9f8c-31a6" name="Rayya: Housecarl of Falkreath" hidden="false" targetId="a25e-caeb-f2e7-fd45" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4975-da7f-b19f-2849" name="Perk: Flurry" hidden="false" targetId="d591-10a9-f15e-6b20" type="rule"/>
+        <infoLink id="3b80-c0b4-6f6d-46ff" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="3956-bc2a-3b2b-2b98" name="Redguard" hidden="false" targetId="c7c8-72cb-039b-ec59" type="infoGroup"/>
+        <infoLink id="8491-5057-a63c-6036" name="Bodyguard" hidden="false" targetId="0d50-532c-9a8a-a28f" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="5909-7743-e14e-50b0" name="Include Leveled Profile" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27c4-5cb1-aca2-cc63" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="85cc-8b6d-56a2-0cc9" name="Rayya: Housecarl of Falkreath (Leveled)" hidden="false" targetId="9856-e736-088f-ee17" type="profile"/>
+            <infoLink id="5ae4-82c8-ca68-fd3e" name="Perk: Paralyzing Strike" hidden="false" targetId="0059-18b6-5cde-54bb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c757-847d-e756-cb3e" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="46"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+      <rules>
+        <rule name="Alik&apos;r Training" id="6bee-aca9-5d25-147d" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>Rayya adds [YELLOW] to Melee Attacks with an equipped Scimitar.</description>
+        </rule>
+        <rule name="Protective Instinct" id="fa0e-be57-6725-3ccf" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>If this model Engages an enemy as a result of the Bodyguard special rule, it immediately performs a Melee Attack as a Free Action before the normal sequence of play resumes.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry id="9031-782f-076c-4b4c" name="The Dragonborn: Thu&apos;um Weaver" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="7601-bb64-cb9b-d47c" name="Foretold" publicationId="1d0d-fac6-d336-636f" hidden="false">
+          <description>Increase the range of Dragon Shouts (where applicable) by +2&quot;.</description>
+        </rule>
+        <rule id="a48d-2316-e4fb-52ed" name="Iron Hand" publicationId="1d0d-fac6-d336-636f" hidden="false">
+          <description>This model&apos;s Unarmed Attacks add [YELLOW]. You may spend 1 Thu&apos;um to add [BLACK] instead. In addition, for every 2 points of damage inflicted in Melee with an Unarmed Attack, this model restores 1 Stamina.</description>
+        </rule>
+        <rule id="6444-adcd-c2b3-d0b8" name="Meditation" publicationId="1d0d-fac6-d336-636f" hidden="false">
+          <description>As a Special Action, restore this model&apos;s Thu&apos;um to maximum.</description>
+        </rule>
+        <rule id="ec8d-3931-1b57-f6ba" name="Meditation" publicationId="1d0d-fac6-d336-636f" hidden="false">
+          <description>As a Special Action, restore this model&apos;s Thu&apos;um to maximum.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e69e-654b-684e-a80a" name="Dragon Shouts" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+        <infoLink id="170a-567f-473f-27df" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
+        <infoLink id="4093-fc41-4dbf-cd45" name="Redguard" hidden="false" targetId="c7c8-72cb-039b-ec59" type="infoGroup"/>
+        <infoLink id="2632-59ae-c87b-564e" name="Perk: Force Siphon" hidden="false" targetId="4359-9375-5bec-94d9" type="rule"/>
+        <infoLink id="9363-5a7d-c620-b07b" name="Perk: Mage Armor" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+        <infoLink id="448c-5c12-7355-7313" name="The Dragonborn: Thu&apos;um Weaver" hidden="false" targetId="77f8-827a-3fd2-4c23" type="profile">
+          <modifiers>
+            <modifier type="set" field="ebd4-07c2-9286-b2eb" value="Hireling Hero (Unique)">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b00a-a70c-c2d8-5f6e" name="Force Without Effort" hidden="false" targetId="12a7-38a0-3982-d6ef" type="rule"/>
+        <infoLink name="Unarmed" id="1faf-5a18-c9dd-7cb2" hidden="false" type="profile" targetId="8ad2-3d1d-b9ca-9d65"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="fca4-3cf6-e67e-0056" name="Include Leveled Profile" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84d8-9969-fb7e-12a6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="053c-04d7-0eab-b73d" name="The Dragonborn: Thu&apos;um Weaver (Leveled)" hidden="false" targetId="8e2a-70b6-4be0-80b9" type="profile"/>
+            <infoLink id="7f00-89ff-20b0-f8fd" name="Perk: Recovery" hidden="false" targetId="85b5-86b0-993b-2f70" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="91c3-9047-8ddf-8d4f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink id="4e39-475f-0e3f-b173" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6a3-9869-f1f0-db9f" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e30c-d961-946d-29f7" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="a5bb-28a8-0efa-782c" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="70"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="264c-1500-c3c5-7e4d" name="The Dragonborn: Champion of Skyrim" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -2634,6 +3146,126 @@ Heavy Armor</characteristic>
         <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a25e-caeb-f2e7-fd45" name="Rayya: Housecarl of Falkreath" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Redguard</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Flurry</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Adrenaline Rush, Bodyguard</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Alik&apos;r Training, Protective Instinct</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">5
+One-Handed
+</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+      <alias>Rayya</alias>
+    </profile>
+    <profile id="9856-e736-088f-ee17" name="Rayya: Housecarl of Falkreath (Leveled)" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Flurry, Paralyzing Strike</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Adrenaline Rush, Bodyguard</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Alik&apos;r Training, Protective Instinct</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+One-Handed
+</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">4</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+      <alias>Rayya</alias>
+    </profile>
+    <profile id="77f8-827a-3fd2-4c23" name="The Dragonborn: Thu&apos;um Weaver" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Redguard</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Force Siphon, Mage Armor</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Adrenaline Rush, Dragon Shouts, Force Without Effort</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Foretold, Iron Hand, Meditation</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Alteration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Adventurers</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8e2a-70b6-4be0-80b9" name="The Dragonborn: Thu&apos;um Weaver (Leveled)" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Force Siphon, Mage Armor, Recovery</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Adrenaline Rush, Dragon Shouts, Force Without Effort</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Foretold, Iron Hand, Meditation</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">6
+Block
+One-Handed
+Two-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
+Archery
+Lockpicking
+Sneak</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
+Light Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">3
+Alteration
+Destruction</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
+Restoration
+Speech</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">4</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
         <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>

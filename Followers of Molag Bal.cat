@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7750-c5b0-be85-2679" name="Followers of Molag Bal" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="7750-c5b0-be85-2679" name="Followers of Molag Bal" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <categoryEntries>
     <categoryEntry id="b70d-fbd4-c46f-81b8" name="Mannimarco: King of Worms" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>

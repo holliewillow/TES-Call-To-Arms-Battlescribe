@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5e8b-e62e-d6c5-41f2" name="Hold Guard" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="5e8b-e62e-d6c5-41f2" name="Hold Guard" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <entryLinks>
     <entryLink id="f97a-a510-bc8b-1b53" name="Hold Guard Captain: Commander Of The Watch" hidden="false" collective="false" import="true" targetId="0cc8-d2e1-973b-af19" type="selectionEntry">
       <categoryLinks>

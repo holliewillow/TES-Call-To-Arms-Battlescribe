@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7826-8284-5582-9483" name="Beasts (Adversaries Only)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="7826-8284-5582-9483" name="Beasts (Adversaries Only)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <entryLinks>
     <entryLink id="5b04-d5b5-a0fb-4e4a" name="Wolf: Apex Predator" hidden="false" collective="false" import="true" targetId="b441-f476-8d5b-b7bd" type="selectionEntry">
       <categoryLinks>

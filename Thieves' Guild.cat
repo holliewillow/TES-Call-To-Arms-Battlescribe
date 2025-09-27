@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3360-3f9c-126b-cb55" name="Thieves&apos; Guild" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="3360-3f9c-126b-cb55" name="Thieves&apos; Guild" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <entryLinks>
     <entryLink id="df36-4de8-934f-1ea1" name="Dunmer Thief: Ratway Regular" hidden="true" collective="false" import="true" targetId="c3ed-8feb-2819-1faf" type="selectionEntry">
       <modifierGroups>

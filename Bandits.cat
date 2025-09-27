@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9615-d934-979e-7d79" name="Bandits" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="9615-d934-979e-7d79" name="Bandits" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <categoryEntries>
     <categoryEntry id="be3e-40fb-d1db-de99" name="Butcher: Cragslane Boss" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>

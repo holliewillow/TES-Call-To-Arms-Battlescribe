@@ -164,18 +164,38 @@ Low Priority: Adversaries</comment>
       <characteristicTypes>
         <characteristicType name="Race" id="b0e3-4005-9d4e-a996"/>
         <characteristicType name="Attitude" id="dd44-73e1-d6e0-5812"/>
-        <characteristicType name="Attack Profile Table" id="f82b-2be9-8434-72cd"/>
+        <characteristicType name="Attacks" id="f82b-2be9-8434-72cd"/>
         <characteristicType name="Armor" id="8856-0073-7582-124b"/>
-        <characteristicType name="Additional Defenses" id="e4ef-cacf-817d-fe47"/>
         <characteristicType name="Keywords" id="e7c5-6dfa-2015-ef09"/>
-        <characteristicType name="Strength" id="1b12-952b-2436-a83c"/>
-        <characteristicType name="Agility" id="fb49-1ec9-8b68-1423"/>
-        <characteristicType name="Endurance" id="b489-6dff-b74d-f72b"/>
-        <characteristicType name="Intelligence" id="1fb9-2ec5-d6cd-5048"/>
-        <characteristicType name="Wisdom" id="7c66-db49-3e04-f5b9"/>
-        <characteristicType name="Health" id="7f35-99bd-41e5-cf1d"/>
-        <characteristicType name="Height" id="fb9c-d714-46de-bcab"/>
-        <characteristicType name="Primary Faction" id="9705-84c5-abb5-a968"/>
+        <characteristicType name="Abilities" id="1b12-952b-2436-a83c"/>
+        <characteristicType name="Strength" id="fb49-1ec9-8b68-1423"/>
+        <characteristicType name="Agility" id="b489-6dff-b74d-f72b"/>
+        <characteristicType name="Endurance" id="1fb9-2ec5-d6cd-5048"/>
+        <characteristicType name="Intelligence" id="7c66-db49-3e04-f5b9"/>
+        <characteristicType name="Wisdom" id="7f35-99bd-41e5-cf1d"/>
+        <characteristicType name="Health" id="fb9c-d714-46de-bcab"/>
+        <characteristicType name="Height" id="9705-84c5-abb5-a968"/>
+        <characteristicType name="Primary Faction" id="33fa-d0ea-d0c6-f092"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="EC: Attack List" id="3eed-cdfe-6697-1378" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Melee Attack 1" id="4528-fe72-9af8-eb63"/>
+        <characteristicType name="Melee Attack 2" id="6027-b54c-adcd-0843"/>
+        <characteristicType name="Melee Attack 3" id="819c-6f62-6841-fa43"/>
+        <characteristicType name="Melee Attack 4" id="14c2-f947-a031-aa35"/>
+        <characteristicType name="Melee Attack 5" id="ac4e-f617-91b6-a440"/>
+        <characteristicType name="Ranged Attack 1" id="2b79-2169-5fb0-ee08"/>
+        <characteristicType name="Ranged Attack 2" id="0f23-e8a4-9c13-0798"/>
+        <characteristicType name="Ranged Attack 3" id="1b3e-90f4-668d-88f0"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="EC: Response Matrix" id="1549-97d8-74cf-5961" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="[HELMET]" id="dd82-a030-a39d-3378"/>
+        <characteristicType name="[DOTS]" id="d176-4ed5-d2ff-403a"/>
+        <characteristicType name="[SWORDS/OBLIVION]" id="f105-1cce-b7c8-ffc1"/>
+        <characteristicType name="Target Priority" id="d168-4ef7-1042-e358"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -537,6 +557,66 @@ A: Yes</description>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Include Epic Creature Response Matrices in Rules Summary" hidden="true" id="ec3c-7c34-5e74-089d" publicationId="1d0d-fac6-d336-636f" collective="false" defaultAmount="0">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="dde1-ec79-13c7-2bbc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bb7-dc2a-6fc1-8379" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="99e4-1cf4-d34b-5316" targetId="322e-38ea-bf3e-c785" primary="true"/>
+        <categoryLink name="Configuration" hidden="false" id="8e1e-8fd4-84d1-6c45" targetId="fb89-efb1-54e4-59c5" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Include Epic Creature Situation Tables in Profiles" hidden="true" id="dae1-93bd-7ee1-fee0" publicationId="1d0d-fac6-d336-636f" collective="false" defaultAmount="0">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c92f-bf21-ffe9-2b7f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f364-0e41-3db7-f69a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="d683-6c1e-060e-a6a4" targetId="322e-38ea-bf3e-c785" primary="true"/>
+        <categoryLink name="Configuration" hidden="false" id="7403-b66d-3dbe-0a46" targetId="fb89-efb1-54e4-59c5" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Include Epic Creature Attack Profiles in Rules Summary" hidden="true" id="cd24-72a5-d8b3-ffe4" publicationId="1d0d-fac6-d336-636f" collective="false" defaultAmount="0">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8fe0-12ce-1d61-669b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae35-6cc8-2517-4d5b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="9d87-fb3f-fc42-52ad" targetId="322e-38ea-bf3e-c785" primary="true"/>
+        <categoryLink name="Configuration" hidden="false" id="42c8-9cc1-0b3d-a31a" targetId="fb89-efb1-54e4-59c5" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -3520,7 +3600,15 @@ A: Yes</description>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec59-3c1b-8491-2614" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="f5ab-f1c3-aa35-efed" name="Enemies of Molag Bal" hidden="false" targetId="48c9-7ce2-5d87-1035" type="rule"/>
+            <infoLink id="f5ab-f1c3-aa35-efed" name="Enemies of Molag Bal" hidden="false" targetId="48c9-7ce2-5d87-1035" type="rule">
+              <modifiers>
+                <modifier type="set" value="All Cult of Boethiah Heroes add [YELLOW] to their Attacks versus models with the Followers of Molag Bal Faction icon." field="description">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="57bb-6c49-490e-3f76" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="1cf4-3719-1863-b5d9" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
@@ -7352,7 +7440,7 @@ If playing against the Dark Brotherhood as Adversaries, assign contract cards as
       <description>Models from this Party within 3” of an Objective or Special Objective add [YELLOW] to their Armor Rating. In addition, if this Party ever contests control of an Objective, they automatically win it instead.</description>
     </rule>
     <rule id="48c9-7ce2-5d87-1035" name="Enemies of Molag Bal" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
-      <description>All [Aldmeri Dominion and/or Cult of Boethiah] Heroes add [YELLOW] to their Attacks versus models with the Followers of Molag Bal Faction icon.  [See S:TAG Cards for the Cult of Boethiah Faction rules].</description>
+      <description>All Aldmeri Dominion Heroes add [YELLOW] to their Attacks versus models with the Followers of Molag Bal Faction icon.</description>
     </rule>
     <rule id="b5dd-ffeb-b252-0aaa" name="Victory Through Unity" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <description>[A Daggerfall Covenant] Party’s Heroes benefit from the following special rules:
@@ -7547,6 +7635,9 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
     </rule>
     <rule name="Talos Guide You" id="f557-12b1-08a1-d174" hidden="false" publicationId="2733-0fd1-3311-3be2">
       <description>As a Special Action, target one friendly model with the Dragon Shouts keyword within 3&quot; and line of sight. That model restores 1 Thu&apos;um.</description>
+    </rule>
+    <rule name="Slow to Anger" id="2bfc-f089-6e43-ba4d" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <description>As soon as this model or a friendly Giant or Mammoth within 6&quot; takes any damage, this model&apos;s Attitude becomes Agressive for the rest of the game.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -11096,7 +11187,7 @@ One-Handed</characteristic>
 
 - Epic Creatures cannot perform Reactions.
 
-- Epic Creatures cannot be slowed, shaken, or staggered.
+- Epic Creatures cannot be Slowed, Shaken, or Staggered.
 
 - Epic Creatures cannot be Incapacitated. If an Epic Creature would pass an Endurance Attribute Test via becoming Injured, it remains in play with 1 Health remaining.
 
@@ -11124,21 +11215,158 @@ Epic Creatures largely perform their Responses like any other Adversary model, 
     </infoGroup>
     <infoGroup name="Dragon (Epic)" id="de9c-d4e8-42ec-483f" hidden="false" publicationId="1d0d-fac6-d336-636f" page="10-12">
       <rules>
-        <rule name="Dragon Soul" id="3297-c7ae-f90e-cfa9" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
-        <rule name="Thu&apos;um Weakness" id="0c49-3350-2357-48cd" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
-        <rule name="Undead Thralls" id="c8a3-7800-13c3-cf3a" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
+        <rule name="Dragon Soul" id="3297-c7ae-f90e-cfa9" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>This model cannot be the target of a Spell or effect that would recharge a Weapon with the Soul Charges (X) Keyword or the Soul Trap Spell. Models with the Dragon Shouts special rule restore 1 Thu&apos;um if this model is removed from play within 6&quot; [of them].</description>
+        </rule>
+        <rule name="Thu&apos;um Weakness" id="0c49-3350-2357-48cd" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>Unlike other Epic Creatures, this model can be Slowed, Shaken, or Staggered, but only if the condition is applied via a Dragon Shout.</description>
+        </rule>
+        <rule name="Undead Thralls" id="c8a3-7800-13c3-cf3a" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>Any Adversary force that includes this model may also include Draugr Adversaries, even if the rest of the force is from a different Faction.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink name="Epic Creature" id="71de-68e7-eddf-388f" hidden="false" type="infoGroup" targetId="2993-1576-f2b7-2e90"/>
         <infoLink name="Dragons and Movement" id="d8b7-4e83-c835-37d8" hidden="false" type="rule" targetId="5bb1-e560-23b7-d679"/>
-        <infoLink name="Monster" id="3a0e-a0c9-c775-cb2b" hidden="false" type="infoGroup" targetId="98ec-665b-cecc-6709"/>
+        <infoLink name="Terrifying" id="7136-cc35-ca31-500c" hidden="false" type="rule" targetId="2204-0557-819c-8afb"/>
+        <infoLink name="Shambling" id="c7cf-e6d3-e231-9ffd" hidden="false" type="rule" targetId="0a08-aeef-9ff3-c86c"/>
       </infoLinks>
+      <profiles>
+        <profile name="Dragon Attack Profiles (EC)" typeId="3eed-cdfe-6697-1378" typeName="EC: Attack List" hidden="true" id="bf7a-1a7d-a221-2580" publicationId="1d0d-fac6-d336-636f">
+          <characteristics>
+            <characteristic name="Melee Attack 1" typeId="4528-fe72-9af8-eb63">Slash (Strength):
+[GREEN][RED]
+[HELMET]: add [YELLOW]
+[SWORDS]: Bleed</characteristic>
+            <characteristic name="Melee Attack 2" typeId="6027-b54c-adcd-0843">Stomp (Endurance):
+[YELLOW][YELLOW][YELLOW]
+[HELMET]: Shaken</characteristic>
+            <characteristic name="Melee Attack 3" typeId="819c-6f62-6841-fa43">Bite (Strength):
+[GREEN][BLACK]
+[HELMET]: add [YELLOW]
+[SWORDS]: Piercing (2)</characteristic>
+            <characteristic name="Melee Attack 4" typeId="14c2-f947-a031-aa35">Sweep (Agility):
+[YELLOW][YELLOW] (Force)
+[HELMET]: Area Effect (3&quot;)</characteristic>
+            <characteristic name="Melee Attack 5" typeId="ac4e-f617-91b6-a440">Swipe (Strength):
+[GREEN][YELLOW][YELLOW]
+[HELMET]: Punishing (1)</characteristic>
+            <characteristic name="Ranged Attack 1" typeId="2b79-2169-5fb0-ee08">Fireball (Intelligence):
+12&quot; [GREEN][BLACK] (Fire)
+[HELMET]: Area Effect (2&quot;)
+[OBLIVION]: add [RED]</characteristic>
+            <characteristic name="Ranged Attack 2" typeId="0f23-e8a4-9c13-0798">Flame Breath (Wisdom):
+6&quot; [GREEN][YELLOW][YELLOW][YELLOW] (Fire)
+[HELMET]: Area Effect (2&quot;)</characteristic>
+            <characteristic name="Ranged Attack 3" typeId="1b3e-90f4-668d-88f0">Unrelenting Force (Strength):
+6&quot; [GREEN][RED][YELLOW] (Force +3&quot; Pushback)
+Enchanted</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="cd24-72a5-d8b3-ffe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Dragon Response Matrix (EC)" typeId="1549-97d8-74cf-5961" typeName="EC: Response Matrix" hidden="true" id="c086-4d02-f6f2-2062" publicationId="1d0d-fac6-d336-636f">
+          <characteristics>
+            <characteristic name="[HELMET]" typeId="dd82-a030-a39d-3378">First: Objective
+Second: Attack
+Third: Attack</characteristic>
+            <characteristic name="[DOTS]" typeId="d176-4ed5-d2ff-403a">First: Move
+Second: Objective
+Third: Fall Back</characteristic>
+            <characteristic name="[SWORDS/OBLIVION]" typeId="f105-1cce-b7c8-ffc1">First: Attack
+Second: Attack
+Third: Attack</characteristic>
+            <characteristic name="Target Priority" typeId="d168-4ef7-1042-e358">1: Nearest
+2: Vulnerable
+3: Wounded</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="ec3c-7c34-5e74-089d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
     </infoGroup>
     <infoGroup name="Dragon (Non-Epic)" id="0c1d-7e83-15a4-f61c" hidden="false" publicationId="2ee0-173b-47e1-7ff1">
       <infoLinks>
         <infoLink name="Dragons and Movement" id="d3c1-d34b-8d54-71e4" hidden="false" type="rule" targetId="5bb1-e560-23b7-d679"/>
         <infoLink name="Monster" id="05df-df7a-12a6-7dfd" hidden="false" type="infoGroup" targetId="98ec-665b-cecc-6709"/>
       </infoLinks>
+    </infoGroup>
+    <infoGroup name="Giant (Epic)" id="f0f0-8791-6843-648e" hidden="false" publicationId="1d0d-fac6-d336-636f" page="">
+      <infoLinks>
+        <infoLink name="Epic Creature" id="1c09-716c-509b-83f3" hidden="false" type="infoGroup" targetId="2993-1576-f2b7-2e90"/>
+        <infoLink name="Terrifying" id="4672-a9e1-5925-d129" hidden="false" type="rule" targetId="2204-0557-819c-8afb"/>
+        <infoLink name="Shambling" id="8fbb-714e-29cf-08d8" hidden="false" type="rule" targetId="0a08-aeef-9ff3-c86c"/>
+        <infoLink name="Slow to Anger" id="6473-5628-a75b-9afe" hidden="false" type="rule" targetId="2bfc-f089-6e43-ba4d"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Giant Attack Profiles (EC)" typeId="3eed-cdfe-6697-1378" typeName="EC: Attack List" hidden="true" id="2fa5-7181-c156-0d0f" publicationId="1d0d-fac6-d336-636f">
+          <characteristics>
+            <characteristic name="Melee Attack 1" typeId="4528-fe72-9af8-eb63">Squeeze (Strength):
+[GREEN][RED]
+[HELMET]: add [YELLOW]
+[SWORDS]: Incapacitate</characteristic>
+            <characteristic name="Melee Attack 2" typeId="6027-b54c-adcd-0843">Giant Stomp (Endurance):
+[YELLOW][YELLOW][YELLOW]
+[HELMET]: Shaken</characteristic>
+            <characteristic name="Melee Attack 3" typeId="819c-6f62-6841-fa43">Club Whack (One-Handed):
+[GREEN][BLACK]
+[HELMET]: add [YELLOW]
+[SWORDS]: Punishing (2)
+Keywords: Stagger</characteristic>
+            <characteristic name="Melee Attack 4" typeId="14c2-f947-a031-aa35">Club Sweep (One-Handed):
+[YELLOW][YELLOW][YELLOW]
+[HELMET]: Force
+Keywords: Follow-Up</characteristic>
+            <characteristic name="Melee Attack 5" typeId="ac4e-f617-91b6-a440">Club Slam (One-Handed):
+[GREEN][YELLOW][YELLOW] (Force)
+[HELMET]: Punishing (1)
+Keywords: Area Effect (3&quot;)</characteristic>
+            <characteristic name="Ranged Attack 1" typeId="2b79-2169-5fb0-ee08">None</characteristic>
+            <characteristic name="Ranged Attack 2" typeId="0f23-e8a4-9c13-0798">None</characteristic>
+            <characteristic name="Ranged Attack 3" typeId="1b3e-90f4-668d-88f0">None</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="cd24-72a5-d8b3-ffe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Giant Response Matrix (EC)" typeId="1549-97d8-74cf-5961" typeName="EC: Response Matrix" hidden="true" id="41b8-929a-c701-b346" publicationId="1d0d-fac6-d336-636f">
+          <characteristics>
+            <characteristic name="[HELMET]" typeId="dd82-a030-a39d-3378">First: Defend
+Second: Attack
+Third: Attack</characteristic>
+            <characteristic name="[DOTS]" typeId="d176-4ed5-d2ff-403a">First: Move
+Second: Objective
+Third: Move</characteristic>
+            <characteristic name="[SWORDS/OBLIVION]" typeId="f105-1cce-b7c8-ffc1">First: Attack
+Second: Defend
+Third: Attack</characteristic>
+            <characteristic name="Target Priority" typeId="d168-4ef7-1042-e358">1: Nearest
+2: Largest
+3: Engaged</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="ec3c-7c34-5e74-089d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
     </infoGroup>
   </sharedInfoGroups>
 </gameSystem>

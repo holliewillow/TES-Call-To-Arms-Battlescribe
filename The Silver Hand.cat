@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9dfc-0043-0224-5efd" name="The Silver Hand" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="5" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="9dfc-0043-0224-5efd" name="The Silver Hand" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="5" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="sapphicmoon">
   <sharedProfiles>
     <profile name="Krev: The Skinner" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="f718-9ce2-a89a-24c1" publicationId="1d0d-fac6-d336-636f">
       <characteristics>
@@ -12,16 +12,13 @@
         <characteristic name="Strength" typeId="7863-9734-b481-1521">5
 Block
 One-Handed
-Two-Handed
-</characteristic>
+Two-Handed</characteristic>
         <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
-Archery
-</characteristic>
+Archery</characteristic>
         <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
 Light Armor
 Heavy Armor</characteristic>
-        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
-</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
         <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
 Speech</characteristic>
         <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>
@@ -44,16 +41,13 @@ Speech</characteristic>
         <characteristic name="Strength" typeId="7863-9734-b481-1521">5
 Block
 One-Handed
-Two-Handed
-</characteristic>
+Two-Handed</characteristic>
         <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4
-Archery
-</characteristic>
+Archery</characteristic>
         <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">5
 Light Armor
 Heavy Armor</characteristic>
-        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4
-</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">4</characteristic>
         <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">5
 Speech</characteristic>
         <characteristic name="Health" typeId="4d71-6d31-a8de-f417">5</characteristic>

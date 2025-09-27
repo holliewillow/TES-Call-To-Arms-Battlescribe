@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="794b-70b9-b49c-f888" name="Nightingales" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="794b-70b9-b49c-f888" name="Nightingales" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <entryLinks>
     <entryLink id="2dbc-8d89-5956-8e39" name="The Dragonborn: Nightingale" hidden="false" collective="false" import="true" targetId="6259-fe84-67ba-0f6c" type="selectionEntry">
       <modifiers>

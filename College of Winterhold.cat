@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ec55-df7e-efd2-0e38" name="College of Winterhold" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="ec55-df7e-efd2-0e38" name="College of Winterhold" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <entryLinks>
     <entryLink id="e71d-53a0-02d0-7768" name="Breton Fire Mage: Gifted Student" hidden="false" collective="false" import="true" targetId="9e30-8da4-9c08-b897" type="selectionEntry">
       <modifierGroups>

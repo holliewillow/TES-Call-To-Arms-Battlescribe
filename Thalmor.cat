@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="aa1b-f476-a563-a931" name="Thalmor" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="5" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="aa1b-f476-a563-a931" name="Thalmor" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="5" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="sapphicmoon">
   <sharedProfiles>
     <profile name="Thalmor Archer: Elven Bow" typeId="4411-4dcc-01ea-2b7c" typeName="Follower" hidden="false" id="13b5-1482-5e30-c258" publicationId="1d0d-fac6-d336-636f">
       <characteristics>

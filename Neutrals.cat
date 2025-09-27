@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="67ad-b57c-1fac-cf39" name="Neutrals" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="67ad-b57c-1fac-cf39" name="Neutrals" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorName="sapphicmoon">
   <categoryEntries>
     <categoryEntry id="9397-8137-a03c-2aa2" name="Sven: The Minstrel" publicationId="2733-0fd1-3311-3be2" hidden="false">
       <constraints>
@@ -5434,8 +5434,7 @@ Sneak</characteristic>
         <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
         <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
 Alteration
-Conjuration
-</characteristic>
+Conjuration</characteristic>
         <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">2
 Alchemy
 Restoration</characteristic>
@@ -5462,8 +5461,7 @@ Sneak</characteristic>
         <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
         <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
 Alteration
-Conjuration
-</characteristic>
+Conjuration</characteristic>
         <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
 Alchemy
 Restoration</characteristic>
@@ -5490,8 +5488,7 @@ Sneak</characteristic>
         <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
         <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
 Alteration
-Conjuration
-</characteristic>
+Conjuration</characteristic>
         <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">2
 Alchemy
 Restoration</characteristic>
@@ -5518,8 +5515,7 @@ Sneak</characteristic>
         <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3</characteristic>
         <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
 Alteration
-Conjuration
-</characteristic>
+Conjuration</characteristic>
         <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">3
 Alchemy
 Restoration</characteristic>
@@ -5541,8 +5537,7 @@ Restoration</characteristic>
         <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">The Dreamstride</characteristic>
         <characteristic name="Strength" typeId="7863-9734-b481-1521">2
 One-Handed</characteristic>
-        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
-</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
         <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
 Light Armor
 Smithing</characteristic>
@@ -5571,8 +5566,7 @@ Speech</characteristic>
         <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">The Dreamstride</characteristic>
         <characteristic name="Strength" typeId="7863-9734-b481-1521">3
 One-Handed</characteristic>
-        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3
-</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">3</characteristic>
         <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
 Light Armor
 Smithing</characteristic>

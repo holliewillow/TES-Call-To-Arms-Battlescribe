@@ -686,7 +686,6 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac1-d22d-fa58-e9fe" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7e39-44c5-4196-e424" name="Draugr Upgrades" hidden="false" collective="false" import="true" targetId="fd82-6b0b-bab0-2257" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="60"/>
@@ -721,7 +720,6 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b09-7de5-32b0-3d26" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="506c-4d11-2e86-40a4" name="Draugr Upgrades" hidden="false" collective="false" import="true" targetId="fd82-6b0b-bab0-2257" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="73"/>
@@ -761,7 +759,6 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90ab-95fc-eb63-3c14" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="95b7-2257-325b-eb5d" name="Draugr Upgrades" hidden="false" collective="false" import="true" targetId="fd82-6b0b-bab0-2257" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="100"/>
@@ -1018,7 +1015,6 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d26-42e2-facd-b5de" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9db8-7af5-7c5d-4304" name="Draugr Upgrades" hidden="false" collective="false" import="true" targetId="fd82-6b0b-bab0-2257" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="80"/>
@@ -1030,12 +1026,15 @@
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry id="60c4-351f-1357-f97d" name="Draugr Wight Lord: Undead Commander [Needs Errata]" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="60c4-351f-1357-f97d" name="Draugr Wight Lord: Undead Commander" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3b0b-9255-4df3-fa7e" name="Dragon Shouts" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
         <infoLink id="d1ad-61ed-4bcf-23bb" name="Undead" hidden="false" targetId="5a42-7fa4-1f69-f039" type="infoGroup"/>
         <infoLink id="52b6-d11f-05c7-6d29" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
         <infoLink id="e0bc-8304-eefb-0f10" name="Draugr Wight Lord: Undead Commander" hidden="false" targetId="85ae-ba1d-9f24-4055" type="profile"/>
+        <infoLink id="64cd-736b-d8be-d238" name="Perk: Mage Armor" hidden="false" targetId="0a16-c005-2c89-da26" type="rule"/>
+        <infoLink id="5b5f-b3ad-2aee-f674" name="Perk: Stability" hidden="false" targetId="3394-de27-bd45-ae53" type="rule"/>
+        <infoLink id="6b7e-e303-2f4f-958b" name="Perk: Recovery" hidden="false" targetId="85b5-86b0-993b-2f70" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="1d13-29a2-b783-d3d9" name="Show Leveled Profile" hidden="false" collective="false" import="true" type="upgrade">
@@ -1057,7 +1056,6 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8fa-057c-c8a2-22ac" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="58a3-10bb-c808-b2ab" name="Draugr Upgrades" hidden="false" collective="false" import="true" targetId="fd82-6b0b-bab0-2257" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38"/>
@@ -1092,7 +1090,6 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bcb-66ef-62e5-3d83" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7abe-8a7b-e5b7-c7d1" name="Draugr Upgrades" hidden="false" collective="false" import="true" targetId="fd82-6b0b-bab0-2257" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="56"/>
@@ -1134,7 +1131,6 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0787-7524-4967-0efe" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="fa28-7e43-7f1d-0399" name="Draugr Upgrades" hidden="false" collective="false" import="true" targetId="fd82-6b0b-bab0-2257" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="84"/>
@@ -1175,11 +1171,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a9-16b7-d93f-eef5" type="max"/>
           </constraints>
-        </entryLink>
-        <entryLink id="7720-9d0a-33d0-0a34" name="Draugr Upgrades" hidden="false" collective="false" import="true" targetId="fd82-6b0b-bab0-2257" type="selectionEntryGroup">
-          <entryLinks>
-            <entryLink import="true" name="Signature Loot: Red Eagle&apos;s Fury" hidden="false" id="37e9-c056-2c51-8d68" type="selectionEntry" targetId="2b28-10c8-8b0d-8b99"/>
-          </entryLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1240,11 +1231,6 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e6e-e63a-940f-e7b0" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="f015-7114-ad65-827a" name="Draugr Upgrades" hidden="false" collective="false" import="true" targetId="fd82-6b0b-bab0-2257" type="selectionEntryGroup">
-          <entryLinks>
-            <entryLink import="true" name="Signature Loot: Gauldur Blackbow" hidden="false" id="7ec9-48da-a26e-a7e1" type="selectionEntry" targetId="8175-ed48-b9ef-80f3"/>
-          </entryLinks>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="95"/>
@@ -1285,7 +1271,6 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2af-1f0b-3aa1-481c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="fb19-2a9f-9b2c-dc8e" name="Draugr Upgrades" hidden="false" collective="false" import="true" targetId="fd82-6b0b-bab0-2257" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="66"/>
@@ -1320,9 +1305,6 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="9fdd-8391-7cbc-9a5f" name="Draugr Upgrades" hidden="false" collective="false" import="true" targetId="fd82-6b0b-bab0-2257" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="60"/>
         <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
@@ -1334,210 +1316,6 @@
       </rules>
     </selectionEntry>
   </sharedSelectionEntries>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="fd82-6b0b-bab0-2257" name="Draugr Upgrades" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true">
-      <entryLinks>
-        <entryLink id="5e90-1b76-ceb7-7bb6" name="Draugr: Disarm" hidden="false" collective="false" import="true" targetId="44b3-0ce2-44ab-2368" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49bb-2426-7dc6-ee31" type="max"/>
-          </constraints>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16"/>
-          </costs>
-        </entryLink>
-        <entryLink id="3f3b-4227-2ab6-6a9d" name="Draugr: Conjure Frost Atronach" hidden="false" collective="false" import="true" targetId="054e-82eb-d5c7-2d74" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1a5-f2a8-0691-3c85" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9075-34c2-2d86-162d" type="max"/>
-          </constraints>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
-          </costs>
-        </entryLink>
-        <entryLink id="06c2-169e-76c4-dcb4" name="Draugr: Unrelenting Force" hidden="false" collective="false" import="true" targetId="6ffa-b2e1-f2a1-6400" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7b2-c21e-a284-b5dc" type="max"/>
-          </constraints>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
-          </costs>
-        </entryLink>
-        <entryLink id="c242-e352-a9a5-1238" name="Draugr: Frost Breath" hidden="false" collective="false" import="true" targetId="afe1-9d24-b32f-72a9" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b5-9f61-e538-7fb0" type="max"/>
-          </constraints>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
-          </costs>
-        </entryLink>
-        <entryLink id="9dd7-1004-289b-4f00" name="Draugr: Frostbite" hidden="false" collective="false" import="true" targetId="b75e-85a2-62e8-672f" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c5c-c1e0-77f2-cf34" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b22-d1f0-dcf8-83d7" type="notInstanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95c2-65db-2976-fe80" type="max"/>
-          </constraints>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="5"/>
-          </costs>
-        </entryLink>
-        <entryLink id="6a4e-27b4-0790-4301" name="Draugr: Ebony Battleaxe" hidden="false" collective="false" import="true" targetId="8b01-d412-cfc1-1417" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74fd-ddce-0be6-02c5" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="notInstanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88d3-bbc4-6102-e900" type="max"/>
-          </constraints>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="11"/>
-          </costs>
-        </entryLink>
-        <entryLink id="8754-4c0b-3277-e109" name="Draugr: Ebony Greatsword" hidden="false" collective="false" import="true" targetId="62eb-18d7-1506-fba0" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74fd-ddce-0be6-02c5" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="notInstanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30fa-9328-df1a-82ae" type="max"/>
-          </constraints>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12"/>
-          </costs>
-        </entryLink>
-        <entryLink id="ed6f-4cc7-06c8-a664" name="Draugr: Ebony War Axe" hidden="false" collective="false" import="true" targetId="8437-23d7-d63a-0fb4" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64bb-1eb1-1896-f36d" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="notInstanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="7"/>
-          </costs>
-        </entryLink>
-        <entryLink id="0225-bed0-8576-96a4" name="Draugr: Weapon Upgrade: Honed Nord Weapon" hidden="false" collective="false" import="true" targetId="6cf7-9dbb-3d17-005a" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03bd-d045-659f-b234" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="3"/>
-          </costs>
-        </entryLink>
-        <entryLink id="ced8-e084-4bbc-caf0" hidden="false" collective="false" import="true" targetId="c11d-a4ea-0258-ea1e" type="selectionEntry" publicationId="1d0d-fac6-d336-636f" name="Ebony Dagger">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64bb-1eb1-1896-f36d" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="notInstanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="8"/>
-          </costs>
-        </entryLink>
-        <entryLink id="6f9c-3cce-eede-0ded" name="Draugr: Weapon Enchantment: Ancient Nord Weapon" hidden="false" collective="false" import="true" targetId="e033-f3d4-26dc-4dd5" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03bd-d045-659f-b234" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
-          </costs>
-        </entryLink>
-        <entryLink id="2569-d332-c073-3a07" name="Draugr: Ancient Nord Bow" hidden="false" collective="false" import="true" targetId="eb20-7999-4652-5e2d" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d42-f7a9-a2ca-654e" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e25b-d909-5c32-8da1" type="max"/>
-          </constraints>
-          <costs>
-            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
-          </costs>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
   <sharedProfiles>
     <profile id="ff56-0d69-324a-57f8" name="Draugr Overlord: Crypt Stalker (Leveled)" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
@@ -2060,7 +1838,7 @@ Light Armor</characteristic>
 Strength
 6&quot;: [GREEN][RED]
 Enchanted, Force (+2&quot; Push Back)
-[Pending C4 Errata]</characteristic>
+[Moved from Reaction on misprinted card]</characteristic>
         <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
         <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">None</characteristic>
         <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">[Dragon Shouts]</characteristic>
@@ -2092,7 +1870,7 @@ Enchanted, Frost
 [Pending C4 Errata]</characteristic>
         <characteristic name="Armor" typeId="0d06-a248-7147-886d">Light Armor: [YELLOW]</characteristic>
         <characteristic name="Additional Defenses" typeId="da5e-4d7f-d585-0e17">Shield (Block): [YELLOW][YELLOW]</characteristic>
-        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">None</characteristic>
+        <characteristic name="Perks/Keywords" typeId="8760-2de5-c119-6685">Immunity (Bleed), Resistance (Frost, Poison)</characteristic>
         <characteristic name="Strength" typeId="f88a-6cf5-9a8a-9f52">3
 Block
 One-Handed</characteristic>
@@ -2108,7 +1886,7 @@ Destruction</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">2</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Draugr</characteristic>
       </characteristics>
-      <comment>Print errors swapped stats with Barrow Guardian, until we have C4 errata this is the most accurate version.</comment>
+      <comment>Print errors with Magicka stat and cost for spell, until we have C4 errata this is the most accurate version.</comment>
     </profile>
     <profile id="c07f-48e3-a1cd-2ed2" name="Draugr Deathlord: Deathless Champion (Leveled)" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
@@ -2202,7 +1980,7 @@ Destruction</characteristic>
         <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero</characteristic>
         <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Undead</characteristic>
         <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Might</characteristic>
-        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">[None - pending C4 Errata]</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Mage Armor, Recovery, Stability</characteristic>
         <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts, Immunity (Bleed), Resistance (Frost, Poison)</characteristic>
         <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
         <characteristic name="Strength" typeId="7863-9734-b481-1521">4
@@ -2230,7 +2008,7 @@ Destruction</characteristic>
         <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
         <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
         <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
-        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Limbsplitter</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Limbsplitter, Mage Armor, Recovery, Stability</characteristic>
         <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Dragon Shouts, Immunity (Bleed), Resistance (Frost, Poison)</characteristic>
         <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">None</characteristic>
         <characteristic name="Strength" typeId="7863-9734-b481-1521">4

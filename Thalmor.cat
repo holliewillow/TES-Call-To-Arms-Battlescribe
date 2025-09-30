@@ -187,8 +187,8 @@ Speech</characteristic>
         <infoLink name="Path of Sorcery" id="1e40-f09e-8db9-574d" hidden="false" type="rule" targetId="46cd-27c4-0be4-976f"/>
         <infoLink name="Altmer" id="552e-42f0-ea1f-b9ad" hidden="false" type="infoGroup" targetId="6846-5bf3-c280-fa14"/>
         <infoLink name="Regenerate Magicka" id="6716-7c2d-efd8-1431" hidden="false" type="rule" targetId="a89f-5da7-acf9-ff3b"/>
-        <infoLink name="Healing Hands" id="cb04-de67-5586-c199" hidden="false" type="rule" targetId="ae1e-0d0b-9fad-4d39"/>
         <infoLink name="Resistance (Type)" id="7dd8-8fc9-4945-3903" hidden="false" type="rule" targetId="b048-ffef-95a3-aaf9"/>
+        <infoLink name="Healing Hands" id="949e-c8a3-dcf1-896e" hidden="false" type="profile" targetId="b3e9-4d33-a165-597f"/>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
@@ -371,11 +371,6 @@ Speech</characteristic>
       </modifierGroups>
     </entryLink>
   </entryLinks>
-  <sharedRules>
-    <rule name="Healing Hands" id="ae1e-0d0b-9fad-4d39" hidden="false" publicationId="1d0d-fac6-d336-636f">
-      <description>Spell, Magicka 1: This is a Restoration Spell with a range of 6&quot;. Target restores 1 Health point, +1 additional point for each Magicka point spent after the first. Cannot target Atronachs, Undead, or Animunculi.</description>
-    </rule>
-  </sharedRules>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="College of Winterhold" id="a86e-5f78-1763-22f2" targetId="ec55-df7e-efd2-0e38"/>
   </catalogueLinks>

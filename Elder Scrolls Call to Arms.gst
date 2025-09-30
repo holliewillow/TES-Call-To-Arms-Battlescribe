@@ -357,6 +357,47 @@ Low Priority: Adversaries</comment>
     <categoryEntry name="Commander Maro (Character)" id="b3c9-7fc0-a758-b922" hidden="false"/>
     <categoryEntry id="8f46-4e02-54b3-0331" name="Red Eagle is Champion (First Among Reachmen)" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
     <categoryEntry name="Dunmer" id="6df4-3d08-99df-65d2" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
+    <categoryEntry name="Dragon Priest Mask: Nahkriin" id="22fb-a470-48da-9dd0" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6193-291e-f25d-7c3b" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Otar" id="2139-8728-fb79-6aec" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e578-6047-567c-b461" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Rahgot" id="0f2b-d6bf-5377-35f4" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d8ce-ad5b-5ec3-0511" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Vokun" id="6d2e-faf9-c872-6cf6" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4213-44bc-b47d-92ce" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Volsung" id="30a9-816d-c4b7-9678" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f863-cdc8-75f6-9d1b" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Hevnoraak" id="b919-38cd-0d67-c2e2" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6166-fe8e-fe87-ec45" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Krosis" id="1af6-bd22-f674-9a5b" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="738f-f75d-cf8f-27e4" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest Mask: Morokei" id="1d6e-cdf4-53b0-bc9a" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4433-653f-ed2e-311e" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dragon Priest" id="a7bc-d0b1-60c3-565c" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7138-2b60-74ce-a90b" name="Roster" hidden="false">
@@ -627,30 +668,6 @@ A: Yes</description>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="bd0c-e99d-1db7-781f" name="Draugr: Ancient Nord Sword" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="2e14-41d0-1440-9b00" name="Draugr: Ancient Nord Sword" hidden="false" targetId="fbc4-9bd5-aac2-45d7" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="972b-2934-b04f-d553" name="Draugr: Steel Shield" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="7c02-b397-80dd-332e" name="Draugr: Steel Shield" hidden="false" targetId="b204-c0b4-3787-f593" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4463-fb08-a70c-d685" name="Draugr: Studded Leather" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="3d2c-d244-8151-0990" name="Draugr: Studded Leather" hidden="false" targetId="0dc2-8dc6-c1e0-1766" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="7d00-747c-e971-04ef" name="Draugr: Ancient Nord Greatsword" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="1ad3-b36b-7258-7e12" name="Draugr: Ancient Nord Greatsword" hidden="false" targetId="1319-ba3d-ce04-a418" type="profile"/>
@@ -658,75 +675,8 @@ A: Yes</description>
         <infoLink id="5ec2-c200-b6a2-63c8" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="918d-0dd5-1b7e-f33c" name="Draugr: Ancient Nord Armor" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="d21e-3233-6a95-d0a3" name="Draugr: Ancient Nord Armor" hidden="false" targetId="dcdc-facd-8a0b-72a3" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6f7d-406a-a58b-9971" name="Draugr: Greater Ward" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e391-bdc3-fcc7-b2b8" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="81f4-30d0-85e4-817c" name="Draugr: Greater Ward (Spell Form)" hidden="false" targetId="8e6d-1993-1da8-9c5b" type="profile"/>
-        <infoLink id="97d9-aad8-1803-513f" name="Resistance (Type)" hidden="false" targetId="b048-ffef-95a3-aaf9" type="rule"/>
-        <infoLink id="d494-7b36-bfa0-b6a7" name="Ward" hidden="false" targetId="3d9c-60d6-c292-9672" type="rule"/>
-        <infoLink id="f37e-74e1-ec80-46de" name="Draugr: Greater Ward (Shield Form)" hidden="false" targetId="c60a-1eab-880b-79b7" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7490-251c-5e96-911b" name="Draugr: Command Daedra" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>Unique?</comment>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92b2-6381-ee24-e92c" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="0a65-7d52-14d1-b2c8" name="Draugr: Command Daedra" hidden="false" targetId="43cd-ec0e-ac00-9b01" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7b4b-2a8f-5e6b-fa8a" name="Draugr: Ice Spike" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adfa-563a-69d5-1e2c" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="821e-16b4-b87d-1fe8" name="Ice Spike" hidden="false" targetId="cc87-e3a2-8cf6-1ac4" type="profile"/>
-        <infoLink id="0cc3-36eb-b785-131e" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a102-1e2e-090d-8b38" name="Draugr: Staff Of Fireballs" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="8b2f-0e16-615c-0955" name="Draugr: Staff Of Fireballs" hidden="false" targetId="1524-c20e-106c-ff8f" type="profile"/>
-        <infoLink id="10c8-3535-1478-8073" name="Soul Charges (X)" hidden="false" targetId="f2b0-c6d4-69f2-eff6" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b420-fb43-3267-e702" name="Draugr: Ice Storm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="284e-4dfa-d32b-0a6e" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="3efd-636a-29f2-96de" name="Ice Storm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" targetId="37e5-2f66-87af-739b" type="profile"/>
-        <infoLink id="454e-3f0e-f3da-a054" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
-        <infoLink id="8c6d-b2da-8fbc-a716" name="Area Effect (X&quot;)" hidden="false" targetId="8b30-4913-1be7-6809" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb20-7999-4652-5e2d" name="Draugr: Ancient Nord Bow" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
@@ -737,142 +687,8 @@ A: Yes</description>
         <categoryLink id="a3d6-a790-2ad5-c3b3" name="Bow" hidden="false" targetId="e991-bd09-65f0-2451" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e033-f3d4-26dc-4dd5" name="Draugr: Weapon Enchantment: Ancient Nord Weapon" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="7ae4-caee-a0cb-ae8c" name="Draugr: Enchantment: Ancient Nord Weapon" hidden="false" targetId="5afc-0284-bd98-43cf" type="profile"/>
-        <infoLink id="62ba-3258-9b18-dc10" name="Enchanted" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6cf7-9dbb-3d17-005a" name="Draugr: Weapon Upgrade: Honed Nord Weapon" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>unused</comment>
-      <infoLinks>
-        <infoLink id="6ebf-0c7b-2cc8-ec85" name="Draugr: Upgrade: Honed Nord Weapon" hidden="false" targetId="39c3-9584-90a0-6e8a" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="55bc-1e6a-56d2-25da" name="Draugr: Ebony Sword" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="e0f6-5a5b-d56a-7e6c" name="Draugr: Ebony Sword" hidden="false" targetId="2051-5777-1151-6f6f" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="8"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8437-23d7-d63a-0fb4" name="Draugr: Ebony War Axe" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="cedd-8b92-3b96-a1fc" name="Draugr: Ebony War Axe" hidden="false" targetId="06c6-4539-7cdf-242f" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="7"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="62eb-18d7-1506-fba0" name="Draugr: Ebony Greatsword" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="dfe9-c8db-0b35-a07d" name="Draugr: Ebony Greatsword" hidden="false" targetId="bbce-236f-de13-7336" type="profile"/>
-        <infoLink id="7860-aa85-6517-c3db" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
-        <infoLink id="237d-2e57-ed71-d6cc" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
-      </infoLinks>
-      <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8b01-d412-cfc1-1417" name="Draugr: Ebony Battleaxe" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="445e-627b-8615-b527" name="Draugr: Ebony Battleaxe" hidden="false" targetId="0fba-382a-7938-2a06" type="profile"/>
-        <infoLink id="c1ed-5c03-f329-12c0" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
-        <infoLink id="c469-f87b-03e0-d885" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="11"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="054e-82eb-d5c7-2d74" name="Draugr: Conjure Frost Atronach" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfc4-87b5-bd4f-ea55" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="d4ab-6b96-164e-2276" name="Draugr: Conjure Frost Atronach" hidden="false" targetId="39f0-06d2-1866-d14f" type="profile"/>
-        <infoLink id="8a05-2615-b647-6f04" name="Summon Spell Type" hidden="false" targetId="2cf8-68b6-d491-56ce" type="infoGroup"/>
-        <infoLink id="a604-044f-1872-b2c6" name="Frost Atronach: Summoned Creature" hidden="false" targetId="1ce8-87b6-e792-7578" type="infoGroup"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="20"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b75e-85a2-62e8-672f" name="Draugr: Frostbite" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c2f-3bdc-cb0a-7839" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="6530-0aee-48c9-dec0" name="Frostbite" hidden="false" targetId="04fb-9a51-55d9-bd16" type="profile"/>
-        <infoLink id="cdf3-bc9b-6594-5fb9" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="44b3-0ce2-44ab-2368" name="Draugr: Disarm" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ab-9ecd-ae18-8810" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="bd32-364c-77a7-3224" name="Disarm" hidden="false" targetId="c7a7-6484-3839-a549" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="16"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="afe1-9d24-b32f-72a9" name="Draugr: Frost Breath" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ffe-0cb8-aaa5-de3a" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="0c5d-668c-dfb8-a9f7" name="Frost Breath" publicationId="9ac9-edd2-53a7-2d58" hidden="false" targetId="f129-fc81-20c8-f3b7" type="profile"/>
-        <infoLink id="ef68-9252-c581-8f34" name="Damage Type: Frost" hidden="false" targetId="0950-f010-d90b-9765" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6ffa-b2e1-f2a1-6400" name="Draugr: Unrelenting Force" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca71-7b4a-9967-eaae" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21f8-0df3-36eb-5dce" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="9038-2aac-b7b2-8573" name="Unrelenting Force" publicationId="9ac9-edd2-53a7-2d58" hidden="false" targetId="46a9-5ec2-208d-5031" type="profile"/>
-        <infoLink id="0a0d-6bd8-f68c-42d8" name="Damage Type: Force" hidden="false" targetId="1c80-ddbe-173a-056e" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e23c-1675-e116-f35c" name="Armor Enchantment: Muffle" publicationId="2733-0fd1-3311-3be2" hidden="false" collective="false" import="true" type="upgrade">
@@ -1304,7 +1120,7 @@ A: Yes</description>
         <infoLink id="5ffc-ab8c-a69f-9beb" name="Thieves&apos; Guild Armor" hidden="false" targetId="5a3f-268b-66e6-1a8a" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="02bf-4840-ab60-e676" name="Bonus Quick Slot: Thieves&apos; Guild" hidden="false" targetId="54df-deb0-bc89-bd29" primary="false"/>
+        <categoryLink id="02bf-4840-ab60-e676" name="Bonus Quick Slot: Thieves&apos; Guild Armor" hidden="false" targetId="54df-deb0-bc89-bd29" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="13"/>
@@ -2225,18 +2041,6 @@ A: Yes</description>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ecce-3b6e-1347-25ac" name="Draugr: Frost Cloak" publicationId="9ac9-edd2-53a7-2d58" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>Unique?</comment>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ac-359e-5544-4151" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="b2b6-4bd5-120e-4f26" name="Draugr: Frost Cloak" hidden="false" targetId="a0df-04b5-7a9c-336e" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="909f-ed2e-331d-8703" name="Bound Sword (Spell)" publicationId="a37b-3a3b-faf7-0732" hidden="false" collective="false" import="true" type="upgrade">
@@ -3441,7 +3245,7 @@ A: Yes</description>
           </constraints>
           <categoryLinks>
             <categoryLink id="e667-1128-fd8e-13c6" name="Army Faction" hidden="false" targetId="6a5a-a22b-d68a-2675" primary="false"/>
-            <categoryLink id="011b-8b99-e7fa-b0c3" name="The Thieves&apos; Guild" hidden="false" targetId="4347-a391-1fca-ce31" primary="false"/>
+            <categoryLink id="011b-8b99-e7fa-b0c3" name="Thieves&apos; Guild" hidden="false" targetId="4347-a391-1fca-ce31" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
@@ -4350,6 +4154,213 @@ A: Yes</description>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="14"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="740a-2c70-0c34-38fd" name="Draugr: Dented Iron Shield" publicationId="9ac9-edd2-53a7-2d58" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5167-b85a-6b8b-b739" name="Draugr: Dented Iron Shield" hidden="false" targetId="b204-c0b4-3787-f593" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3bdb-1e30-ea92-e6cf" name="Bow" hidden="false" targetId="e991-bd09-65f0-2451" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="3"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d49-26eb-583d-c13f" name="Draugr: Ancient Nord Battleaxe" publicationId="bcdd-038f-9aa1-3237" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0d5e-56cc-6410-3554" name="Draugr: Ancient Nord Battleaxe" hidden="false" targetId="b4d8-cab2-e391-5a6b" type="profile"/>
+        <infoLink id="4945-0756-f573-621a" name="Two-Handed Block" hidden="false" targetId="aa94-2a05-4635-c76b" type="rule"/>
+        <infoLink id="8b51-cf9d-e4ee-ef69" name="Cumbersome" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="17"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="635a-4614-c3c7-db79" name="Dragon Priest Mask: Krosis" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ae1-38b8-fbc1-b32a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5043-12f4-bf7f-f106" name="Dragon Priest Mask: Krosis" hidden="false" targetId="1846-bad7-4bce-4ff2" type="profile">
+          <modifiers>
+            <modifier type="set" value="Krosis" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="532d-df44-5900-2626" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+        <infoLink name="Perk: Deep Freeze" id="0d9c-15df-526e-a9df" hidden="false" type="rule" targetId="1a54-171e-0148-e420"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="1af6-bd22-f674-9a5b" id="94fd-0ed3-5ca8-a908" primary="false" name="Dragon Priest Mask: Krosis"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="7"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ff6-4092-8751-c87c" name="Dragon Priest Mask: Hevnoraak" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ca-438a-cdd2-8c21" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0e51-8af1-8640-fe04" name="Dragon Priest Mask: Hevnoraak" hidden="false" targetId="75e1-c4c6-d41f-db93" type="profile">
+          <modifiers>
+            <modifier type="set" value="Hevnoraak" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="843c-9897-5108-3ccc" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+        <infoLink name="Immunity (Type)" id="87cf-a53c-17b8-4e4b" hidden="false" type="rule" targetId="7c88-fc5e-9fde-1261"/>
+        <infoLink name="Signature Loot (X)" id="1d81-e0f3-9a9a-5081" hidden="false" type="rule" targetId="1377-d28e-5608-a161"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="b919-38cd-0d67-c2e2" id="11e4-3507-3512-2a0a" primary="false" name="Dragon Priest Mask: Hevnoraak"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="28"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5520-eb45-dcef-19cc" name="Signature Loot: Hevnoraak&apos;s Staff" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="33d3-9237-1240-eacf" name="Signature Loot: Hevnoraak&apos;s Staff" hidden="false" targetId="8019-f501-8f2a-3703" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="baae-19af-1947-6432" name="Dragon Priest Mask: Volsung" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f4-e395-f1a3-07fe" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="054d-30ad-4e4c-3ee4" name="Dragon Priest Mask: Volsung" hidden="false" targetId="5d1e-0201-0fc5-3725" type="profile">
+          <modifiers>
+            <modifier type="set" value="Volsung" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8eb8-660b-196e-1eb4" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="30a9-816d-c4b7-9678" id="5908-25f8-40df-e806" primary="false" name="Dragon Priest Mask: Volsung"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="31a9-505e-4030-fb34" name="Dragon Priest Mask: Vokun" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb4-181f-8835-5da2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9fd2-4e67-6e4d-1605" name="Dragon Priest Mask: Vokun" hidden="false" targetId="eac3-247d-4df8-ee85" type="profile">
+          <modifiers>
+            <modifier type="set" value="Vokun" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="40a8-d54a-6f05-c4f2" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="6d2e-faf9-c872-6cf6" id="d00e-2ca5-746a-2f65" primary="false" name="Dragon Priest Mask: Vokun"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36dc-b10f-3010-9009" name="Dragon Priest Mask: Rahgot" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9646-e0e8-f7d4-e913" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9fbb-1110-48d4-6701" name="Dragon Priest Mask: Rahgot" hidden="false" targetId="0ba1-b60b-953c-9fb8" type="profile">
+          <modifiers>
+            <modifier type="set" value="Rahgot" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ffc5-3cc2-9fd3-ecc6" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+        <infoLink name="Regenerate Stamina" id="41aa-d468-49ac-01c3" hidden="false" type="rule" targetId="b431-ba9d-efd1-adf6"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="0f2b-d6bf-5377-35f4" id="de29-d86c-8f31-4af8" primary="false" name="Dragon Priest Mask: Rahgot"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e044-6d62-b4c1-a9ad" name="Dragon Priest Mask: Otar" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06c0-58d8-3353-2c0b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6c19-9b25-166b-007b" name="Dragon Priest Mask: Otar" hidden="false" targetId="5e41-56e8-7288-dba3" type="profile">
+          <modifiers>
+            <modifier type="set" value="Otar" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a706-e1ab-2bc9-7b5c" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="2139-8728-fb79-6aec" id="6fe3-9614-3aad-8c88" primary="false" name="Dragon Priest Mask: Otar"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="10"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f5a-a919-c768-514d" name="Dragon Priest Mask: Morokei" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed3c-8dd6-2b01-270f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a916-d1cc-373c-a95f" name="Dragon Priest Mask: Morokei" hidden="false" targetId="373d-53d0-89c1-3721" type="profile">
+          <modifiers>
+            <modifier type="set" value="Morokei" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b5cb-4b8d-4846-734d" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+        <infoLink name="Regenerate Magicka" id="60e0-de90-c551-88ae" hidden="false" type="rule" targetId="a89f-5da7-acf9-ff3b"/>
+        <infoLink name="Signature Loot (X)" id="ca43-d6a1-11c8-e219" hidden="false" type="rule" targetId="1377-d28e-5608-a161"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="1d6e-cdf4-53b0-bc9a" id="1198-887c-f430-38c9" primary="false" name="Dragon Priest Mask: Morokei"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="25"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="25b9-6944-89bd-01b5" name="Signature Loot: The Staff of Magnus" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="369e-37e9-77b5-4f07" name="Signature Loot: The Staff of Magnus" hidden="false" targetId="d824-9e75-b363-29f4" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9bbc-5a99-82f3-e64b" name="Dragon Priest Mask: Nahkriin" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2386-b731-0bb8-a8bb" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6437-6edb-1ec9-d7be" name="Dragon Priest Mask: Nahkriin" hidden="false" targetId="4bcd-fd87-4204-42e3" type="profile">
+          <modifiers>
+            <modifier type="set" value="Nahkriin" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="11bf-e761-478d-6176" name="Attachment (Type)" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="22fb-a470-48da-9dd0" id="ad17-6620-b6d8-11ef" primary="false" name="Dragon Priest Mask: Nahkriin"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="12"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="77fb-6f37-f1df-9d41" name="Equipment" hidden="false" collective="false" import="true" flatten="true">
@@ -4500,13 +4511,18 @@ A: Yes</description>
               </modifiers>
             </modifierGroup>
             <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54df-deb0-bc89-bd29" type="instanceOf"/>
-              </conditions>
               <modifiers>
                 <modifier type="increment" field="6964-a886-61ec-1a70" value="1"/>
                 <modifier type="set" field="name" value="Quick Slots (max increased &gt; 2)"/>
               </modifiers>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="54df-deb0-bc89-bd29" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="30a9-816d-c4b7-9678" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifierGroup>
           </modifierGroups>
           <constraints>
@@ -5331,6 +5347,15 @@ A: Yes</description>
           </modifiers>
         </entryLink>
         <entryLink id="6e54-eddd-3797-971b" name="Glass Shield" hidden="false" collective="false" import="true" targetId="16d7-f02b-1a93-9fd0" type="selectionEntry"/>
+        <entryLink id="a4cb-32e8-b2db-3026" name="Draugr: Dented Iron Shield" hidden="false" collective="false" import="true" targetId="740a-2c70-0c34-38fd" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1c2b-98e7-da84-737a" name="Quick Slot Items" hidden="false" collective="false" import="true" collapsible="true">
@@ -5472,6 +5497,30 @@ A: Yes</description>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="fe10-8386-17c9-49fa" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Draugr: Ancient Nord Greatsword" hidden="false" id="c044-87b2-cdd2-0226" collective="false" targetId="7d00-747c-e971-04ef" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="88fd-5683-c276-7257" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Draugr: Ancient Nord Battleaxe" hidden="false" id="c705-7b52-abc3-56a9" collective="false" targetId="5d49-26eb-583d-c13f" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="485e-3c49-d182-0dd1" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="06f5-97a8-3d86-613f" name="One-Handed Staves" hidden="false" collective="false" import="true">
@@ -5481,6 +5530,42 @@ A: Yes</description>
         <entryLink id="8767-ae2f-0c09-7ddd" name="Staff Of Reanimation" hidden="false" collective="false" import="true" targetId="f3b8-e776-57ed-8a91" type="selectionEntry"/>
         <entryLink id="5914-dbc7-a5bd-7e6b" name="Aetherial Staff" hidden="false" collective="false" import="true" targetId="ca36-face-6f70-daca" type="selectionEntry"/>
         <entryLink id="5d85-8261-87f4-0e7d" name="Staff Of Fireballs" hidden="false" collective="false" import="true" targetId="effd-d722-cafd-231c" type="selectionEntry"/>
+        <entryLink id="81d1-635f-ad2e-d1b2" name="Signature Loot: Hevnoraak&apos;s Staff" hidden="true" collective="false" import="true" targetId="5520-eb45-dcef-19cc" type="selectionEntry" defaultAmount="0">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="1" field="defaultAmount"/>
+                <modifier type="set" value="1" field="9555-a05f-18a4-3c4f"/>
+              </modifiers>
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b919-38cd-0d67-c2e2" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cce-4607-5a79-2c5c"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9555-a05f-18a4-3c4f"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5a71-42e6-54ae-3724" name="Signature Loot: The Staff of Magnus" hidden="true" collective="false" import="true" targetId="25b9-6944-89bd-01b5" type="selectionEntry" defaultAmount="0">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="1" field="defaultAmount"/>
+                <modifier type="set" value="1" field="b58c-39ed-d524-473f"/>
+              </modifiers>
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1d6e-cdf4-53b0-bc9a" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89c6-18b0-7a50-fd6a"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b58c-39ed-d524-473f"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="3ae5-f30b-7167-ffb3" name="Weapon Enchantments" hidden="true" collective="false" import="true">
@@ -5550,6 +5635,86 @@ A: Yes</description>
         <entryLink id="e098-f931-07db-6454" name="Amulet Of Akatosh" hidden="false" collective="false" import="true" targetId="0603-991a-1a28-413d" type="selectionEntry"/>
         <entryLink id="1c25-21a4-1756-7ff5" name="Amulet Of Talos" hidden="false" collective="false" import="true" targetId="1a8e-b0d3-a657-f36b" type="selectionEntry"/>
         <entryLink id="decd-66b9-810e-19e7" name="Amulet Of Arkay" hidden="false" collective="false" import="true" targetId="e667-b875-6519-a7b6" type="selectionEntry"/>
+        <entryLink import="true" name="Dragon Priest Mask: Krosis" hidden="true" id="978e-8730-746e-506a" collective="false" targetId="635a-4614-c3c7-db79" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Morokei" hidden="true" id="1a68-4056-d4ab-dc9d" collective="false" targetId="6f5a-a919-c768-514d" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Otar" hidden="true" id="f906-3729-83d6-2e64" collective="false" targetId="e044-6d62-b4c1-a9ad" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Volsung" hidden="true" id="055b-9c31-4191-4283" collective="false" targetId="baae-19af-1947-6432" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Rahgot" hidden="true" id="5035-9d7b-186a-089f" collective="false" targetId="36dc-b10f-3010-9009" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Vokun" hidden="true" id="8fa3-baaa-793a-589d" collective="false" targetId="31a9-505e-4030-fb34" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Hevnoraak" hidden="true" id="8d65-c953-8306-1754" collective="false" targetId="1ff6-4092-8751-c87c" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Dragon Priest Mask: Nahkriin" hidden="true" id="1d84-19b2-c8b7-a754" collective="false" targetId="9bbc-5a99-82f3-e64b" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Attachment)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0073-1ab6-f3c8-8466"/>
@@ -6300,6 +6465,19 @@ A: Yes</description>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="68b4-3b0a-dab6-d011" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
+        <entryLink id="afca-621d-07c9-48a2" name="Draugr: Ancient Nord Bow" hidden="false" collective="false" import="true" targetId="eb20-7999-4652-5e2d" type="selectionEntry">
+          <entryLinks>
+            <entryLink import="true" name="Glass Arrows" hidden="false" id="ea33-30f4-73e9-e66f" type="selectionEntry" targetId="d444-8501-0c27-c2c5"/>
+            <entryLink import="true" name="Weapon Enchantments" hidden="false" id="fc1c-e4fd-9ce0-6299" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="31ea-0b74-c0db-90e0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5ee8-ca30-00d2-7fb0" name="Robes" hidden="false" collective="false" import="true" collapsible="true" flatten="true">
@@ -6395,6 +6573,7 @@ A: Yes</description>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="append" value="(Armor)" field="name" join=" "/>
       </modifiers>
       <entryLinks>
         <entryLink id="b75c-269c-23ef-0fee" name="Elven Light Armor" hidden="false" collective="false" import="true" targetId="a9e2-120e-debc-07a0" type="selectionEntry">
@@ -6588,6 +6767,46 @@ A: Yes</description>
             <entryLink import="true" name="Armor Enchantments" hidden="false" id="2592-b9b7-9dc1-405b" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
+        <entryLink id="c055-9a84-2d0c-d981" name="Dragon Priest Mask: Otar" hidden="true" collective="false" import="true" targetId="e044-6d62-b4c1-a9ad" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f246-6b7b-cd55-2b32" name="Dragon Priest Mask: Morokei" hidden="true" collective="false" import="true" targetId="6f5a-a919-c768-514d" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="72df-868a-cb44-ac88" name="Dragon Priest Mask: Krosis" hidden="true" collective="false" import="true" targetId="635a-4614-c3c7-db79" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="7e9d-038f-3cd1-ce0d" name="Dragon Priest Mask: Volsung" hidden="true" collective="false" import="true" targetId="baae-19af-1947-6432" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5399-5acc-9828-57d4" name="Heavy Armors" hidden="true" collective="false" import="true" collapsible="true" flatten="true">
@@ -6697,6 +6916,47 @@ A: Yes</description>
             <entryLink import="true" name="Armor Attachments" hidden="false" id="06d5-66ab-5e33-7520" type="selectionEntryGroup" targetId="752f-f14c-d0e4-1651"/>
             <entryLink import="true" name="Armor Enchantments" hidden="false" id="d83c-e620-dc6d-ac99" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
+        </entryLink>
+        <entryLink id="d8cc-09af-4e9d-b9e5" name="Dragon Priest Mask: Hevnoraak" hidden="true" collective="false" import="true" targetId="1ff6-4092-8751-c87c" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="7f6b-2c9c-044b-5b68" name="Dragon Priest Mask: Vokun" hidden="true" collective="false" import="true" targetId="31a9-505e-4030-fb34" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="8ac1-5b0a-4eb8-3705" name="Dragon Priest Mask: Rahgot" hidden="true" collective="false" import="true" targetId="36dc-b10f-3010-9009" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b8b5-a2db-7186-ef9a" name="Dragon Priest Mask: Nahkriin" hidden="true" collective="false" import="true" targetId="9bbc-5a99-82f3-e64b" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="append" value="(Armor)" field="name" join=" "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7bc-d0b1-60c3-565c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -7656,13 +7916,12 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
         <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="b204-c0b4-3787-f593" name="Draugr: Steel Shield" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="ea66-b3a9-a28d-939f" typeName="Shield">
+    <profile id="b204-c0b4-3787-f593" name="Draugr: Dented Iron Shield" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="ea66-b3a9-a28d-939f" typeName="Shield">
       <characteristics>
-        <characteristic name="Block Rating" typeId="2821-7ef4-d189-360d">[RED]
-[HELMET]: add [YELLOW]
-[OBLIVION]: add [GREEN]</characteristic>
+        <characteristic name="Block Rating" typeId="2821-7ef4-d189-360d">[YELLOW]
+[HELMET]: add [YELLOW]</characteristic>
         <characteristic name="Effect" typeId="6741-1328-7f47-6882">None</characteristic>
-        <characteristic name="Restrictions" typeId="22b2-1110-4c73-8074">None</characteristic>
+        <characteristic name="Restrictions" typeId="22b2-1110-4c73-8074">Draugr Only</characteristic>
       </characteristics>
     </profile>
     <profile id="0dc2-8dc6-c1e0-1766" name="Draugr: Studded Leather" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
@@ -7673,15 +7932,15 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
         <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="1319-ba3d-ce04-a418" name="Draugr: Ancient Nord Greatsword" publicationId="bcdd-038f-9aa1-3237" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+    <profile id="1319-ba3d-ce04-a418" name="Draugr: Ancient Nord Greatsword" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][YELLOW]
-[HELMET]: add Piercing (1)
-[SWORDS]: add Punishing (1)</characteristic>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][RED]
+[HELMET]: add Piercing (2)
+[SWORDS]: add [YELLOW]</characteristic>
         <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
-        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Two-Handed Block</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Steel, Two-Handed Block</characteristic>
         <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
-        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">None</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Draugr only.</characteristic>
       </characteristics>
     </profile>
     <profile id="dcdc-facd-8a0b-72a3" name="Draugr: Ancient Nord Armor" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor">
@@ -7756,10 +8015,10 @@ Area Effect (2&quot;)</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
       </characteristics>
     </profile>
-    <profile id="c711-3a07-14f6-7f55" name="Draugr: Ancient Nord Bow" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
+    <profile id="c711-3a07-14f6-7f55" name="Draugr: Ancient Nord Bow" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="a96f-583b-2a80-ab2c" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Skill" typeId="2502-a0a1-95f3-e975">Archery</characteristic>
-        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">None</characteristic>
+        <characteristic name="Keywords" typeId="7bff-efaf-2066-687a">Steel</characteristic>
         <characteristic name="Short Range" typeId="33f1-bd80-f86c-f453">8&quot;
 [GREEN][YELLOW][YELLOW]
 [HELMET]: add Piercing (1)</characteristic>
@@ -7768,7 +8027,7 @@ Area Effect (2&quot;)</characteristic>
 [HELMET]: add Piercing (1)</characteristic>
         <characteristic name="Effect" typeId="aa0e-10d9-e093-e5d5">None</characteristic>
         <characteristic name="Equip Slot" typeId="3519-b796-a881-d102">Two Hands</characteristic>
-        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">None</characteristic>
+        <characteristic name="Restrictions" typeId="2c53-160f-05b3-b201">Draugr only.</characteristic>
       </characteristics>
     </profile>
     <profile id="5afc-0284-bd98-43cf" name="Draugr: Enchantment: Ancient Nord Weapon" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable">
@@ -9295,7 +9554,7 @@ Area Effect (2&quot;)</characteristic>
         <characteristic name="Difficulty" typeId="f10a-3cbd-7bc1-e383">0</characteristic>
         <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">6&quot;</characteristic>
         <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Restoration</characteristic>
-        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Target restores 1 Health point, +1 additional [Health] point for each Magicka point spent after the first. Cannot Target Atronachs, Undead, or Animunculi.</characteristic>
+        <characteristic name="Effect" typeId="f944-7503-862e-0bf2">Target restores 1 Health point, +1 additional point for each Magicka point spent after the first. Cannot Target Atronachs, Undead, or Animunculi.</characteristic>
         <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (Infinite)</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
       </characteristics>
@@ -9625,10 +9884,10 @@ Area Effect (3&quot;)</characteristic>
         <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="a345-22e4-55c1-762a" name="Frost Atronach: Summoned Creature" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
+    <profile id="a345-22e4-55c1-762a" name="Frost Atronach: Daedric Construct" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
       <characteristics>
-        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
-        <characteristic name="Race" typeId="1735-edc6-5600-9496">Daedra</characteristic>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
+        <characteristic name="Race" typeId="1735-edc6-5600-9496">[Daedra]</characteristic>
         <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
         <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED] (Frost)
 [HELMET]: Follow-Up (1)
@@ -9646,7 +9905,7 @@ Area Effect (3&quot;)</characteristic>
         <characteristic name="Stamina" typeId="d191-94a6-3175-e23b">1</characteristic>
         <characteristic name="Magicka" typeId="1235-df6f-cb26-2230">0</characteristic>
         <characteristic name="Height" typeId="fe9f-e442-8f11-fef6">3</characteristic>
-        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">None</characteristic>
+        <characteristic name="Primary Faction" typeId="cb06-ff53-da97-b966">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="604c-079f-8138-ccd3" name="Storm Atronach: Summoned Creature" publicationId="9ac9-edd2-53a7-2d58" hidden="false" typeId="4411-4dcc-01ea-2b7c" typeName="Follower">
@@ -10524,7 +10783,7 @@ This Spell only affects Undead and Vampire models within its area.</characterist
     </profile>
     <profile name="Yngvild Ghost: Bound Spirit" typeId="4411-4dcc-01ea-2b7c" typeName="Follower" hidden="false" id="9891-3b46-6658-28ea" publicationId="1d0d-fac6-d336-636f">
       <characteristics>
-        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower (Summoned Creature)</characteristic>
+        <characteristic name="Rank" typeId="d40a-cf47-d6a2-041b">Follower</characteristic>
         <characteristic name="Race" typeId="1735-edc6-5600-9496">Undead</characteristic>
         <characteristic name="Path" typeId="26fe-562c-d615-bb57">Might</characteristic>
         <characteristic name="Melee Attacks" typeId="6cbd-4946-2719-08aa">Strength: [GREEN][RED]
@@ -10558,6 +10817,110 @@ One-Handed</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">Quick Slot</characteristic>
       </characteristics>
       <comment>NEEDS STATS</comment>
+    </profile>
+    <profile id="b4d8-cab2-e391-5a6b" name="Draugr: Ancient Nord Battleaxe" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36">[GREEN][RED][RED]
+[HELMET]: Bleed
+[SWORDS]: Punishing [1]</characteristic>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06">Two-Handed</characteristic>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69">Cumbersome, Steel, Two-Handed Block</characteristic>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">Two Hands</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Draugr only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dragon Priest Mask: Krosis" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="1846-bad7-4bce-4ff2" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Iron. Attachment: Body or Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [YELLOW]
+Wearer gains the Lockpicking Skill and the Deep Freeze Perk.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. [Unique.]</characteristic>
+      </characteristics>
+      <alias>Krosis</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Hevnoraak" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="75e1-c4c6-d41f-db93" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Iron. Attachment: Body or Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Immunity (Disease, Poison), Signature Loot (Hevnoraak&apos;s Staff)</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Hevnoraak</alias>
+    </profile>
+    <profile id="8019-f501-8f2a-3703" name="Signature Loot: Hevnoraak&apos;s Staff" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36"/>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06"/>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69"/>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Signature Loot only.</characteristic>
+      </characteristics>
+      <alias>Hevnoraak&apos;s Staff</alias>
+      <comment>needs stats</comment>
+    </profile>
+    <profile name="Dragon Priest Mask: Volsung" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="5d1e-0201-0fc5-3725" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Steel. Attachment: Body or Light Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [YELLOW]
+Gain one additional Quick Slot while equipped.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Volsung</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Vokun" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="eac3-247d-4df8-ee85" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Steel. Attachment: Body or Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [YELLOW]
+Add [GREEN] to all Alteration, Conjuration, and Illusion Skill Tests.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Vokun</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Rahgot" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="0ba1-b60b-953c-9fb8" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Orcish. Attachment: Body or Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [RED]
+Regenerate Stamina</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Rahgot</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Otar" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="5e41-56e8-7288-dba3" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Glass. Attachment: Body or Light Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [RED]
+Wearer[&apos;s Attacks ignore] Resistance (Fire, Shock).</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Otar</alias>
+    </profile>
+    <profile name="Dragon Priest Mask: Morokei" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="373d-53d0-89c1-3721" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Elven. Attachment: Body or Light Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [YELLOW]
+Regenerate Magicka, Signature Loot (The Staff of Magnus)</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Morokei</alias>
+    </profile>
+    <profile id="d824-9e75-b363-29f4" name="Signature Loot: The Staff of Magnus" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36"/>
+        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06"/>
+        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69"/>
+        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c">One Hand</characteristic>
+        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790">Signature Loot only.</characteristic>
+      </characteristics>
+      <alias>The Staff of Magnus</alias>
+      <comment>needs stats</comment>
+    </profile>
+    <profile name="Dragon Priest Mask: Nahkriin" typeId="273e-af7d-535c-362b" typeName="Enchantment/Attachment/Consumable" hidden="false" id="4bcd-fd87-4204-42e3" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Type" typeId="3a66-005b-fb72-a043">Ebony. Attachment: Body or Heavy Armor</characteristic>
+        <characteristic name="Effect" typeId="bd52-2df8-c13f-f4e1">Armor Rating: [BLACK]
+Wearer reduces the Magicka cost of Destruction and Restoration Spells by 1 point, to a minimum of 1.</characteristic>
+        <characteristic name="Restrictions" typeId="cb79-056f-a289-fc1c">Dragon Priest only. Unique.</characteristic>
+      </characteristics>
+      <alias>Nahkriin</alias>
     </profile>
   </sharedProfiles>
   <sharedInfoGroups>
@@ -11012,7 +11375,7 @@ One-Handed</characteristic>
     </infoGroup>
     <infoGroup id="9f3c-d7c6-1909-0bed" name="Shield" hidden="false">
       <infoLinks>
-        <infoLink id="4f51-10d5-9e51-770f" name="Draugr: Steel Shield" hidden="false" targetId="b204-c0b4-3787-f593" type="profile"/>
+        <infoLink id="4f51-10d5-9e51-770f" name="Draugr: Dented Iron Shield" hidden="false" targetId="b204-c0b4-3787-f593" type="profile"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="2cf8-68b6-d491-56ce" name="Summon Spell Type" publicationId="4d6f-8c48-a5ea-e83c" page="48" hidden="false">
@@ -11029,11 +11392,11 @@ One-Handed</characteristic>
         <infoLink id="27ec-6c89-82b0-9af4" name="Zombie: Summoned Creature" hidden="false" targetId="3aa1-ffdc-8358-0bf5" type="profile"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="1ce8-87b6-e792-7578" name="Frost Atronach: Summoned Creature" publicationId="2733-0fd1-3311-3be2" hidden="false">
+    <infoGroup id="1ce8-87b6-e792-7578" name="Frost Atronach: Daedric Construct" publicationId="1d0d-fac6-d336-636f" hidden="false">
       <infoLinks>
         <infoLink id="3df0-35c9-cb7b-4a8f" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
         <infoLink id="4b77-c699-40b4-cff9" name="Daedra" hidden="false" targetId="f263-f92c-54ab-e087" type="infoGroup"/>
-        <infoLink id="ec97-e933-05d6-1beb" name="Frost Atronach: Summoned Creature" hidden="false" targetId="a345-22e4-55c1-762a" type="profile"/>
+        <infoLink id="ec97-e933-05d6-1beb" name="Frost Atronach: Daedric Construct" hidden="false" targetId="a345-22e4-55c1-762a" type="profile"/>
         <infoLink id="3c9f-02c0-1eb5-36bb" name="Relentless" hidden="false" targetId="7f50-9282-bb89-a177" type="rule"/>
         <infoLink id="693a-d20d-4991-1e4b" name="Shambling" hidden="false" targetId="0a08-aeef-9ff3-c86c" type="rule"/>
         <infoLink id="9c4a-6d6f-0aa4-5236" name="Terrifying" hidden="false" targetId="2204-0557-819c-8afb" type="rule"/>

@@ -3337,7 +3337,7 @@ A: Yes</description>
                 <conditionGroup type="and">
                   <conditions>
                     <condition type="lessThan" value="1" field="selections" scope="parent" childId="989b-4227-9d20-dbae" shared="true"/>
-                    <condition type="equalTo" value="3" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="5594-acf1-76dc-5206" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
+                    <condition type="atLeast" value="3" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="5594-acf1-76dc-5206" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -11301,7 +11301,7 @@ Third: Attack</characteristic>
         <infoLink name="Monster" id="05df-df7a-12a6-7dfd" hidden="false" type="infoGroup" targetId="98ec-665b-cecc-6709"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup name="Giant (Epic)" id="f0f0-8791-6843-648e" hidden="false" publicationId="1d0d-fac6-d336-636f" page="">
+    <infoGroup name="Giant (Epic)" id="f0f0-8791-6843-648e" hidden="false" publicationId="1d0d-fac6-d336-636f">
       <infoLinks>
         <infoLink name="Epic Creature" id="1c09-716c-509b-83f3" hidden="false" type="infoGroup" targetId="2993-1576-f2b7-2e90"/>
         <infoLink name="Terrifying" id="4672-a9e1-5925-d129" hidden="false" type="rule" targetId="2204-0557-819c-8afb"/>

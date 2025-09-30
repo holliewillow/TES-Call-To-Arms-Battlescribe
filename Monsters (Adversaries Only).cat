@@ -120,11 +120,25 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="7a16-0243-bbb4-ba60" name="Giant: Mammoth Herder" hidden="false" collective="false" import="true" targetId="37fd-5067-fd62-3c5d" type="selectionEntry">
+    <entryLink id="7a16-0243-bbb4-ba60" name="Mammoth: Tundra Behemoths" hidden="false" collective="false" import="true" targetId="37fd-5067-fd62-3c5d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b5a4-98d0-7ae5-cb0d" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
         <categoryLink targetId="c983-f514-755f-f01a" id="0d53-7dd0-1568-b735" primary="true" name="Epic Creature"/>
         <categoryLink targetId="e4f3-19d3-b4a8-4788" id="aa70-22dd-5ef5-17dc" primary="false" name="Adversary Master"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="bbf7-abb8-4849-4da1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="4b4c-204a-a316-d9e2" name="Giant: Mammoth Herder" hidden="false" collective="false" import="true" targetId="832a-f2c6-4bf3-8417" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6497-e0ac-06f8-0449" name="Monsters" hidden="false" targetId="7725-6e30-536f-634d" primary="false"/>
+        <categoryLink targetId="c983-f514-755f-f01a" id="a1c5-2d86-209f-f17a" primary="true" name="Epic Creature"/>
+        <categoryLink targetId="e4f3-19d3-b4a8-4788" id="5b4d-1f64-def2-d0ff" primary="false" name="Adversary Master"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -227,7 +241,7 @@
       <infoLinks>
         <infoLink id="5caa-6b66-62a2-daa6" name="Ancient Dragon: Skyrim&apos;s Bane" hidden="false" targetId="46b5-1337-bb09-d759" type="profile"/>
         <infoLink name="Dragon (Epic)" id="50d8-e936-e626-7551" hidden="false" type="infoGroup" targetId="de9c-d4e8-42ec-483f"/>
-        <infoLink name="Dragon Situation Table" id="7664-5e45-91da-374d" hidden="false" type="rule" targetId="29b4-8a0b-a298-21ff">
+        <infoLink name="Dragon Situation Table (EC)" id="7664-5e45-91da-374d" hidden="false" type="rule" targetId="29b4-8a0b-a298-21ff">
           <modifiers>
             <modifier type="set" value="(Ancient) Dragon Situation Table" field="name"/>
           </modifiers>
@@ -267,11 +281,22 @@
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry id="37fd-5067-fd62-3c5d" name="Giant: Mammoth Herder" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="37fd-5067-fd62-3c5d" name="Mammoth: Tundra Behemoths" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="02d8-5a85-a510-0b73" name="Giant: Mammoth Herder" hidden="false" targetId="2d2a-9c50-8422-3a23" type="profile"/>
-        <infoLink name="Giant (Epic)" id="b948-8183-ab10-5900" hidden="false" type="infoGroup" targetId="f0f0-8791-6843-648e"/>
-        <infoLink name="Giant Situation Table" id="6371-ab24-fe70-d567" hidden="false" type="rule" targetId="bb95-9fa2-90ce-e447"/>
+        <infoLink id="02d8-5a85-a510-0b73" name="Mammoth: Tundra Behemoths" hidden="false" targetId="64f3-aaac-93c5-a57d" type="profile" publicationId="1d0d-fac6-d336-636f"/>
+        <infoLink name="Mammoth (Epic)" id="b948-8183-ab10-5900" hidden="false" type="infoGroup" targetId="d5d9-2187-61e5-4f9b"/>
+        <infoLink name="Mammoth Situation Table (EC)" id="6371-ab24-fe70-d567" hidden="false" type="rule" targetId="9d8f-5490-2b3c-39b4"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="145"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="832a-f2c6-4bf3-8417" name="Giant: Mammoth Herder" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="fecf-9904-59b6-0aa5" name="Giant: Mammoth Herder" hidden="false" targetId="2d2a-9c50-8422-3a23" type="profile"/>
+        <infoLink name="Giant (Epic)" id="6c74-28cc-6f37-5547" hidden="false" type="infoGroup" targetId="f0f0-8791-6843-648e"/>
+        <infoLink name="Giant Situation Table (EC)" id="fb53-7b83-980d-bc39" hidden="false" type="rule" targetId="bb95-9fa2-90ce-e447"/>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="135"/>
@@ -303,13 +328,28 @@
         </modifier>
       </modifiers>
     </rule>
-    <rule name="Giant Situation Table (EC)" id="bb95-9fa2-90ce-e447" hidden="true" publicationId="1d0d-fac6-d336-636f" page="">
+    <rule name="Giant Situation Table (EC)" id="bb95-9fa2-90ce-e447" hidden="true" publicationId="1d0d-fac6-d336-636f">
       <description>[see pg. 12 in Chapter 4 Booklet for priority explanation]
 - Engaged with 1 model -&gt; Squeeze
 - Engaged with 2 models -&gt; Giant Stomp
 - Engaged with 1 model -&gt; Club Whack
 - Engaged with 3+ models -&gt; Club Sweep
 - Not Engaged or Engaged -&gt; Club Slam</description>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="dae1-93bd-7ee1-fee0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </rule>
+    <rule name="Mammoth Situation Table (EC)" id="9d8f-5490-2b3c-39b4" hidden="true" publicationId="1d0d-fac6-d336-636f">
+      <description>[see pg. 12 in Chapter 4 Booklet for priority explanation]
+- Engaged with 1 model -&gt; Headbutt
+- Engaged with 2 models -&gt; Trample
+- Engaged with 1 model -&gt; Gore
+- Engaged with 3+ models -&gt; Tusk Sweep
+- Not Engaged or Engaged -&gt; Tusk Strike</description>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
@@ -550,6 +590,25 @@ Light Armor</characteristic>
       <alias>Giant</alias>
       <alias>Giants</alias>
     </profile>
+    <profile id="64f3-aaac-93c5-a57d" name="Mammoth: Tundra Behemoths" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="13d3-4e22-de74-27a4" typeName="Epic Creature">
+      <characteristics>
+        <characteristic name="Race" typeId="b0e3-4005-9d4e-a996">Monster</characteristic>
+        <characteristic name="Attitude" typeId="dd44-73e1-d6e0-5812">Cautious</characteristic>
+        <characteristic name="Attacks" typeId="f82b-2be9-8434-72cd">See Mammoth Attack Profiles</characteristic>
+        <characteristic name="Armor" typeId="8856-0073-7582-124b">No Type: [RED]</characteristic>
+        <characteristic name="Keywords" typeId="e7c5-6dfa-2015-ef09">Epic Creature, Shambling, Resistance (Frost)</characteristic>
+        <characteristic name="Abilities" typeId="1b12-952b-2436-a83c">Charge!, Slow to Anger</characteristic>
+        <characteristic name="Strength" typeId="fb49-1ec9-8b68-1423">7</characteristic>
+        <characteristic name="Agility" typeId="b489-6dff-b74d-f72b">3</characteristic>
+        <characteristic name="Endurance" typeId="1fb9-2ec5-d6cd-5048">6</characteristic>
+        <characteristic name="Intelligence" typeId="7c66-db49-3e04-f5b9">2</characteristic>
+        <characteristic name="Wisdom" typeId="7f35-99bd-41e5-cf1d">3</characteristic>
+        <characteristic name="Health" typeId="fb9c-d714-46de-bcab">12</characteristic>
+        <characteristic name="Height" typeId="9705-84c5-abb5-a968">5</characteristic>
+        <characteristic name="Primary Faction" typeId="33fa-d0ea-d0c6-f092">Monsters</characteristic>
+      </characteristics>
+      <alias>Mammoth</alias>
+    </profile>
   </sharedProfiles>
   <categoryEntries>
     <categoryEntry name="Mirmulnir: Mighty Hunter" id="e8c5-3ff2-4d69-2bce" hidden="false" publicationId="1d0d-fac6-d336-636f">
@@ -558,4 +617,80 @@ Light Armor</characteristic>
       </constraints>
     </categoryEntry>
   </categoryEntries>
+  <sharedInfoGroups>
+    <infoGroup name="Mammoth (Epic)" id="d5d9-2187-61e5-4f9b" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <infoLinks>
+        <infoLink name="Epic Creature" id="8cb8-46d0-c416-2586" hidden="false" type="infoGroup" targetId="2993-1576-f2b7-2e90"/>
+        <infoLink name="Terrifying" id="eef0-ddbc-b6a0-1dd4" hidden="false" type="rule" targetId="2204-0557-819c-8afb"/>
+        <infoLink name="Shambling" id="a08a-957b-6252-c77e" hidden="false" type="rule" targetId="0a08-aeef-9ff3-c86c"/>
+        <infoLink name="Slow to Anger" id="98de-5293-e10b-dcb3" hidden="false" type="rule" targetId="2bfc-f089-6e43-ba4d"/>
+        <infoLink name="Resistance (Type)" id="a620-b2ed-755b-6afd" hidden="false" type="rule" targetId="b048-ffef-95a3-aaf9"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Mammoth Attack Profiles (EC)" typeId="3eed-cdfe-6697-1378" typeName="EC: Attack List" hidden="true" id="af08-d8e0-4b06-72f8" publicationId="1d0d-fac6-d336-636f">
+          <characteristics>
+            <characteristic name="Melee Attack 1" typeId="4528-fe72-9af8-eb63">Headbutt (Strength):
+[GREEN][RED]
+[HELMET]: Shaken
+[SWORDS]: Stagger
+[OBLIVION]: add [YELLOW]</characteristic>
+            <characteristic name="Melee Attack 2" typeId="6027-b54c-adcd-0843">Trample (Endurance):
+[YELLOW][YELLOW][YELLOW]
+[HELMET]: Shaken</characteristic>
+            <characteristic name="Melee Attack 3" typeId="819c-6f62-6841-fa43">Gore (Strength):
+[RED][RED]
+[HELMET]: Bleed
+[SWORDS]: Punishing (1)
+[OBLIVION]: Stagger</characteristic>
+            <characteristic name="Melee Attack 4" typeId="14c2-f947-a031-aa35">Tusk Sweep (Wisdom):
+[YELLOW][YELLOW][YELLOW]
+[HELMET]: Force
+Keywords: Follow-Up</characteristic>
+            <characteristic name="Melee Attack 5" typeId="ac4e-f617-91b6-a440">Tusk Strike (One-Handed):
+[GREEN][YELLOW][YELLOW] (Force +2&quot; Pushback)
+[HELMET]: Punishing (1)
+Keywords: Linebreaker</characteristic>
+            <characteristic name="Ranged Attack 1" typeId="2b79-2169-5fb0-ee08">None</characteristic>
+            <characteristic name="Ranged Attack 2" typeId="0f23-e8a4-9c13-0798">None</characteristic>
+            <characteristic name="Ranged Attack 3" typeId="1b3e-90f4-668d-88f0">None</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="cd24-72a5-d8b3-ffe4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Mammoth Response Matrix (EC)" typeId="1549-97d8-74cf-5961" typeName="EC: Response Matrix" hidden="true" id="bbf7-0edc-34dc-135e" publicationId="1d0d-fac6-d336-636f">
+          <characteristics>
+            <characteristic name="[HELMET]" typeId="dd82-a030-a39d-3378">First: Defend
+Second: Move
+Third: Attack</characteristic>
+            <characteristic name="[DOTS]" typeId="d176-4ed5-d2ff-403a">First: Attack
+Second: Attack
+Third: Move</characteristic>
+            <characteristic name="[SWORDS/OBLIVION]" typeId="f105-1cce-b7c8-ffc1">First: Move
+Second: Objective
+Third: Fall Back</characteristic>
+            <characteristic name="Target Priority" typeId="d168-4ef7-1042-e358">1: Nearest
+2: Slowest
+3: Engaged</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="ec3c-7c34-5e74-089d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Charge!" id="5ec2-f8c3-3103-668e" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>If this model performs a Melee Attack in the same activation that it Moves, add [RED] to the Attack roll.</description>
+        </rule>
+      </rules>
+    </infoGroup>
+  </sharedInfoGroups>
 </catalogue>

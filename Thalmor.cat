@@ -326,10 +326,57 @@ Speech</characteristic>
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Ancano: Advisor to the Arch-Mage" hidden="false" id="9868-c9d4-c1fd-db0d" collective="false" targetId="88a8-6554-c94b-d98b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="aa32-0fd8-cd87-ce9e" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="b7f7-4eb7-dbc9-5708" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="Alteration Skill" hidden="false" id="b2a4-6908-1eb7-d1c1" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink name="Restoration Skill" hidden="false" id="ccb3-f010-00ee-c7b3" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="03b2-c858-b313-edf9" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink name="Elf" hidden="false" id="5008-0174-83b5-3c8f" targetId="7975-461a-3ea6-a65b" primary="false"/>
+        <categoryLink name="College Of Winterhold" hidden="false" id="d6e7-237f-8e6f-7e30" targetId="2b0f-1265-0b4f-1046" primary="false"/>
+        <categoryLink name="Ancano: Advisor to the Arch-Mage" hidden="false" id="3f78-40e9-1a48-270f" targetId="2f0f-28c6-ba4f-353f" primary="false"/>
+        <categoryLink name="Thalmor" hidden="false" id="d556-c616-6212-012e" targetId="ff7a-e4f7-2845-6f78" primary="false"/>
+        <categoryLink name="Conjuration Skill" hidden="false" id="5ac3-e111-a254-195e" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink name="Illusion Skill" hidden="false" id="a920-19a2-4851-2cd6" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="00de-a491-fd7e-bcca" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
   </entryLinks>
   <sharedRules>
     <rule name="Healing Hands" id="ae1e-0d0b-9fad-4d39" hidden="false" publicationId="1d0d-fac6-d336-636f">
       <description>Spell, Magicka 1: This is a Restoration Spell with a range of 6&quot;. Target restores 1 Health point, +1 additional point for each Magicka point spent after the first. Cannot target Atronachs, Undead, or Animunculi.</description>
     </rule>
   </sharedRules>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="College of Winterhold" id="a86e-5f78-1763-22f2" targetId="ec55-df7e-efd2-0e38"/>
+  </catalogueLinks>
 </catalogue>

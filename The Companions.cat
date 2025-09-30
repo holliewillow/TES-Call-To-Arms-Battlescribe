@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="809d-90c9-f40c-20e7" name="The Companions" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="5" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="sapphicmoon">
+<catalogue library="false" id="809d-90c9-f40c-20e7" name="Companions" gameSystemId="1a3a-0466-55e3-3562" gameSystemRevision="5" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="sapphicmoon">
   <entryLinks>
     <entryLink import="true" name="Kodlak: Ailing Harbinger" hidden="false" id="5bcc-76b3-5a53-7795" collective="false" targetId="3277-4c76-202f-3658" type="selectionEntry">
       <categoryLinks>

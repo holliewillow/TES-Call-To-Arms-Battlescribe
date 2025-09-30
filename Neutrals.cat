@@ -2387,6 +2387,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="31ed-89b3-9c0c-a3f8" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="91c5-b7a3-5bc8-09e1" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4faf-01f9-1802-6404" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="3cf7-2880-cd0e-3f13" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36"/>
@@ -2429,6 +2444,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="618b-ebac-d994-bff5" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="0e19-175d-a158-ff7f" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="590f-4978-6cc7-d27a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="a511-91ec-ca94-deed" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
@@ -2466,6 +2496,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="0829-e097-9cba-aa72" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="e7af-2fcf-0603-33a2" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98f6-7687-f066-2060" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="7b49-5f98-4577-3c6a" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="42"/>
@@ -2503,6 +2548,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="75ac-c617-ed74-9190" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="72ed-93c9-a353-8265" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b884-d6b8-2440-5060" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="251f-475b-c5a8-73af" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38"/>
@@ -2545,6 +2605,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="34ba-4d45-a252-0af1" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="bc01-eced-bff9-3901" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="baac-375d-1cf5-bd7e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="8dd9-c8e6-6a88-1fce" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
@@ -2587,6 +2662,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="b155-fe84-c8f3-0279" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="2c71-40cc-abc6-44a4" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d36d-c86a-20b1-6308" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="6327-1ef5-f9d5-a3c9" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="35"/>
@@ -2629,6 +2719,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="066c-a13c-a2c4-5c42" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="8564-093c-d51b-47bc" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89fd-dd71-496f-cd79" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="5ee0-6455-49f9-492f" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="37"/>
@@ -2671,6 +2776,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="5a08-be8a-ac8d-a4dd" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="c51b-9564-64f3-4db1" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="206d-ab5f-b6b9-d341" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="8a2e-36d4-4b18-2f99" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="30"/>
@@ -2709,6 +2829,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="aeda-3fe9-f672-0703" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="3f9e-c207-f954-c447" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b851-a217-55ec-95f7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="43ff-38ed-65f4-3315" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="43"/>
@@ -2751,6 +2886,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="208e-d1ac-6238-175e" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="af33-4b13-a817-32d9" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf55-cc7f-e444-f9ab" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="f24f-0782-d138-3c74" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="35"/>
@@ -2793,6 +2943,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="425f-249e-d67b-04d2" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="ee31-c217-6221-55d1" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cb2-1009-a4a8-7fe3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="a9e0-40d8-b608-e6d0" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="32"/>
@@ -2835,6 +3000,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="7c51-2547-335a-361f" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="76a5-29f2-d228-d8b0" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbc6-dd5d-8bfa-01a9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="505d-be87-d4f4-2680" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="36"/>
@@ -2877,6 +3057,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="62e4-ab04-2ab1-0ca2" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="169c-acf3-13c0-4113" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="362c-a5b3-676d-b176" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="6c94-3584-c0e0-b5fa" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38"/>
@@ -2915,6 +3110,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="c963-75bc-e619-911c" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="53a3-82c3-fa68-7cd6" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbc0-6152-bc44-9e81" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="79fd-a827-0f3f-3535" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48"/>
@@ -2953,6 +3163,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="0d94-3209-b244-fc72" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="52bd-7a54-c1d2-82fd" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ed1-b896-232e-cd16" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="09f7-a667-c711-9acc" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="45"/>
@@ -2991,6 +3216,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="1f9b-c4d2-8c42-1d86" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="49e9-2baa-cb36-ac38" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4182-6c29-f480-10af" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="0085-0841-9eaf-b49d" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="47"/>
@@ -3033,6 +3273,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="d70c-0faa-63c6-489c" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="9e79-cab0-cbf9-c4d0" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f881-c0e0-45b1-1a78" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="36b9-e54a-8bde-ca04" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="48"/>
@@ -3071,6 +3326,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="9820-161a-71f7-ab5a" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="62c2-0578-c790-ce04" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="202d-959c-d13c-73bd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="5aaf-2b12-1fd5-ef25" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
@@ -3109,6 +3379,21 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="f2bd-3732-9a19-8ba9" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="1697-4b66-4649-588b" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="daf2-1d2e-e509-b267" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="029f-0080-60de-5f46" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2e3c-5b30-f710-890b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="40"/>
@@ -4148,8 +4433,8 @@ Restoration</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="12ec-0eeb-904f-ac78" name="Altmer Illusionist: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4203,8 +4488,8 @@ Restoration</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral, The Blades</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="27ab-3473-a1ed-ce6e" name="Altmer Legionary: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4260,8 +4545,8 @@ Alchemy</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">1</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="f8af-03f4-5468-7fca" name="Argonian Cutthroat: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4316,8 +4601,8 @@ Speech</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="9f27-064b-ef15-f190" name="Argonian Miner: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4371,8 +4656,8 @@ Alchemy</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">1</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="baea-60ff-24e9-7278" name="Bosmer Stalker: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4426,8 +4711,8 @@ Restoration</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="bfe9-17d6-69f2-bac3" name="Bosmer Vigil: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4480,8 +4765,8 @@ Restoration</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">1</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="0809-d536-ce0a-0302" name="Breton Destruction Mage: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4531,8 +4816,8 @@ Illusion</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="a785-37ec-b9e2-60c6" name="Breton Stalker: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4584,8 +4869,8 @@ Destruction</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">1</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="1e2a-9451-8481-4ae3" name="Dunmer Sellsword: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4640,8 +4925,8 @@ Alchemy</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="0781-69ce-f692-3d46" name="Dunmer Twinblade: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4694,8 +4979,8 @@ Enchanting</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="b8a9-3b4c-d420-6d11" name="Imperial Destruction Mage: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4748,8 +5033,8 @@ Restoration</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">1</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="639c-8081-de71-c6db" name="Imperial Legionary: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4803,8 +5088,8 @@ Restoration</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="d811-ec55-d01e-3878" name="Khajiit Twinblade: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4860,8 +5145,8 @@ Speech</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="4963-c18e-a7bd-8991" name="Khajiit Warrior: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4921,8 +5206,8 @@ Speech</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral, The Blades</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="2ffd-cfd4-2670-ec56" name="Nord Warrior: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -4979,8 +5264,8 @@ Destruction</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">1</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="4456-ecac-8b35-34ad" name="Orc Warrior: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -5034,8 +5319,8 @@ Enchanting</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="c58e-9602-d7c7-706a" name="Orc Headsman: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -5088,8 +5373,8 @@ Enchanting</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">0</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="cdcd-b0ac-420a-0bcd" name="Redguard Warrior: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -5143,8 +5428,8 @@ Speech</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">2</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, The Blades</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">The Blades</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral</characteristic>
       </characteristics>
     </profile>
     <profile id="daac-caba-d495-20ce" name="Redguard Sellsword: Sheathed Blade (Leveled)" publicationId="2ee0-173b-47e1-7ff1" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
@@ -5387,8 +5672,8 @@ Restoration</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">2</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Neutral, Draugr</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">Neutral</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Draugr</characteristic>
       </characteristics>
     </profile>
     <profile id="537c-a699-e397-03d8" name="Arondil: Exiled Necromancer (Leveled)" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">

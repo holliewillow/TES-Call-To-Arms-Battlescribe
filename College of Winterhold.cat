@@ -208,20 +208,20 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="J&apos;Zargo: Ambitious Apprentice" hidden="false" id="0712-4df1-5c5a-d594" collective="false" targetId="154a-d581-b13b-c3e4" type="selectionEntry">
+    <entryLink import="true" name="J&apos;Zargo: Ambitious Apprentice" hidden="false" id="41da-ae8a-7960-714f" collective="false" targetId="7890-e0ab-81b1-d882" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="Adventurers" hidden="false" id="c713-509b-0c24-55e8" targetId="2b45-4245-ce5e-5404" primary="false"/>
-        <categoryLink name="Hero" hidden="false" id="812b-c174-f9c2-353c" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
-        <categoryLink name="College Of Winterhold" hidden="false" id="1f4a-0d13-afe5-fb64" targetId="2b0f-1265-0b4f-1046" primary="false"/>
-        <categoryLink name="Path of Sorcery" hidden="false" id="8912-bf77-8b33-f198" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
-        <categoryLink name="J&apos;Zargo: Ambitious Apprentice" hidden="false" id="c53d-e621-78f6-93e7" targetId="6413-9f6f-02ff-8470" primary="false"/>
-        <categoryLink name="One-Handed Skill" hidden="false" id="ae2d-598d-3a32-6937" targetId="64bb-1eb1-1896-f36d" primary="false"/>
-        <categoryLink name="Light Armor Skill" hidden="false" id="db40-396e-19ac-e01b" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
-        <categoryLink name="Heavy Armor Skill" hidden="false" id="cf24-64b9-3d77-83ac" targetId="e8e8-69e8-5565-af4f" primary="false"/>
-        <categoryLink name="Conjuration Skill" hidden="false" id="2ff7-a694-ee88-57bb" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
-        <categoryLink name="Alteration Skill" hidden="false" id="e2e2-e77b-754d-6ad8" targetId="2aea-a863-419f-ba90" primary="false"/>
-        <categoryLink name="Illusion Skill" hidden="false" id="901a-3478-be64-8e4f" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
-        <categoryLink name="Restoration Skill" hidden="false" id="5f78-f1c8-babd-fc7f" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink name="Adventurers" hidden="false" id="1365-b8d0-357a-6358" targetId="2b45-4245-ce5e-5404" primary="false"/>
+        <categoryLink name="Hero" hidden="false" id="b715-6ff0-f4c0-6ccf" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
+        <categoryLink name="College Of Winterhold" hidden="false" id="8ffe-e015-f508-7889" targetId="2b0f-1265-0b4f-1046" primary="false"/>
+        <categoryLink name="Path of Sorcery" hidden="false" id="ab8a-a848-c2f7-8a03" targetId="8b22-d1f0-dcf8-83d7" primary="false"/>
+        <categoryLink name="One-Handed Skill" hidden="false" id="9352-209d-7eef-ae4b" targetId="64bb-1eb1-1896-f36d" primary="false"/>
+        <categoryLink name="Light Armor Skill" hidden="false" id="a34c-59f3-ee60-aa95" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
+        <categoryLink name="Heavy Armor Skill" hidden="false" id="05b8-efbc-d8b6-ed32" targetId="e8e8-69e8-5565-af4f" primary="false"/>
+        <categoryLink name="Conjuration Skill" hidden="false" id="a973-f4f5-578d-7363" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
+        <categoryLink name="Alteration Skill" hidden="false" id="4f36-571b-6cf7-a7ad" targetId="2aea-a863-419f-ba90" primary="false"/>
+        <categoryLink name="Illusion Skill" hidden="false" id="22d4-ce4e-3958-3e39" targetId="93b4-afa5-eb85-d8ec" primary="false"/>
+        <categoryLink name="Restoration Skill" hidden="false" id="d771-a952-b5c7-bcbc" targetId="b0b5-e13e-f45a-5045" primary="false"/>
+        <categoryLink targetId="650f-7a60-895e-4f01" id="3a09-1524-016e-e4e5" primary="false" name="J&apos;Zargo: Ambitious Apprentice"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -255,7 +255,6 @@
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="076d-be0a-831b-a0ec" name="Neutrals" targetId="67ad-b57c-1fac-cf39" type="catalogue" importRootEntries="false"/>
-    <catalogueLink type="catalogue" name="Adventurers" id="d70b-ed93-ed09-b732" targetId="bed2-2069-45b8-9df1"/>
   </catalogueLinks>
   <sharedProfiles>
     <profile name="Savos Aren: Arch-Mage" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="fbd4-2e7f-4155-9aac" publicationId="1d0d-fac6-d336-636f">
@@ -395,8 +394,8 @@ Restoration</characteristic>
         <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
         <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">5</characteristic>
         <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
-        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
-        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">College of Winterhold, Thalmor</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">College of Winterhold</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Thalmor</characteristic>
       </characteristics>
       <alias>Ancano</alias>
     </profile>
@@ -538,6 +537,64 @@ Restoration</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
       </characteristics>
       <alias>Colette</alias>
+    </profile>
+    <profile name="J&apos;Zargo: Ambitious Apprentice" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="c56e-3fac-6a11-a5fe" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Khajiit</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">Sorcery</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Disintegrate, Ward Absorb</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Night Eye, Teeth and Claws</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Overconfident</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">3
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">3
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Alteration
+Conjuration
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">3</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">2</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">None</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">Adventurers, College of Winterhold</characteristic>
+      </characteristics>
+      <alias>J&apos;Zargo</alias>
+    </profile>
+    <profile name="J&apos;Zargo: Ambitious Apprentice (Leveled)" typeId="350c-2ddd-8a24-377b" typeName="Hero" hidden="false" id="58b3-cd54-3108-aecb" publicationId="1d0d-fac6-d336-636f">
+      <characteristics>
+        <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
+        <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>
+        <characteristic name="Path" typeId="e250-b21c-25ef-4af6">-</characteristic>
+        <characteristic name="Perks" typeId="ea58-4753-6446-8b08">Augmented Shock, Disintegrate, Ward Absorb</characteristic>
+        <characteristic name="Keywords" typeId="7bcc-61da-c307-5881">Night Eye, Teeth and Claws</characteristic>
+        <characteristic name="Abilities" typeId="3832-6c1c-da43-0eb2">Overconfident</characteristic>
+        <characteristic name="Strength" typeId="7863-9734-b481-1521">4
+One-Handed</characteristic>
+        <characteristic name="Agility" typeId="1276-0dd9-53ca-d970">4</characteristic>
+        <characteristic name="Endurance" typeId="fb58-c970-3c64-d7ea">4
+Light Armor
+Heavy Armor</characteristic>
+        <characteristic name="Intelligence" typeId="7b0a-cc9f-5e49-9b5a">5
+Alteration
+Conjuration
+Illusion</characteristic>
+        <characteristic name="Wisdom" typeId="19a1-9f7c-8f90-79aa">4
+Restoration</characteristic>
+        <characteristic name="Health" typeId="4d71-6d31-a8de-f417">3</characteristic>
+        <characteristic name="Stamina" typeId="a8f4-62f6-ba74-ea48">3</characteristic>
+        <characteristic name="Magicka" typeId="e74e-37df-e0cb-70ec">4</characteristic>
+        <characteristic name="Height" typeId="84fa-b86a-388a-ab07">-</characteristic>
+        <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
+        <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
+      </characteristics>
+      <alias>J&apos;Zargo</alias>
     </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
@@ -690,6 +747,21 @@ Restoration</characteristic>
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Equipment" hidden="false" id="8c6c-5829-b935-3586" collective="false" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="ea16-7587-e134-8597" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="953c-e8f6-0681-d8f4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="9727-cd59-3f6b-b9f9" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="62"/>
@@ -821,6 +893,69 @@ Restoration</characteristic>
         </rule>
       </rules>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="J&apos;Zargo: Ambitious Apprentice" hidden="false" id="7890-e0ab-81b1-d882" publicationId="1d0d-fac6-d336-636f" collective="false">
+      <infoLinks>
+        <infoLink name="J&apos;Zargo: Ambitious Apprentice" id="0824-41e3-937e-5536" hidden="false" targetId="c56e-3fac-6a11-a5fe" type="profile">
+          <modifiers>
+            <modifier type="set" value="Hireling Hero (Unique)" field="ebd4-07c2-9286-b2eb">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="d6a3-9869-f1f0-db9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Perk: Disintegrate" id="6292-f1e1-2241-d4e9" hidden="false" targetId="9ccb-96d1-a56b-453d" type="rule"/>
+        <infoLink name="Path of Sorcery" id="9cab-c8cb-8105-d1aa" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
+        <infoLink name="Khajiit" id="2c31-ef72-5a8b-1bdf" hidden="false" targetId="79c0-88d5-843b-8055" type="infoGroup"/>
+        <infoLink name="Perk: Ward Absorb" id="a61a-5be4-bc7f-da96" hidden="false" targetId="167f-9166-06e4-262e" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Include Leveled Profile" hidden="false" id="696c-d682-7894-9645" publicationId="a37b-3a3b-faf7-0732" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="093c-852d-6c9b-0783" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="J&apos;Zargo: Ambitious Apprentice (Leveled)" id="5e79-6fdf-3ddb-1896" hidden="false" publicationId="a37b-3a3b-faf7-0732" targetId="58b3-cd54-3108-aecb" type="profile"/>
+            <infoLink name="Perk: Augmented Shock" id="0d3f-30e1-f72d-c8c6" hidden="false" targetId="410f-7c19-be99-af07" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="7aaa-76fd-fb59-e242" collective="false" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Party Champion" hidden="true" id="167d-ed41-7955-023a" collective="false" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27f3-f7d0-fb76-79b3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Party Champion" hidden="false" id="2007-01ba-b4ed-aba3" targetId="ea16-f8fd-dd67-9fad" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f675-28a6-b947-2dd1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="38"/>
+        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
+      </costs>
+      <rules>
+        <rule name="Overconfident" id="370c-3ee8-7bac-1b12" hidden="false" publicationId="1d0d-fac6-d336-636f">
+          <description>The first time J&apos;Zargo rolls a [CRITICAL] for a Skill Test in each round, after resolving the Test he must take a Wisdom Attribute Test. If this is passed, J&apos;Zargo gains a Ready Token (even if he already Attacked this round). If the Test is failed, however, J&apos;Zargo loses 1 Stamina point.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Savos Aren: Arch-Mage" id="d885-1bd2-82bb-42a1" hidden="false" publicationId="1d0d-fac6-d336-636f">
@@ -846,6 +981,11 @@ Restoration</characteristic>
     <categoryEntry name="Colette Marence: Restoration Master" id="61ca-b131-10b5-d2bc" hidden="false" publicationId="1d0d-fac6-d336-636f">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c77b-d5d6-aac3-bedd" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="J&apos;Zargo: Ambitious Apprentice" id="650f-7a60-895e-4f01" hidden="false" publicationId="1d0d-fac6-d336-636f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ccd1-978d-a69e-39ba" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>

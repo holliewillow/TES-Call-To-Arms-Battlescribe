@@ -4,7 +4,7 @@
 
 Prior releases: All Heroes, Draugr Upgrades, Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers*
 
-TODO: STAG Followers, Chapter 3 Followers (Double-check?)
+TODO: Chapter 3 Followers (Double-check?)
 Low Priority: Adversaries</comment>
   <publications>
     <publication id="4d6f-8c48-a5ea-e83c" name="BRB (2025)" shortName="BRB (5-23)" publisher="The Elder Scrolls: Call to Arms Revised Rulebook (May 2023)" publicationDate="2025" publisherUrl="https://www.modiphius.net/en-us/pages/the-elder-scrolls-call-to-arms-downloads"/>
@@ -248,7 +248,7 @@ Low Priority: Adversaries</comment>
       </constraints>
     </categoryEntry>
     <categoryEntry id="33d2-88f5-d917-7106" name="The Blades" publicationId="2733-0fd1-3311-3be2" hidden="false"/>
-    <categoryEntry id="54df-deb0-bc89-bd29" name="Bonus Quick Slot: Thieves&apos; Guild" hidden="false"/>
+    <categoryEntry id="54df-deb0-bc89-bd29" name="Bonus Quick Slot: Thieves&apos; Guild Armor" hidden="false"/>
     <categoryEntry id="2b0f-1265-0b4f-1046" name="College Of Winterhold" hidden="false"/>
     <categoryEntry id="b7fd-4d1f-7ee7-2c7b" name="Bonus Quick Slot: Perk: Extra Pockets" hidden="false"/>
     <categoryEntry id="917c-eb56-30eb-a720" name="Born Leader" publicationId="4d6f-8c48-a5ea-e83c" page="73" hidden="false"/>
@@ -259,7 +259,7 @@ Low Priority: Adversaries</comment>
     </categoryEntry>
     <categoryEntry id="ca71-7b4a-9967-eaae" name="Dragon Shouts" publicationId="4d6f-8c48-a5ea-e83c" page="74" hidden="false"/>
     <categoryEntry id="6119-a6c8-2eb1-6092" name="Dragon Shouts: Ulfric" hidden="false"/>
-    <categoryEntry id="4347-a391-1fca-ce31" name="The Thieves&apos; Guild" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
+    <categoryEntry id="4347-a391-1fca-ce31" name="Thieves&apos; Guild" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
     <categoryEntry id="e991-bd09-65f0-2451" name="Bow" hidden="false"/>
     <categoryEntry id="6f69-9fe1-93c1-2909" name="Imperial Headsman Equipment" publicationId="a37b-3a3b-faf7-0732" hidden="false">
       <constraints>
@@ -345,7 +345,7 @@ Low Priority: Adversaries</comment>
       </constraints>
     </categoryEntry>
     <categoryEntry id="c413-2e33-e6e4-ffca" name="Elf is Party Champion (Orthjolf)" publicationId="fc6a-2d15-ff0e-9318" hidden="false"/>
-    <categoryEntry id="5a63-c7de-3c2a-78cb" name="The Companions" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
+    <categoryEntry id="5a63-c7de-3c2a-78cb" name="Companions" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
     <categoryEntry id="51b3-8593-8f15-b9f5" name="The Silver Hand" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
     <categoryEntry name="Thalmor" id="ff7a-e4f7-2845-6f78" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
     <categoryEntry name="Werewolf" id="f71c-90c3-abdf-17ee" hidden="false" publicationId="1d0d-fac6-d336-636f"/>
@@ -2815,13 +2815,13 @@ A: Yes</description>
           </modifiers>
           <comment>done</comment>
         </selectionEntry>
-        <selectionEntry id="bca9-22d3-2c89-c812" name="The Companions" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bca9-22d3-2c89-c812" name="Companions" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e760-181e-b1ae-1208" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d65-c8cc-499e-1b63" type="min"/>
           </constraints>
           <rules>
-            <rule id="c1a2-3f8b-14f2-6d97" name="The Companions Party Composition" publicationId="1d0d-fac6-d336-636f" hidden="false">
+            <rule id="c1a2-3f8b-14f2-6d97" name="Companions Party Composition" publicationId="1d0d-fac6-d336-636f" hidden="false">
               <description>At least half (50%) of the models in the Party must be from the Path of Might. At least a quarter (25%) of the models in the Party must be Heroes. No more than a quarter (25%) of the Party&apos;s models may be Hirelings. Models with the Companions Faction icon may be included as Hirelings in another party, unless that party&apos;s composition restrictions specify otherwise.</description>
               <alias>The Companions</alias>
               <alias>Companion</alias>
@@ -2840,7 +2840,7 @@ A: Yes</description>
             <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
           </costs>
           <modifiers>
-            <modifier type="add" value="At least 50% of models in The Companions Party must have Path of Might." field="error">
+            <modifier type="add" value="At least 50% of models in Companions Party must have Path of Might." field="error">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -2850,7 +2850,7 @@ A: Yes</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="add" value="No more than 25% of models in The Companions Party can be Hirelings." field="error">
+            <modifier type="add" value="No more than 25% of models in Companions Party can be Hirelings." field="error">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -2860,7 +2860,7 @@ A: Yes</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="add" value="At least 25% of models in The Companions Party must be Heroes." field="error">
+            <modifier type="add" value="At least 25% of models in Companions Party must be Heroes." field="error">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -3434,7 +3434,7 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry id="3ead-7f3e-4bda-5072" name="The Thieves&apos; Guild" hidden="false" collective="false" import="true" type="upgrade" publicationId="1d0d-fac6-d336-636f">
+        <selectionEntry id="3ead-7f3e-4bda-5072" name="Thieves&apos; Guild" hidden="false" collective="false" import="true" type="upgrade" publicationId="1d0d-fac6-d336-636f">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a2b-d533-eeda-428e" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b3a-36d5-b332-4245" type="min"/>
@@ -4603,6 +4603,11 @@ A: Yes</description>
               </conditions>
             </modifier>
           </modifiers>
+          <rules>
+            <rule name="Primary Faction Clarification" id="3428-9855-6612-c64e" hidden="false">
+              <description>[The current official ruling is that, if a model has multiple Faction icons and none are highlighted in gold, the leftmost Faction icon is considered Primary].</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

@@ -49,6 +49,7 @@
         <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="498f-c429-7f62-977d" primary="false" name="Sneak Skill"/>
         <categoryLink targetId="8af2-ae59-4a5c-98b8" id="a635-62a2-1d31-d81f" primary="false" name="Light Armor Skill"/>
         <categoryLink targetId="e8e8-69e8-5565-af4f" id="2802-8aba-daa5-4bcd" primary="false" name="Heavy Armor Skill"/>
+        <categoryLink targetId="a7bc-d0b1-60c3-565c" id="9b9b-5d02-a43f-62ea" primary="false" name="Dragon Priest"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -429,7 +430,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="10ba-c717-6863-4db0" name="Draugr Wight Lord: Undead Commander [Needs Errata]" hidden="false" collective="false" import="true" targetId="60c4-351f-1357-f97d" type="selectionEntry">
+    <entryLink id="10ba-c717-6863-4db0" name="Draugr Wight Lord: Undead Commander" hidden="false" collective="false" import="true" targetId="60c4-351f-1357-f97d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b17d-2415-06d9-02c9" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="true"/>
         <categoryLink id="b135-cb75-9ec3-e471" name="Draugr" hidden="false" targetId="31ea-0b74-c0db-90e0" primary="false"/>

@@ -48,11 +48,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="a9c2-7205-2355-6c8b" name="Rigel Strong-Arm: Bandit Chieftain" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="dced-cff2-068d-3337" type="selectionEntry">
       <categoryLinks>
@@ -69,11 +85,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="b3b1-fe13-fa90-a077" name="Deeja: Blackblood Assassin" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="8585-8ea8-6135-de0c" type="selectionEntry">
       <categoryLinks>
@@ -89,11 +121,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="027c-97e5-6b03-4add" name="Raj&apos;irr: White River Rogue" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="5bee-e608-df02-ce3f" type="selectionEntry">
       <categoryLinks>
@@ -108,11 +156,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="d2bd-9c8a-09b0-a81f" name="Elisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="b2c1-c5d8-2dba-86de" type="selectionEntry">
       <categoryLinks>
@@ -128,11 +192,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="d066-1c04-6309-9743" name="Haldyn: Pirate Battlemage" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="221d-f091-32ad-c539" type="selectionEntry">
       <categoryLinks>
@@ -152,11 +232,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="73bf-c9d3-b47e-265b" name="Bandit Chief: Vicious Marauder" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" targetId="f4d4-a805-0779-4374" type="selectionEntry">
       <categoryLinks>
@@ -176,11 +272,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="c967-4d34-cf41-15dc" name="Bandit Plunderer: Nord Axeman" hidden="false" collective="false" import="true" targetId="1022-f408-89e4-8840" type="selectionEntry">
       <categoryLinks>
@@ -190,11 +302,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="0eaa-0c2f-14e4-a0a9" name="Bandit Marauder: Nord Barbarian" hidden="false" collective="false" import="true" targetId="4842-defb-f766-aeb8" type="selectionEntry">
       <categoryLinks>
@@ -204,11 +332,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="267e-80bc-668c-a340" name="Bandit Warrior: Nord Warrior" hidden="false" collective="false" import="true" targetId="b8ec-2bcb-2a23-ce21" type="selectionEntry">
       <categoryLinks>
@@ -218,11 +362,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="cb36-919a-28fe-d7d8" name="Bandit Outlaw: Nord Ranger" hidden="false" collective="false" import="true" targetId="637f-682a-e7e9-4010" type="selectionEntry">
       <categoryLinks>
@@ -232,11 +392,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink id="00e5-2a98-c246-0169" name="Bandit Warrior: Orc Warrior" hidden="false" collective="false" import="true" targetId="556b-d9cb-69e3-7b90" type="selectionEntry">
       <categoryLinks>
@@ -246,11 +422,27 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="c06c-5d0a-f27a-3385" field="category"/>
+            <modifier type="add" value="065c-f392-0c98-91f5" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="8f46-4e02-54b3-0331" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -351,7 +543,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="9e33-35b8-40b8-fd16" name="Rigel Strong-Arm: Bandit Chieftain" hidden="false" targetId="486a-2e22-8fe2-f159" type="profile"/>
+        <infoLink id="9e33-35b8-40b8-fd16" name="Deeja: Blackblood Assassin" hidden="false" targetId="2754-a31d-af30-f737" type="profile"/>
         <infoLink id="7629-89ad-7009-b5a0" name="Path of Shadow" hidden="false" targetId="84c9-50ff-86a3-2a8f" type="rule"/>
         <infoLink id="f581-582d-871b-01a6" name="Argonian" hidden="false" targetId="4b92-92cf-5195-7fbb" type="infoGroup"/>
         <infoLink id="74c6-3cc8-49de-7c82" name="Perk: Assassin&apos;s Blade" hidden="false" targetId="eea3-bb51-672c-9dac" type="rule"/>
@@ -423,9 +615,9 @@
         <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b2c1-c5d8-2dba-86de" name="Elisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b2c1-c5d8-2dba-86de" name="Eisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="94b6-14f9-87c6-993b" name="Elisa Blackthorn: Frostmere Raider" hidden="false" targetId="c112-2556-9b3a-95bf" type="profile"/>
+        <infoLink id="94b6-14f9-87c6-993b" name="Eisa Blackthorn: Frostmere Raider" hidden="false" targetId="c112-2556-9b3a-95bf" type="profile"/>
         <infoLink id="8ee0-0aa4-5adc-cd50" name="Path of Might" hidden="false" targetId="c1df-67ea-e7cc-8134" type="rule"/>
         <infoLink id="2ac5-c07e-6fa0-256a" name="Nord" hidden="false" targetId="5ec9-8f71-430a-1e45" type="infoGroup"/>
         <infoLink id="4c1a-28f2-2e79-0d8d" name="Perk: Hack and Slash" hidden="false" targetId="2cf3-a74a-631e-7547" type="rule"/>
@@ -467,7 +659,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="cc70-8910-f76a-fa66" name="Rigel Strong-Arm: Bandit Chieftain" hidden="false" targetId="486a-2e22-8fe2-f159" type="profile"/>
+        <infoLink id="cc70-8910-f76a-fa66" name="Haldyn: Pirate Battlemage" hidden="false" targetId="21b8-cb06-133e-efd1" type="profile"/>
         <infoLink id="dd5b-63be-788f-37b3" name="Path of Sorcery" hidden="false" targetId="46cd-27c4-0be4-976f" type="rule"/>
         <infoLink id="cd48-f17f-3d52-f6da" name="Redguard" hidden="false" targetId="c7c8-72cb-039b-ec59" type="infoGroup"/>
         <infoLink id="5c03-8c8d-ea78-4aa2" name="Perk: Augmented Shock" hidden="false" targetId="410f-7c19-be99-af07" type="rule"/>
@@ -814,7 +1006,7 @@ Light Armor</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="c112-2556-9b3a-95bf" name="Elisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+    <profile id="c112-2556-9b3a-95bf" name="Eisa Blackthorn: Frostmere Raider" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
         <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
         <characteristic name="Race" typeId="4f70-687f-f99b-6b98">Nord</characteristic>
@@ -840,7 +1032,7 @@ Heavy Armor</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">None</characteristic>
       </characteristics>
     </profile>
-    <profile id="bdc2-e491-7dd9-db25" name="Elisa Blackthorn: Frostmere Raider (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
+    <profile id="bdc2-e491-7dd9-db25" name="Eisa Blackthorn: Frostmere Raider (Leveled)" publicationId="fc6a-2d15-ff0e-9318" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
         <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">-</characteristic>
         <characteristic name="Race" typeId="4f70-687f-f99b-6b98">-</characteristic>

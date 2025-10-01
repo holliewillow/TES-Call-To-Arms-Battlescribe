@@ -1191,6 +1191,7 @@
         <categoryLink targetId="8af2-ae59-4a5c-98b8" id="4855-0daf-7d69-3a70" primary="false" name="Light Armor Skill"/>
         <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="d4b1-9e77-da8f-8690" primary="false" name="Sneak Skill"/>
         <categoryLink targetId="9797-61ac-cbe1-cccd" id="70d9-8e44-9ec8-053e" primary="false" name="Path of Shadow"/>
+        <categoryLink targetId="f893-d9d8-91f2-431e" id="400d-c1fa-4ae2-a3f9" primary="false" name="DB Champ. of Mehrunes Dagon Signature Loot"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -1328,6 +1329,7 @@
         <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="f9e3-9dd6-9929-c53a" primary="false" name="Sneak Skill"/>
         <categoryLink targetId="b1cc-bf06-8acb-dce0" id="e310-1a1d-70bc-c522" primary="false" name="Path of Might"/>
         <categoryLink targetId="37d3-238a-d08a-1589" id="12a3-5510-d0c7-80b5" primary="false" name="Alchemy Skill"/>
+        <categoryLink targetId="05b9-89b4-2f50-4ec6" id="5cb2-4565-72d3-14a4" primary="false" name="DB Champ. of Boethia Signature Loot"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -2658,11 +2660,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="5166-80b9-6481-23eb" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup">
-          <entryLinks>
-            <entryLink import="true" name="Signature Loot: Mehrunes&apos; Razor" hidden="false" id="72e4-5f30-1288-6af9" type="selectionEntry" targetId="d7d6-561a-e870-c07f"/>
-          </entryLinks>
-        </entryLink>
+        <entryLink id="5166-80b9-6481-23eb" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
         <entryLink id="35f8-2214-147f-e9cf" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
@@ -2683,15 +2681,6 @@
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="66"/>
         <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Signature Loot: Mehrunes&apos; Razor" hidden="false" id="d7d6-561a-e870-c07f" publicationId="1d0d-fac6-d336-636f">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3269-6770-f1c3-2a9f"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fce1-da04-2261-12c5"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Mehrunes&apos; Razor" id="28f2-60ec-5589-5030" hidden="false" type="profile" targetId="6a97-3a03-80c0-d8c3"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry id="2278-24e7-b890-e545" name="The Dragonborn: Ranger" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2855,11 +2844,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e63c-516b-83a8-4e88" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup">
-          <entryLinks>
-            <entryLink import="true" name="Signature Loot: Ebony Mail" hidden="false" id="fe90-3193-24b9-1a06" type="selectionEntry" targetId="0fb4-18c3-6289-0b25"/>
-          </entryLinks>
-        </entryLink>
+        <entryLink id="e63c-516b-83a8-4e88" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
         <entryLink id="8b0c-3a81-7754-1f70" name="Party Champion" hidden="true" collective="false" import="true" targetId="89f7-ba66-4381-aa6d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
@@ -2880,15 +2865,6 @@
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="73"/>
         <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="1"/>
       </costs>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Signature Loot: Ebony Mail" hidden="false" id="0fb4-18c3-6289-0b25" publicationId="1d0d-fac6-d336-636f">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e6e2-978c-faac-0b9a"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f167-3fc7-e5b7-af46"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Ebony Mail" id="6857-c078-9328-f8b0" hidden="false" type="profile" targetId="d6e8-1dc1-9421-07ec"/>
-      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -4173,16 +4149,6 @@ Speech</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Mehrunes&apos; Razor" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon" hidden="false" id="6a97-3a03-80c0-d8c3" publicationId="1d0d-fac6-d336-636f">
-      <characteristics>
-        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36"/>
-        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06"/>
-        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69"/>
-        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c"/>
-        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790"/>
-      </characteristics>
-      <comment>needs stats</comment>
-    </profile>
     <profile id="f5d6-25ea-91d2-2557" name="The Dragonborn: Ranger" publicationId="1d0d-fac6-d336-636f" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Hero">
       <characteristics>
         <characteristic name="Rank" typeId="ebd4-07c2-9286-b2eb">Hero (Unique)</characteristic>
@@ -4384,15 +4350,6 @@ Speech</characteristic>
         <characteristic name="Primary Faction" typeId="f0f6-8ae1-ea14-c9fa">-</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
       </characteristics>
-    </profile>
-    <profile name="Ebony Mail" typeId="b5f1-7c7f-bd4d-222f" typeName="Armor" hidden="false" id="d6e8-1dc1-9421-07ec" publicationId="1d0d-fac6-d336-636f">
-      <characteristics>
-        <characteristic name="Armor Rating" typeId="0096-2c0c-ac9b-4877"/>
-        <characteristic name="Skill" typeId="f125-5d32-ac61-0c0d"/>
-        <characteristic name="Effect" typeId="0a30-8c92-2e19-0618"/>
-        <characteristic name="Restrictions" typeId="7805-1f99-6e84-e4c0"/>
-      </characteristics>
-      <comment>needs stats</comment>
     </profile>
   </sharedProfiles>
   <catalogueLinks>

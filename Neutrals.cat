@@ -398,7 +398,7 @@
         <categoryLink id="b1e9-0418-4395-7d7e" name="Neutral" hidden="false" targetId="e42a-1785-2eba-93be" primary="false"/>
         <categoryLink id="2374-fd88-a97a-6793" name="Hero" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="7f33-94b0-526d-4997" name="Path of Shadow" hidden="false" targetId="9797-61ac-cbe1-cccd" primary="false"/>
-        <categoryLink id="d6a1-e0d8-1cab-ef30" name="Bonus Quick Slot: Thieves&apos; Guild" hidden="false" targetId="54df-deb0-bc89-bd29" primary="false"/>
+        <categoryLink id="d6a1-e0d8-1cab-ef30" name="Bonus Quick Slot: Thieves&apos; Guild Armor" hidden="false" targetId="54df-deb0-bc89-bd29" primary="false"/>
         <categoryLink id="3a2d-dde4-02df-a6c8" name="One-Handed Skill" hidden="false" targetId="64bb-1eb1-1896-f36d" primary="false"/>
         <categoryLink id="9dc4-363a-8a63-5dbf" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
         <categoryLink id="3395-7da4-e021-7d1d" name="Pickpocket Skill" hidden="false" targetId="7f96-4899-973e-0e11" primary="false"/>
@@ -1747,6 +1747,7 @@
         <categoryLink targetId="f1a5-f2a8-0691-3c85" id="2b7e-e513-25f9-8815" primary="false" name="Conjuration Skill"/>
         <categoryLink targetId="2aea-a863-419f-ba90" id="5723-462f-e8e9-7d19" primary="false" name="Alteration Skill"/>
         <categoryLink targetId="37d3-238a-d08a-1589" id="0511-3867-f704-cd96" primary="false" name="Alchemy Skill"/>
+        <categoryLink targetId="bfba-eee6-2dc7-9e75" id="95fc-4e6d-1267-8f06" primary="false" name="Arondil Spell"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1824,6 +1825,7 @@
         <categoryLink targetId="c7db-eac8-21dc-49a0" id="1694-85f5-e34e-2ebf" primary="false" name="Smithing Skill"/>
         <categoryLink targetId="f1a5-f2a8-0691-3c85" id="23b9-f5ab-2499-3846" primary="false" name="Conjuration Skill"/>
         <categoryLink targetId="37d3-238a-d08a-1589" id="9648-ed58-740d-786f" primary="false" name="Alchemy Skill"/>
+        <categoryLink targetId="b81f-c895-63cc-6f92" id="b0e1-44a4-a83e-8b47" primary="false" name="Erandur Signature Loot"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1837,6 +1839,32 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Yngvild Ghost: Bound Spirit" hidden="true" id="56cf-19d4-9ae7-d14a" type="selectionEntry" targetId="1bd2-d874-8635-1918" defaultAmount="0" sortIndex="1">
+      <categoryLinks>
+        <categoryLink name="Undead (Non-Vampire)" hidden="false" id="f227-1ab2-9959-451a" targetId="ed75-2909-edc9-7369" primary="false"/>
+        <categoryLink name="Path of Might" hidden="false" id="34d2-401c-6548-0823" targetId="b1cc-bf06-8acb-dce0" primary="false"/>
+        <categoryLink name="Follower" hidden="false" id="a315-7687-5ec8-713a" targetId="ba61-d304-9352-ec15" primary="false"/>
+        <categoryLink name="Entourage" hidden="false" id="7c8d-9c12-d54d-b3ff" targetId="93a3-401a-3569-2893" primary="true"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden"/>
+            <modifier type="prepend" value="(Arondil&apos;s Entourage)" field="name" join=" "/>
+            <modifier type="set" value="3" field="defaultAmount"/>
+            <modifier type="set" value="3" field="195f-def8-337d-ed4f-min"/>
+            <modifier type="set" value="3" field="195f-def8-337d-ed4f-max"/>
+          </modifiers>
+          <conditions>
+            <condition type="greaterThan" value="0" field="b1c3-7317-4f6a-a8b9" scope="roster" childId="bfba-eee6-2dc7-9e75" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="195f-def8-337d-ed4f-min"/>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="195f-def8-337d-ed4f-max"/>
+      </constraints>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -3560,20 +3588,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9c16-2fd3-759e-857d" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Summon Yngvild Ghost" hidden="false" id="54a4-734d-d05b-2320" collapsible="true">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="900f-df3a-3cde-526f-min" includeChildSelections="true" includeChildForces="true"/>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="900f-df3a-3cde-526f-max" includeChildSelections="true" includeChildForces="true"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Yngvild Ghost: Bound Spirit" id="97a7-369e-013a-47ce" hidden="false" type="profile" targetId="9891-3b46-6658-28ea"/>
-                <infoLink name="Summon Yngvild Ghost" id="3686-a6cc-57ec-b68c" hidden="false" type="profile" targetId="90cd-95d4-0190-de15"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </entryLink>
+        <entryLink id="9c16-2fd3-759e-857d" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="88"/>
@@ -3680,11 +3695,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="19de-b3ff-ff2b-e447" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup">
-          <entryLinks>
-            <entryLink import="true" name="Signature Loot: Vaermina&apos;s Torpor" hidden="false" id="bc95-b898-30b8-906f" type="selectionEntry" targetId="db33-f361-604f-858c"/>
-          </entryLinks>
-        </entryLink>
+        <entryLink id="19de-b3ff-ff2b-e447" name="Equipment" hidden="false" collective="false" import="true" targetId="77fb-6f37-f1df-9d41" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="66"/>
@@ -3696,13 +3707,9 @@
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Signature Loot: Vaermina&apos;s Torpor" hidden="false" id="db33-f361-604f-858c" publicationId="1d0d-fac6-d336-636f">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ade3-b5a6-0a7d-e406"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f51-e478-bc06-2336"/>
-      </constraints>
+    <selectionEntry type="unit" import="true" name="Yngvild Ghost: Bound Spirit" hidden="false" id="1bd2-d874-8635-1918" publicationId="1d0d-fac6-d336-636f" collective="true" collapsible="true">
       <infoLinks>
-        <infoLink name="Vaermina&apos;s Torpor" id="c5ff-937d-9eaa-c47e" hidden="false" type="profile" targetId="c921-73be-5329-3f27"/>
+        <infoLink name="Yngvild Ghost: Bound Spirit" id="0647-26c1-0be5-9008" hidden="false" type="infoGroup" targetId="4712-2cfb-c145-c02a"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -5869,15 +5876,6 @@ Speech</characteristic>
         <characteristic name="Secondary Faction(s)" typeId="733e-c5b4-23db-61db">-</characteristic>
       </characteristics>
       <alias>Erandur</alias>
-    </profile>
-    <profile name="Vaermina&apos;s Torpor" typeId="abc7-40c2-f72d-23f3" typeName="Melee Weapon" hidden="false" id="c921-73be-5329-3f27">
-      <characteristics>
-        <characteristic name="Damage Value/Effect" typeId="8a0f-6c39-f9e6-4a36"/>
-        <characteristic name="Skill" typeId="160b-12b6-d6ee-6f06"/>
-        <characteristic name="Keywords" typeId="b17f-157a-375c-fd69"/>
-        <characteristic name="Equip Slot" typeId="a37c-4064-87e8-a40c"/>
-        <characteristic name="Restrictions" typeId="72d3-19fe-0954-2790"/>
-      </characteristics>
     </profile>
   </sharedProfiles>
 </catalogue>

@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="1a3a-0466-55e3-3562" name="Elder Scrolls Call to Arms" revision="5" battleScribeVersion="2.03" authorName="sapphicmoon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" publicationId="4d6f-8c48-a5ea-e83c" type="gameSystem">
-  <comment>Chapter 4: Updating Draugr from PnP beta to current
-
-Prior releases: All Heroes, Draugr Upgrades, Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers*
+  <comment>Chapter 4 and prior: All Heroes, Draugr Upgrades, Staves, Armor, Misc Items, Shields, Enchantments, Shouts, Weapons, Spells, Followers*
 
 TODO: Chapter 3 Followers (Double-check?)
+Medium Priority: Tales of Tamriel (Settlements + Progression)
 Low Priority: Adversaries</comment>
   <publications>
-    <publication id="4d6f-8c48-a5ea-e83c" name="BRB (2025)" shortName="BRB (5-23)" publisher="The Elder Scrolls: Call to Arms Revised Rulebook (May 2023)" publicationDate="2025" publisherUrl="https://www.modiphius.net/en-us/pages/the-elder-scrolls-call-to-arms-downloads"/>
-    <publication id="a37b-3a3b-faf7-0732" name="Chapter 1 Cards"/>
-    <publication id="2733-0fd1-3311-3be2" name="Chapter 2 Cards"/>
-    <publication id="bcdd-038f-9aa1-3237" name="Core Set Cards"/>
+    <publication id="4d6f-8c48-a5ea-e83c" name="BRB (2025)" shortName="BRB (2025)" publisher="The Elder Scrolls: Call to Arms Revised Rulebook (May 2023)" publicationDate="2025" publisherUrl="https://www.modiphius.net/en-us/pages/the-elder-scrolls-call-to-arms-downloads"/>
+    <publication id="a37b-3a3b-faf7-0732" name="Chapter 1 Cards" shortName="Ch. 1" publisher="Chapter 1 Card Pack"/>
+    <publication id="2733-0fd1-3311-3be2" name="Chapter 2 Cards" shortName="Ch. 2" publisher="Chapter 2 Card Pack"/>
+    <publication id="bcdd-038f-9aa1-3237" name="Core Set Cards" shortName="Core" publisher="Call to Arms Core Box"/>
     <publication id="c5ed-9e8c-ec28-4def" name="HotE I: TSR" shortName="HotE I: TSR" publisher="Histories of the Empire Vol. I: The Stormcloak Rebellion"/>
     <publication id="7808-76cd-3ab8-6f86" name="FAQ (v1.2)" publisher="FAQ (v1.2)"/>
     <publication id="6505-1b24-c5b0-6421" name="Into The Dark Cards" shortName="ITD Cards" publisher="Into The Dark Cards"/>
-    <publication id="fc6a-2d15-ff0e-9318" name="Chapter 3 Cards"/>
+    <publication id="fc6a-2d15-ff0e-9318" name="Chapter 3 Cards" shortName="Ch. 3" publisher="Chapter 3 Card Pack" publicationDate="2023"/>
     <publication id="2ee0-173b-47e1-7ff1" name="S:TAG Cards" shortName="S:TAG Cards" publisher="Skyrim: The Adventure Game Minitatures Expansion"/>
-    <publication name="Chapter 4 Cards" id="1d0d-fac6-d336-636f" hidden="false"/>
+    <publication name="Chapter 4 Cards" id="1d0d-fac6-d336-636f" hidden="false" shortName="Ch. 4" publicationDate="2025" publisher="Chapter 4 Card Pack"/>
+    <publication id="0d48-6717-7d1c-2c6c" name="Tales of Tamriel" shortName="ToT" publisher="Tales of Tamriel" publicationDate="2025"/>
+    <publication id="f52c-5dcf-f4e4-d1cd" name="HotE 2: S&amp;S" shortName="HotE I: TSR" publisher="Histories of the Empire Vol. II: Steam and Shadow"/>
   </publications>
   <costTypes>
     <costType id="c61a-51a3-370d-bf55" name=" Septims" defaultCostLimit="-1" hidden="false"/>
     <costType name="Model Count" id="b1c3-7317-4f6a-a8b9" defaultCostLimit="-1" hidden="true"/>
+    <costType name="Boons" id="69c4-9616-5300-e6d0" defaultCostLimit="-1" hidden="false"/>
+    <costType name="EXP" id="2da8-b1c5-eae1-e47d" defaultCostLimit="-1" hidden="false"/>
+    <costType name="Party Boons" id="b7d0-13eb-2710-926f" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="350c-2ddd-8a24-377b" name="Hero">
@@ -198,6 +202,12 @@ Low Priority: Adversaries</comment>
         <characteristicType name="Target Priority" id="d168-4ef7-1042-e358"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="aa10-ba07-8f15-9f8e" name="Untold Legends: Boon/Injury">
+      <characteristicTypes>
+        <characteristicType id="829d-31f9-4f19-7144" name="Type"/>
+        <characteristicType id="2e03-10c8-8edb-253f" name="Effect"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="ba61-d304-9352-ec15" name="Follower" publicationId="4d6f-8c48-a5ea-e83c" page="93" hidden="false"/>
@@ -331,7 +341,7 @@ Low Priority: Adversaries</comment>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="13c7-56f7-87fd-5c49" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="7975-461a-3ea6-a65b" name="Elf" publicationId="4d6f-8c48-a5ea-e83c" hidden="false"/>
+    <categoryEntry id="7975-461a-3ea6-a65b" name="Racial Group: Elf" publicationId="4d6f-8c48-a5ea-e83c" hidden="false"/>
     <categoryEntry id="73b3-09d7-4d9c-8be4" name="Umana Equipment" publicationId="fc6a-2d15-ff0e-9318" hidden="false">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a8a-9eac-aff5-dc65" type="max"/>
@@ -356,7 +366,7 @@ Low Priority: Adversaries</comment>
     </categoryEntry>
     <categoryEntry name="Commander Maro (Character)" id="b3c9-7fc0-a758-b922" hidden="false"/>
     <categoryEntry id="8f46-4e02-54b3-0331" name="Red Eagle is Champion (First Among Reachmen)" publicationId="1d0d-fac6-d336-636f" hidden="false"/>
-    <categoryEntry name="Dunmer" id="6df4-3d08-99df-65d2" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
+    <categoryEntry name="Race: Dunmer" id="6df4-3d08-99df-65d2" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
     <categoryEntry name="Dragon Priest Mask: Nahkriin" id="22fb-a470-48da-9dd0" hidden="false" publicationId="1d0d-fac6-d336-636f">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6193-291e-f25d-7c3b" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
@@ -430,12 +440,27 @@ Low Priority: Adversaries</comment>
     </categoryEntry>
     <categoryEntry name="Crossbow" id="cf38-09fe-916f-c394" hidden="false" publicationId="fc6a-2d15-ff0e-9318"/>
     <categoryEntry name="Entourage" id="93a3-401a-3569-2893" hidden="false"/>
+    <categoryEntry id="b2e8-159c-8939-1f97" name="Untold Legends" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="3"/>
+    <categoryEntry name="Untold Legends: Boon" id="be8f-9d37-ddf9-4c7e" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="4"/>
+    <categoryEntry name="Settlement Building" id="e8dd-d98a-46d7-416c" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="38-70"/>
+    <categoryEntry name="Injury: Broken Arm" id="666b-ee7c-40b2-2910" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="8"/>
+    <categoryEntry name="Race: Orsimer" id="06cd-2ad7-563e-ff6c" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
+    <categoryEntry name="Race: Altmer" id="df0b-e545-944a-535f" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
+    <categoryEntry name="Race: Bosmer" id="98c0-0ee8-cf49-ba9e" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
+    <categoryEntry name="Race: Argonian" id="57c0-d7c1-e451-7fb3" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
+    <categoryEntry name="Race: Breton" id="4c3a-6f46-b78e-50b4" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
+    <categoryEntry name="Race: Imperial" id="2391-eb24-e8f2-dbbb" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
+    <categoryEntry name="Race: Khajiit" id="5e85-86d1-d9bd-3672" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
+    <categoryEntry name="Race: Nord" id="aff1-489d-15a6-ece3" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
+    <categoryEntry name="Race: Redguard" id="134c-2744-720a-d2f4" hidden="false" publicationId="4d6f-8c48-a5ea-e83c"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7138-2b60-74ce-a90b" name="Roster" hidden="false">
       <categoryLinks>
         <categoryLink id="d5be-41bd-807a-4bd8" name="Configuration" hidden="false" targetId="fb89-efb1-54e4-59c5" primary="false"/>
         <categoryLink id="0c8c-a792-3d9b-7bef" name="Reference" hidden="false" targetId="322e-38ea-bf3e-c785" primary="false"/>
+        <categoryLink name="Settlement Building" hidden="false" id="c9ca-9bf3-2c23-8458" targetId="e8dd-d98a-46d7-416c"/>
+        <categoryLink name="Untold Legends" hidden="false" id="4849-3d16-d698-8251" targetId="b2e8-159c-8939-1f97"/>
         <categoryLink id="a40f-b709-d084-d1de" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="139f-9c43-f37b-a8c5" type="max"/>
@@ -691,6 +716,79 @@ A: Yes</description>
           </conditions>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry id="40f7-3544-9648-75e1" name="ToT: Untold Legends (Party Progression)" publicationId="0d48-6717-7d1c-2c6c" hidden="false" collective="false" import="true" type="upgrade" defaultAmount="0" page="3-37" sortIndex="1">
+      <categoryLinks>
+        <categoryLink id="b177-b67c-a4c0-8c4b" name="Configuration" hidden="false" targetId="fb89-efb1-54e4-59c5" primary="false"/>
+        <categoryLink targetId="b2e8-159c-8939-1f97" id="e00e-137c-3dc3-f229" primary="true" name="Untold Legends"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Untold Legends" id="ac13-44a0-5aa5-7837" hidden="false" flatten="true">
+          <rules>
+            <rule name="Experience Bank" id="1e31-092f-f17a-0e56" hidden="false" page="4">
+              <description>Note down here how much EXP you have in total after gaining Experience from scenarios and after spending any Experience in the bank on Boons.</description>
+            </rule>
+            <rule name="Boon Counter" id="b4d4-e0bf-2402-0114" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="4">
+              <description>The Characters within your Party become more powerful over time. Make a note in this section every time you purchase a Boon for a model in your Party.</description>
+            </rule>
+          </rules>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Party Boons" id="c7a8-d26d-3b32-e62e" hidden="false" sortIndex="1">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Party Boon 1" hidden="false" id="49a9-4578-8353-192c">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f66-a47a-04bb-3bfe"/>
+                  </constraints>
+                  <costs>
+                    <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+                    <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                    <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="0"/>
+                    <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="0"/>
+                    <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="0"/>
+                    <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="1"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2e67-f9cf-5d66-2d2e"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="cc78-05d6-273c-552d"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="2e67-f9cf-5d66-2d2e">
+                  <conditions>
+                    <condition type="equalTo" value="5" field="69c4-9616-5300-e6d0" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="cc78-05d6-273c-552d">
+                  <conditions>
+                    <condition type="equalTo" value="5" field="69c4-9616-5300-e6d0" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d91-c9b1-03d9-a817" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="60a1-b02d-fcdc-b0de" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="1ae9-f3d4-630b-f1a8" name="ToT: Settlement Building" publicationId="0d48-6717-7d1c-2c6c" hidden="false" collective="false" import="true" type="upgrade" defaultAmount="0" page="38-70" sortIndex="2">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c001-9448-e33f-5a07" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9cb-b9a4-1e07-065d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5626-5c04-1523-4779" name="Configuration" hidden="false" targetId="fb89-efb1-54e4-59c5" primary="false"/>
+        <categoryLink targetId="e8dd-d98a-46d7-416c" id="2f35-d45f-94c8-7e4f" primary="true" name="Settlement Building"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -4859,7 +4957,7 @@ A: Yes</description>
     </selectionEntry>
     <selectionEntry id="8dba-0cab-2214-a0e2" name="Ebony Sword" publicationId="1d0d-fac6-d336-636f" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="333a-30e5-8f85-4f86" name="Draugr: Ebony Sword" hidden="false" targetId="2051-5777-1151-6f6f" type="profile"/>
+        <infoLink id="333a-30e5-8f85-4f86" name="Ebony Sword" hidden="false" targetId="2051-5777-1151-6f6f" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="15"/>
@@ -5136,7 +5234,7 @@ A: Yes</description>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="084d-e7c9-613a-b668" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="a294-db34-fabd-ae23" name="One-Hand Spells" hidden="false" collective="false" import="true" targetId="8a0d-94f4-f0f7-e285" type="selectionEntryGroup"/>
+                    <entryLink id="a294-db34-fabd-ae23" name="One-Handed Spells" hidden="false" collective="false" import="true" targetId="8a0d-94f4-f0f7-e285" type="selectionEntryGroup"/>
                     <entryLink id="905f-abd3-c0ca-206c" name="Quick Slot &amp; Hybrid Spells" hidden="false" collective="false" import="true" targetId="5951-3d08-b70f-e0c2" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
@@ -5271,7 +5369,7 @@ A: Yes</description>
               </constraints>
               <entryLinks>
                 <entryLink import="true" name="One-Handed Weapons" hidden="false" id="22f5-0ab2-8375-1dd4" collective="false" targetId="99eb-4c90-424e-ecd2" type="selectionEntryGroup" collapsible="true"/>
-                <entryLink import="true" name="One-Hand Spells" hidden="false" id="92cb-dd58-22c3-4fda" collective="false" targetId="8a0d-94f4-f0f7-e285" type="selectionEntryGroup" collapsible="true"/>
+                <entryLink import="true" name="One-Handed Spells" hidden="false" id="92cb-dd58-22c3-4fda" collective="false" targetId="8a0d-94f4-f0f7-e285" type="selectionEntryGroup" collapsible="true"/>
                 <entryLink import="true" name="One-Handed Staves" hidden="false" id="72f2-0570-95e8-61cc" collective="false" targetId="06f5-97a8-3d86-613f" type="selectionEntryGroup" collapsible="true"/>
                 <entryLink import="true" name="Shields" hidden="false" id="048d-1bc1-0d37-c46a" collective="false" targetId="60ed-daf2-01db-e86e" type="selectionEntryGroup" collapsible="true">
                   <constraints>
@@ -5296,7 +5394,7 @@ A: Yes</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="89f7-ba66-4381-aa6d" name="Party Champion" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" defaultSelectionEntryId="9bb6-43ae-1f58-ba79">
+    <selectionEntryGroup id="89f7-ba66-4381-aa6d" name="Party Champion" publicationId="4d6f-8c48-a5ea-e83c" hidden="false" collective="false" import="true" defaultSelectionEntryId="9bb6-43ae-1f58-ba79" sortIndex="1">
       <categoryLinks>
         <categoryLink id="14aa-5666-7dc0-12fe" name="Party Champion" hidden="false" targetId="ea16-f8fd-dd67-9fad" primary="true"/>
       </categoryLinks>
@@ -5385,7 +5483,7 @@ A: Yes</description>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="6c8e-dd1a-4f69-ad97" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
         </entryLink>
-        <entryLink id="c549-2bf4-6e34-a389" name="Skyforge Sword" hidden="false" collective="false" import="true" targetId="4dc7-8d71-e109-1be6" type="selectionEntry">
+        <entryLink id="c549-2bf4-6e34-a389" name="Skyforge (Steel) Sword" hidden="false" collective="false" import="true" targetId="4dc7-8d71-e109-1be6" type="selectionEntry">
           <entryLinks>
             <entryLink import="true" name="Weapon Enchantments" hidden="false" id="b065-6a6a-19e2-d1f5" type="selectionEntryGroup" targetId="3ae5-f30b-7167-ffb3"/>
           </entryLinks>
@@ -6443,8 +6541,8 @@ A: Yes</description>
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-bf06-8acb-dce0" type="instanceOf"/>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74fd-ddce-0be6-02c5" type="instanceOf"/>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="b1cc-bf06-8acb-dce0" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="74fd-ddce-0be6-02c5" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -6659,17 +6757,17 @@ A: Yes</description>
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink id="086c-5f92-6bc8-4902" name="Weapon Enchantment: Winnowing" hidden="false" collective="false" import="true" targetId="1419-9485-38a6-3fb7" type="selectionEntry" sortIndex="">
+        <entryLink id="086c-5f92-6bc8-4902" name="Weapon Enchantment: Winnowing" hidden="false" collective="false" import="true" targetId="1419-9485-38a6-3fb7" type="selectionEntry">
           <modifiers>
             <modifier type="set" value="Storms" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="164d-6700-5330-7b5a" name="Weapon Enchantment: Reaping" hidden="false" collective="false" import="true" targetId="2b21-d444-a9be-e070" type="selectionEntry" sortIndex="">
+        <entryLink id="164d-6700-5330-7b5a" name="Weapon Enchantment: Reaping" hidden="false" collective="false" import="true" targetId="2b21-d444-a9be-e070" type="selectionEntry">
           <modifiers>
             <modifier type="set" value="Reaping" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="d34b-a6b8-fa9f-fc09" name="Weapon Enchantment: Leeching" hidden="false" collective="false" import="true" targetId="d84b-c592-726a-4431" type="selectionEntry" sortIndex="">
+        <entryLink id="d34b-a6b8-fa9f-fc09" name="Weapon Enchantment: Leeching" hidden="false" collective="false" import="true" targetId="d84b-c592-726a-4431" type="selectionEntry">
           <modifiers>
             <modifier type="set" value="Leeching" field="name"/>
           </modifiers>
@@ -6679,32 +6777,32 @@ A: Yes</description>
             <modifier type="set" value="Turn Undead" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="22cc-80c0-564a-4b75" name="Weapon Enchantment: Sparks" hidden="false" collective="false" import="true" targetId="8aa7-db3d-5224-7e8d" type="selectionEntry" sortIndex="">
+        <entryLink id="22cc-80c0-564a-4b75" name="Weapon Enchantment: Sparks" hidden="false" collective="false" import="true" targetId="8aa7-db3d-5224-7e8d" type="selectionEntry">
           <modifiers>
             <modifier type="set" value="Sparks" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="24c7-b324-86f2-52a5" name="Weapon Enchantment: Embers" hidden="false" collective="false" import="true" targetId="8854-53df-1cdb-c0ad" type="selectionEntry" sortIndex="">
+        <entryLink id="24c7-b324-86f2-52a5" name="Weapon Enchantment: Embers" hidden="false" collective="false" import="true" targetId="8854-53df-1cdb-c0ad" type="selectionEntry">
           <modifiers>
             <modifier type="set" value="Embers" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="150a-6719-e854-2ad0" name="Weapon Enchantment: Frost" hidden="false" collective="false" import="true" targetId="c859-6f34-5674-d49a" type="selectionEntry" sortIndex="">
+        <entryLink id="150a-6719-e854-2ad0" name="Weapon Enchantment: Frost" hidden="false" collective="false" import="true" targetId="c859-6f34-5674-d49a" type="selectionEntry">
           <modifiers>
             <modifier type="set" value="Frost" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="268e-6bc5-d60a-f1f7" name="Weapon Enchantment: Storms" hidden="false" collective="false" import="true" targetId="86d8-471e-ff8e-c663" type="selectionEntry" sortIndex="">
+        <entryLink id="268e-6bc5-d60a-f1f7" name="Weapon Enchantment: Storms" hidden="false" collective="false" import="true" targetId="86d8-471e-ff8e-c663" type="selectionEntry">
           <modifiers>
             <modifier type="set" value="Storms" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="222c-20e9-f428-c884" name="Weapon Enchantment: Harvesting" hidden="false" collective="false" import="true" targetId="eb6d-adf7-c549-bfe6" type="selectionEntry" sortIndex="">
+        <entryLink id="222c-20e9-f428-c884" name="Weapon Enchantment: Harvesting" hidden="false" collective="false" import="true" targetId="eb6d-adf7-c549-bfe6" type="selectionEntry">
           <modifiers>
             <modifier type="set" value="Harvesting" field="name"/>
           </modifiers>
         </entryLink>
-        <entryLink id="83bf-0ac4-8489-c418" name="Weapon Enchantment: Devouring" hidden="false" collective="false" import="true" targetId="8da5-67d4-84e0-95f1" type="selectionEntry" sortIndex="">
+        <entryLink id="83bf-0ac4-8489-c418" name="Weapon Enchantment: Devouring" hidden="false" collective="false" import="true" targetId="8da5-67d4-84e0-95f1" type="selectionEntry">
           <modifiers>
             <modifier type="set" value="Devouring" field="name"/>
           </modifiers>
@@ -7853,7 +7951,7 @@ A: Yes</description>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="67df-582a-bb94-4c3a" name="Light Armors" hidden="false" collective="false" import="true" collapsible="true" flatten="true">
+    <selectionEntryGroup id="67df-582a-bb94-4c3a" name="Light Armors" hidden="true" collective="false" import="true" collapsible="true" flatten="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -7865,7 +7963,6 @@ A: Yes</description>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="append" value="(Armor)" field="name" join=" "/>
       </modifiers>
       <entryLinks>
         <entryLink id="b75c-269c-23ef-0fee" name="Elven Light Armor" hidden="false" collective="false" import="true" targetId="a9e2-120e-debc-07a0" type="selectionEntry">
@@ -8318,6 +8415,1453 @@ A: Yes</description>
             <entryLink import="true" name="Armor Enchantments" hidden="false" id="0791-41e3-9e59-d9ba" type="selectionEntryGroup" targetId="d8f4-6cca-bf2a-0106"/>
           </entryLinks>
         </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Untold Legends: Injuries" id="0d04-4a69-9b02-ca46" hidden="true" publicationId="0d48-6717-7d1c-2c6c" page="4" collapsible="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Physical Injuries" id="0c60-6747-f309-091a" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bruised" hidden="false" id="b77e-fa02-dc1d-d6a3" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3d0-68af-8a90-14e8"/>
+              </constraints>
+              <profiles>
+                <profile name="Bruised" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="0921-678c-37af-7484" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model must remove one [GREEN] Accuracy Dice from every Skill Test that contains at least one [GREEN].</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Arrow to the Knee" hidden="false" id="147a-d3fd-5995-f02e" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="2">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17b4-ce4c-5e02-3756"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Ponderous" id="c810-a57d-0cab-5922" hidden="false" type="rule" targetId="00c2-1d16-0911-9a98"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Arrow to the Knee" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="1ecd-6e88-88fc-f10f" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model gains the Ponderous keyword and cannot perform Move Boosts.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Broken Arm" hidden="false" id="a115-da9d-e225-f66e" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="3">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d11-7739-4421-aa28"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Broken Arm" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="106d-da05-20f8-f055" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model can only equip one Single-Handed Upgrade Card to its Hand Slots at any one time. [Not tracked by builder!]</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stinging Laceration" hidden="false" id="c15d-1b30-b8e4-5e89" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7364-807c-5cb8-1964"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="remove" value="8af2-ae59-4a5c-98b8" field="category" affects="recursive" scope="model-or-unit">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="remove" value="e8e8-69e8-5565-af4f" field="category" affects="recursive" scope="model-or-unit">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Stinging Laceration" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="8225-c511-a1ee-ac40" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model cannot equip Light Armor or Heavy Armor.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Internal Bleeding" hidden="false" id="2c42-fbd7-2af4-b7f9" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91d2-cbe1-ae35-b664"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink name="Feeble" id="cdf3-0b6b-c0f9-306d" hidden="false" type="rule" targetId="eab8-73f5-feed-5924"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Internal Bleeding" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="2956-1f52-f7a2-8bb0" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model gains the Feeble keyword.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Elemental Injuries" id="3a01-f4e3-8ab0-5614" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heat Exhaustion" hidden="false" id="ce4f-6fd6-bf92-6f99" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b055-4d30-b48c-55fb"/>
+              </constraints>
+              <profiles>
+                <profile name="Heat Exhaustion" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="3605-9057-65a0-2ac5" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model must spend one additional Stamina to perform a Boost.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Burned Flesh" hidden="false" id="0f36-09df-e1b4-e064" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="3">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce4c-c01b-cd9d-e6be"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink name="Weakness (Type)" id="74e3-910a-0c10-81ae" hidden="false" type="rule" targetId="550d-354c-0e2a-c57b"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Burned Flesh" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="7279-5297-e43d-8e99" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model gains the Weakness (Fire) keyword. If the model has Resistance (Fire) as a keyword on its Character Card, that keyword is ignored instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chills" hidden="false" id="6fb1-de69-02b4-7bc9" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="987d-e288-a6d1-740c"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink name="Weakness (Type)" id="48d1-1daa-92fb-36b7" hidden="false" type="rule" targetId="550d-354c-0e2a-c57b"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Chills" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="3623-d87f-a5cc-54c7" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model gains the Weakness (Frost) keyword. If the model has Resistance (Frost) as a keyword on its Character Card, that keyword is ignored instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Aftershock" hidden="false" id="d3dd-9c58-be51-9787" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a761-1b54-98d6-4a49"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink name="Weakness (Type)" id="4619-8dec-52aa-40f1" hidden="false" type="rule" targetId="550d-354c-0e2a-c57b"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Aftershock" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="e28f-9259-1172-5f16" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model gains the Weakness (Shock) keyword. If the model has Resistance (Shock) as a keyword on its Character Card, that keyword is ignored instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rattles" hidden="false" id="0a6e-143f-6fa2-63df" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="2">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4492-0965-ed8a-b9b5"/>
+              </constraints>
+              <profiles>
+                <profile name="Rattles" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="0e00-42a6-4795-a3ff" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model does not replenish its Stamina Reserve at the beginning of its activation during even-numbered rounds (Round 2, Round 4, Round 6, etc.).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Magical Injuries" id="5039-7864-8e4a-ac07" hidden="false" sortIndex="3">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Witbane" hidden="false" id="c5a2-e927-055a-a207" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="2">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9266-8329-9cee-0b78"/>
+              </constraints>
+              <profiles>
+                <profile name="Witbane" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="515a-58e8-0b9c-8fb5" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model does not replenish its Magicka Reserve at the beginning of its activation during even-numbered rounds (Round 2, Round 4, Round 6, etc.).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cursed" hidden="false" id="0fcd-38ec-7ab6-2e2d" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ec7-55f9-181c-0cad"/>
+              </constraints>
+              <profiles>
+                <profile name="Cursed" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="2793-f4c1-60c1-0918" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model does not have its Path.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="remove" value="8b22-d1f0-dcf8-83d7" field="category" scope="model-or-unit" affects="recursive"/>
+                    <modifier type="remove" value="9797-61ac-cbe1-cccd" field="category" affects="recursive" scope="model-or-unit"/>
+                    <modifier type="remove" value="b1cc-bf06-8acb-dce0" field="category" affects="recursive" scope="model-or-unit"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Brain Fog" hidden="false" id="dba5-f16f-2a3a-14cb" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="3">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5581-d021-0548-e0f5"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Brain Fog" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="f05b-febb-1ee6-81f7" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model reduces its Agility and Intelligence Attributes by -2 to a minimum of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                  </conditions>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="decrement" value="2" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero"/>
+                        <modifier type="append" value="*" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="floor" value="1" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero"/>
+                      </modifiers>
+                    </modifierGroup>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="decrement" value="2" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero"/>
+                        <modifier type="append" value="*" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="floor" value="1" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero"/>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Weakened" hidden="false" id="9aaa-3984-77e0-d3e3" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="594e-db2d-8881-5585"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Weakened" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="f5ab-473d-b4c5-be83" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model reduces the maximum value of each Reserve (Health, Stamina, and Magicka) by -1 to a minimum of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                  </conditions>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="decrement" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                        <modifier type="append" value="*" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="floor" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                      </modifiers>
+                    </modifierGroup>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="decrement" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                        <modifier type="append" value="*" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="floor" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                      </modifiers>
+                    </modifierGroup>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="decrement" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                        <modifier type="append" value="*" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="floor" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Vigor Loss" hidden="false" id="69bf-229a-ae05-5b06" publicationId="0d48-6717-7d1c-2c6c" page="8" sortIndex="4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5694-df94-2bea-2a6b"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Vigor Loss" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="f0ec-1bea-4d17-6693" publicationId="0d48-6717-7d1c-2c6c" page="8">
+                  <characteristics>
+                    <characteristic name="Type" typeId="829d-31f9-4f19-7144">Injury</characteristic>
+                    <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model reduces its Strength and Wisdom Attributes by -2 to a minimum of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                  </conditions>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="decrement" value="2" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero"/>
+                        <modifier type="append" value="*" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="floor" value="1" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero"/>
+                      </modifiers>
+                    </modifierGroup>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="decrement" value="2" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero"/>
+                        <modifier type="append" value="*" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="floor" value="1" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero"/>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="40f7-3544-9648-75e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Injuries" id="8aee-e261-65c4-702f" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="7">
+          <description>For each model that was removed as a casualty during the game, you must check to see if it suffers an Injury. First determine what nature of mishap befell the character - Physical Injury, Elemental Injury, or Magical Injury.
+
+Players may either choose one of the Injury Tables on page 8 that most closely matches how the model was removed during the game, OR roll on the table below to randomly determine one. [...]
+
+After you have rolled an Injury, it is added to the model’s entry on the Party Roster. An Injury lasts for the next game that model takes part in, after which it is healed, any keywords gained due to an Injury are lost when that Injury is healed.</description>
+          <alias>Injury</alias>
+        </rule>
+        <rule name="Optional Rule: Character Death" id="c6b4-9cc3-0abb-7f39" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="7">
+          <description>If a model is removed as a casualty, before determining if the model is Injured, first roll the White Skill Dice. If the result on the Skill Dice is a [FAILURE] the model has succumbed to its injuries and has perished. The model has died and cannot be used any more in scenarios with your Party. Otherwise, roll on the Injury tables as normal.</description>
+          <alias>Character Death</alias>
+          <alias>Death</alias>
+        </rule>
+        <rule name="Injuries for Heroes and Followers" id="d254-472c-0936-67da" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="8">
+          <description>Heroes can suffer any of the five Injuries on a table. Followers can only suffer the top two results. When rolling for a Follower, re-roll any result displaying a Special Effect Icon until an applicable Injury is determined.</description>
+          <alias>Injury</alias>
+        </rule>
+      </rules>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Untold Legends: Boons" id="e9dc-a353-a746-aeca" hidden="true" publicationId="0d48-6717-7d1c-2c6c" page="4" collapsible="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Standard Boons" id="80a3-ec58-67cc-d9c3" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="10" collapsible="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Perk Addition" id="7547-86c9-eff9-28ee" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="14">
+              <comment>long af list do last</comment>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Alchemy Perks" id="19ec-409f-0886-bbf6" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="25" sortIndex="5">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="37d3-238a-d08a-1589" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Alteration Perks" id="9770-8ea0-c2cf-55db" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="25" sortIndex="4">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="2aea-a863-419f-ba90" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Archery Perks" id="fca2-571e-5bb7-dd6b" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="26" sortIndex="2">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="4d42-f7a9-a2ca-654e" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Block Perks" id="b6b8-5c12-a738-4d28" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="27" sortIndex="1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="c65e-1c8e-613b-dc01" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Blood Magic Perks" id="b978-9f8f-6fa6-6336" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="28" sortIndex="6">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="84c5-1d46-80c8-1e38" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="16e1-93b0-a99d-b6b1" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Conjuration Perks" id="163c-f3fe-f37d-b856" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="28" sortIndex="4">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="f1a5-f2a8-0691-3c85" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Destruction Perks" id="a748-e223-3ef0-e9d5" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="29" sortIndex="4">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="4c5c-c1e0-77f2-cf34" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Enchanting Perks" id="e183-422b-82eb-cd16" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="30" sortIndex="5">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="03bd-d045-659f-b234" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Heavy Armor Perks" id="9dd0-e17a-1dbc-f0a7" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="30" sortIndex="3">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="e8e8-69e8-5565-af4f" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Illusion Perks" id="9e31-8aad-f108-4926" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="31" sortIndex="4">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="93b4-afa5-eb85-d8ec" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Light Armor Perks" id="c209-346f-1a3e-cb3c" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="31" sortIndex="3">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="8af2-ae59-4a5c-98b8" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Lockpicking Perks" id="8400-7b5d-5183-f3ed" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="32" sortIndex="2">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7d06-5fcb-c718-e106" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="One-Handed Perks" id="7ec7-b56e-419c-27e3" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="32" sortIndex="1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="64bb-1eb1-1896-f36d" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Pickpocket Perks" id="f5cd-01c7-360f-c975" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="33" sortIndex="2">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7f96-4899-973e-0e11" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Restoration Perks" id="c7c1-0f79-1913-3f89" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="33" sortIndex="5">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="b0b5-e13e-f45a-5045" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Smithing Perks" id="db0b-4bbb-531b-122e" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="34" sortIndex="3">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="c7db-eac8-21dc-49a0" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Sneak Perks" id="8697-d3bc-81dc-4c21" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="35" sortIndex="2">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="bf6e-ed80-b16a-b9b9" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Speech Perks" id="d713-c100-c336-a35d" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="35" sortIndex="5">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="dd8f-4143-9e14-8e73" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Two-Handed Perks" id="24d2-9f75-ca34-5953" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="36" sortIndex="1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="74fd-ddce-0be6-02c5" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Heroic Boons" id="d554-b4af-3491-5890" hidden="false" collapsible="true">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Perk Upgrade" id="9f89-4f45-0236-fd38" hidden="false" sortIndex="1" publicationId="0d48-6717-7d1c-2c6c" page="14">
+              <rules>
+                <rule name="Perk Upgrade" id="c2e6-f970-f930-d494" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                  <description>EXP can be spent for a Perk Upgrade. This will allow a model to upgrade a Perk it has on its Character Card to Perk Rank II. A model can upgrade any number of Perks. The complete list of Rank II Perks can be found in Appendix 1 ([ToT] p.25). The Perks are organized into Perk Trees sorted by Skill. Once upgraded, the model loses the Rank I version of the Perk.</description>
+                </rule>
+              </rules>
+              <comment>long af list do last</comment>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Alchemy Perk Upgrades" id="4430-7b7c-2235-9b75" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="25" sortIndex="5">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="37d3-238a-d08a-1589" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Benefactor II" hidden="false" id="f2a6-27b4-9970-121c" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71f5-dd9f-6bd0-0ee1"/>
+                      </constraints>
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Perk: Benefactor II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="884e-001f-af5e-c604" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Any Potion with a Diminishing Effect used by this model remains at the first stage of the effect for one additional round.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Physician II" hidden="false" id="8a4e-670d-272c-f999" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18d2-e56e-a0c4-e13d"/>
+                      </constraints>
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="12"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Perk: Physician II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="26e2-0d95-be9c-cbde" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Potions that restore Health, Stamina, or Magicka used by this model (either on itself or as an Aid Action) restore [RED] additional points.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Poisoner II" hidden="false" id="b73a-ef37-a064-07aa" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6aac-d226-cc8b-b312"/>
+                      </constraints>
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Perk: Poisoner II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="2ff7-a135-b492-fc13" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">When this model causes a Poison Token to be assigned to an enemy, add one additional token of a different type to the Poison Token.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Alteration Perk Upgrades" id="ef16-688f-b054-7116" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="25" sortIndex="4">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="2aea-a863-419f-ba90" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Atronach II" hidden="false" id="c03d-f55e-fbeb-a9fe" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="694f-4fa7-0900-5cf3"/>
+                      </constraints>
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Perk: Atronach II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="d9ce-6409-7ba4-3e06" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model restores +1 Magicka whenever it or any other friendly model within 6” is the target of a Spell. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Mage Armor II" hidden="false" id="b14d-abde-9413-14a5" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a330-16ad-3459-641b"/>
+                      </constraints>
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="12"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Perk: Mage Armor II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="db3b-1e49-310c-5e24" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">As long as this model has no Armor Upgrade Cards equipped, it gains an Armor Rating of [RED] and the Resistance (Physical) keyword.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stability II" hidden="false" id="547f-a7ba-42b2-3859" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa2d-5e79-7cff-f3ea"/>
+                      </constraints>
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Perk: Stability II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="5ea0-2744-c66c-b264" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model does not have to pay Magicka Upkeep for Alteration Spells.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Archery Perk Upgrades" id="65eb-ade8-a045-88d0" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="26" sortIndex="2">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="4d42-f7a9-a2ca-654e" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Block Perk Upgrades" id="4c4b-4d15-d25b-eea3" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="27" sortIndex="1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="c65e-1c8e-613b-dc01" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Blood Magic Perk Upgrades" id="02f3-1ebf-6880-0a75" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="28" sortIndex="6">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="84c5-1d46-80c8-1e38" shared="true"/>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="16e1-93b0-a99d-b6b1" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Conjuration Perk Upgrades" id="26c6-09e1-2405-f45d" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="28" sortIndex="4">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="f1a5-f2a8-0691-3c85" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Destruction Perk Upgrades" id="0d5d-f0f5-3d55-4b8d" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="29" sortIndex="4">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="4c5c-c1e0-77f2-cf34" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Enchanting Perk Upgrades" id="5b9a-3e6f-ebd5-ff7d" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="30" sortIndex="5">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="03bd-d045-659f-b234" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Heavy Armor Perk Upgrades" id="eff2-b7f6-e969-6dfd" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="30" sortIndex="3">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="e8e8-69e8-5565-af4f" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Illusion Perk Upgrades" id="93ad-1ffa-bd60-7b06" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="31" sortIndex="4">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="93b4-afa5-eb85-d8ec" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Light Armor Perk Upgrades" id="23d7-70b7-6ded-9309" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="31" sortIndex="3">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="8af2-ae59-4a5c-98b8" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Lockpicking Perk Upgrades" id="fbcd-40f9-22f5-d601" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="32" sortIndex="2">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7d06-5fcb-c718-e106" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="One-Handed Perk Upgrades" id="d792-3072-e321-473f" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="32" sortIndex="1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="64bb-1eb1-1896-f36d" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Pickpocket Perk Upgrades" id="0033-7070-2f64-ab66" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="33" sortIndex="2">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7f96-4899-973e-0e11" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Restoration Perk Upgrades" id="c00c-440e-8409-c949" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="33" sortIndex="5">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="b0b5-e13e-f45a-5045" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Smithing Perk Upgrades" id="aaae-ccdc-741a-8d1e" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="34" sortIndex="3">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="c7db-eac8-21dc-49a0" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Sneak Perk Upgrades" id="4d2c-0b81-e9c7-38a0" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="35" sortIndex="2">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="bf6e-ed80-b16a-b9b9" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Speech Perk Upgrades" id="d218-0a2d-0874-6c36" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="35" sortIndex="5">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="dd8f-4143-9e14-8e73" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Two-Handed Perk Upgrades" id="4d89-4144-10f8-ae63" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="36" sortIndex="1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="74fd-ddce-0be6-02c5" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Sign Boon" id="40e9-2eb9-f4da-d372" hidden="false" sortIndex="2" publicationId="0d48-6717-7d1c-2c6c" page="14">
+              <rules>
+                <rule name="Sign Boon" id="c25e-4ef6-d73b-aaef" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                  <description>EXP can be spent to buy a Sign Boon. This grants a special rule based on their Path. A Hero can only ever purchase one of these Boons. A Hero may only select a Sign from their own Path.</description>
+                </rule>
+              </rules>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Might Sign Boons" id="ccd4-5d67-f6e4-487a" hidden="false" flatten="true">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Sign of the Lady" hidden="false" id="ff19-cf28-be33-72de" sortIndex="1" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Regenerate Health" id="02e5-9a0c-e4d3-941b" hidden="false" type="rule" targetId="9093-1c12-08d9-ec7f"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee4d-3f26-7ccd-8dd4"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Sign of the Lady" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="f2dc-ef3b-286d-d78d" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Sign Boon</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model gains the Regenerate Health keyword.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Sign of the Lord" hidden="false" id="f2bb-6105-651c-acbf" sortIndex="2" page="14" publicationId="0d48-6717-7d1c-2c6c">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                        <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Resistance (Type)" id="7f6a-aba4-9335-c747" hidden="false" type="rule" targetId="b048-ffef-95a3-aaf9"/>
+                        <infoLink name="Damage Type: Physical" id="cae1-6262-0df9-8bee" hidden="false" type="rule" targetId="3188-a2d3-2a5e-4704"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c495-79db-6f4a-26cb"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Sign of the Lord" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="ed33-d67f-0c0c-8273" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Sign Boon</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model gains the Resistance (Physical) keyword.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Sign of the Warrior" hidden="false" id="7d3e-cff9-e9a5-6f43" sortIndex="3" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e82-e67c-26e5-2a39"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Sign of the Warrior" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="0322-5bf5-8ca7-b7fe" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Sign Boon</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model adds [GREEN] to Skill Tests for Skills associated with Strength or Endurance.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="b1cc-bf06-8acb-dce0" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Shadow Sign Boons" id="3af1-f0e7-bde2-1162" hidden="false" flatten="true">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Sign of the Shadow" hidden="false" id="5d57-4175-56d0-c330" sortIndex="1" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="288b-9932-2094-8293"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Sign of the Shadow" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="1829-1ca8-1700-4b49" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Sign Boon</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game as a Special Action, this model may gain a Hidden Token. Additionally, enemy models attempting to Detect this model remove all [GREEN] Effect Dice from the Attribute Test.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Sign of the Steed" hidden="false" id="e144-fa07-02f7-b1ee" sortIndex="2" page="14" publicationId="0d48-6717-7d1c-2c6c">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Fleet" id="3f45-13b2-7e9b-2f9c" hidden="false" type="rule" targetId="a1e3-4e0b-f7c2-eb59"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0162-2cba-008b-76be"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Sign of the Steed" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="2c45-7464-d0d1-2542" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Sign Boon</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model gains the Fleet keyword and suffers no penalty to movement distance for having Heavy Armor equipped to the Body Slot.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Sign of the Thief" hidden="false" id="8816-ca06-889d-1021" sortIndex="3" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c925-d998-d348-459c"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Sign of the Thief" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="0635-5fbc-959f-63d2" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Sign Boon</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model adds [GREEN] to Skill Tests for Skills associated with Agility.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9797-61ac-cbe1-cccd" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Sorcery Sign Boons" id="77aa-daed-0875-2dd0" hidden="false" flatten="true">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Sign of the Apprentice" hidden="false" id="5168-6fe4-9228-7091" sortIndex="1" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6822-ce9a-f2b0-d368"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Regenerate Magicka" id="7195-582e-2501-3d94" hidden="false" type="rule" targetId="a89f-5da7-acf9-ff3b"/>
+                        <infoLink name="Weakness (Type)" id="807c-c193-b79b-551b" hidden="false" type="rule" targetId="550d-354c-0e2a-c57b"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Sign of the Apprentice" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="497d-cd08-2efe-6951" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Sign Boon</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model gains the Regenerate Magicka and Weakness (Magic) keywords.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Sign of the Mage" hidden="false" id="e18e-b26b-1ba0-5ab6" sortIndex="2" page="14" publicationId="0d48-6717-7d1c-2c6c">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3857-5982-8de0-7355"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Sign of the Mage" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="4041-c720-3cb8-b3ac" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Sign Boon</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model adds [GREEN] to Skill Tests for Skills associated with Intelligence or Wisdom.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Sign of the Ritual" hidden="false" id="4f6c-cd1f-ca0c-e108" sortIndex="3" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb01-8af2-1ee8-ec78"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Sign of the Ritual" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="8ab2-d755-45dd-974e" publicationId="0d48-6717-7d1c-2c6c" page="14">
+                          <characteristics>
+                            <characteristic name="Type" typeId="829d-31f9-4f19-7144">Sign Boon</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game as a Special Action, this model may resolve the effect of the Reanimate Corpse Conjuration Spell as if it had successfully cast it.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Reanimate Corpse" id="ad1e-a574-22fd-a238" hidden="false" type="profile" targetId="94e1-2cc9-a9ac-6ad8"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="8b22-d1f0-dcf8-83d7" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d14b-73f5-93f8-9cd9"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Heritage Boon" id="b472-5666-660b-edb4" hidden="false" sortIndex="3" publicationId="0d48-6717-7d1c-2c6c" page="15">
+              <rules>
+                <rule name="Heritage Boon" id="8e2e-844b-baa7-363b" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                  <description>EXP can be spent to buy a Heritage Boon. This grants a special rule based on the Hero’s race. A Hero can only ever purchase one of these Boons. If a model has a race not listed here, it cannot buy a Heritage Boon.</description>
+                </rule>
+              </rules>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Altmer: Old Ones" hidden="true" id="2973-d23f-7f16-7e57" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                  <costs>
+                    <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                    <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                    <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                    <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                    <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                    <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61de-7756-292b-b8bd"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="greaterThan" value="1" field="selections" scope="parent" childId="any" shared="true">
+                          <comment>race implementation</comment>
+                        </condition>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Argonian: Shadow Tactics" hidden="true" id="b099-d4f0-83cf-f56a" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                  <costs>
+                    <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                    <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                    <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                    <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                    <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                    <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4112-5ee7-928e-3efc"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Shadow Tactics" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="5dff-fb22-8a0f-3e99" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                      <characteristics>
+                        <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, while within Area Terrain, as a Special Action, this model may gain a Hidden Token.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden"/>
+                  </modifiers>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bosmer: Vanguard" hidden="true" id="e81b-f844-511f-114b" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                  <costs>
+                    <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                    <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                    <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                    <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                    <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                    <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="358d-0039-1d8d-1a56"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Vanguard" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="1f50-fcb1-f27f-1b4c" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                      <characteristics>
+                        <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, as a Special Action, this model may gain the Fleet keyword until the end of the round. </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden"/>
+                  </modifiers>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Breton: Dragonskin" hidden="true" id="3398-aff8-8469-091a" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                  <costs>
+                    <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                    <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                    <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                    <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                    <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                    <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b079-9d4f-d447-cc0a"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Dragonskin" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="f47f-c7ac-0fe0-12ea" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                      <characteristics>
+                        <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, as a Special Action, after rolling for Armor Rating, this model may restore its Magicka Reserve equal to the amount of Health missing from its Health Reserve.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden"/>
+                  </modifiers>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dunmer: Ancestral Shield" hidden="true" id="7229-e691-87a8-59b0" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                  <costs>
+                    <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                    <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                    <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                    <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                    <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                    <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7520-0490-9cc7-62bd"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Ancestral Shield" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="1a57-db99-9526-5a13" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                      <characteristics>
+                        <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, as a Special Action, this model gains the Ancestor’s Wrath keyword until the end of the round.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden"/>
+                  </modifiers>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Imperial: Voice of the Emperor" hidden="true" id="1274-4ca7-b56a-e6bd" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                  <costs>
+                    <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                    <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                    <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                    <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                    <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                    <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca7e-464f-61fb-82c7"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Voice of the Emperor" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="477c-5832-cb2b-2d85" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                      <characteristics>
+                        <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, as a Special Action, this model may give all friendly models within 3” the Relentless keyword until the end of the round.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden"/>
+                  </modifiers>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Khajiit: Snatch and Grab" hidden="true" id="f333-1f36-4c08-821b" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                  <costs>
+                    <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                    <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                    <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                    <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                    <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                    <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55b4-5fe4-4f8a-138c"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Snatch and Grab" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="1a5e-f02a-b7f5-5254" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                      <characteristics>
+                        <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, while Engaged with an enemy model, this model may gain the Pickpocket Skill until the end of the round. Khajiit that already have the Pickpocket Skill instead add [GREEN][GREEN] to Pickpocket Skill Tests until the end of the round.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden"/>
+                  </modifiers>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Nord: Battlecry" hidden="true" id="0e20-fe28-adca-3e80" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                  <costs>
+                    <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                    <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                    <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                    <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                    <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                    <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b68-1585-7e44-0c9c"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Battlecry" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="78ce-8fd5-a50f-09de" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                      <characteristics>
+                        <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, as a Special Action, this model may give all enemy models within 3” a Shaken Token.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden"/>
+                  </modifiers>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Orsimer: Unflinching" hidden="true" id="de04-7616-2dfc-5fe7" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                  <costs>
+                    <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                    <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                    <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                    <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                    <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                    <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d073-ff0d-d9e7-94f5"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Unflinching" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="575c-73b4-a7a3-dbc0" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                      <characteristics>
+                        <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, before rolling for Armor Rating, this model may add [BLACK] to its Armor Rating roll. </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden"/>
+                  </modifiers>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Redguard: Yokudan Heritage" hidden="true" id="e5cd-8254-2b39-0fe8" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                  <costs>
+                    <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="9"/>
+                    <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                    <cost name="EXP Banked" typeId="44ef-3f74-3718-acb8" value="-20"/>
+                    <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                    <cost name="EXP Spent" typeId="2da8-b1c5-eae1-e47d" value="20"/>
+                    <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f43-b421-99a2-17e2"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Yokudan Heritage" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="9200-1a39-f993-3acf" publicationId="0d48-6717-7d1c-2c6c" page="15">
+                      <characteristics>
+                        <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, while performing a Melee Attack Skill Test, this model may add [RED] to the Skill Test’s Effect Dice. </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden"/>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f82-22ea-7102-3dea"/>
+              </constraints>
+              <comment>tedious implementation do last</comment>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ea44-ad61-0d6b-a767"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="5" field="ea44-ad61-0d6b-a767">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="40f7-3544-9648-75e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Hero Shared Selections" id="3e68-7239-81c2-b12e" hidden="false" flatten="true" sortIndex="2">
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="5d5d-0e73-63f1-3761" type="selectionEntryGroup" targetId="77fb-6f37-f1df-9d41" sortIndex="1"/>
+        <entryLink import="true" name="Untold Legends: Boons" hidden="false" id="51c8-118e-3cf0-1998" type="selectionEntryGroup" targetId="e9dc-a353-a746-aeca" sortIndex="2"/>
+        <entryLink import="true" name="Untold Legends: Injuries" hidden="false" id="c239-eba6-71d2-ee2b" type="selectionEntryGroup" targetId="0d04-4a69-9b02-ca46" sortIndex="3"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -9176,6 +10720,7 @@ If the line from the Attacker to the new target location passes through any Ter
     <rule id="1c80-ddbe-173a-056e" name="Damage Type: Force" publicationId="4d6f-8c48-a5ea-e83c" page="94" hidden="false">
       <description>If an Attack of the Force type causes any damage but does not cause the target to be removed from play, the target model is moved in a straight line directly away from the Attacker (on a line drawn center-to-center between both models’ bases). The distance
 moved is equal to the damage inflicted plus a roll of [BLACK] in inches. Sometimes, an additional bonus distance will be specified by the Attack [...see BRB pg. 94].</description>
+      <alias>Force</alias>
     </rule>
     <rule id="0950-f010-d90b-9765" name="Damage Type: Frost" publicationId="4d6f-8c48-a5ea-e83c" page="94" hidden="false">
       <description>If an Attack of the Frost type causes any damage but does not cause the target to be removed from play, the target cannot use any Boosts until the end of its next activation. This can be tracked by placing a spare token next to the model. If the target had a Burning Token, the Burning Token is removed.</description>
@@ -9184,6 +10729,7 @@ moved is equal to the damage inflicted plus a roll of [BLACK] in inches. Someti
     <rule id="90d7-eca3-d313-21d4" name="Damage Type: Magic" publicationId="4d6f-8c48-a5ea-e83c" page="94" hidden="false">
       <description>The Magic Damage Type inflicts no extra effects, as usually magical Attacks will also confer one of the 3 elemental Damage Types (Fire, Frost, or Shock). The Magic Damage Type is unique in that Magical Attacks can be both the Magic Damage Type and one
 additional Damage Type. All Spells and Dragon Shouts gain the Magic Damage Type and the Enchanted Keyword in addition to any other Damage Types listed on their card</description>
+      <alias>Magic</alias>
     </rule>
     <rule id="c757-1849-5b26-4b56" name="Damage Type: Shock" publicationId="4d6f-8c48-a5ea-e83c" page="94" hidden="false">
       <description>If an Attack of the Shock type causes any damage but does not cause the target to be removed from play, the target gains a +2 modifier to all Alteration, Conjuration, Destruction, Illusion and Restoration Skill Tests until the end of its next activation. This can be tracked by placing a spare token next to the model.</description>
@@ -9314,6 +10860,7 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
     </rule>
     <rule id="fd98-d091-a076-05dd" name="Damage Type: Sun" publicationId="4d6f-8c48-a5ea-e83c" page="94" hidden="false">
       <description>n addition to all the effects suffered by the Fire Damage Type, attacks of the Sun Damage Type add an additional [RED] against models of the Undead Race or Vampire Subrace. Additionally, Undead or Vampire models cannot equip Weapons or Spells that have the Sun Damage Type. If an attack with the Sun Damage Type is performed against a model that is not Undead or a Vampire, those models add [YELLOW] to their Armor Rating when attempting to reduce incoming Damage.</description>
+      <alias>Sun</alias>
     </rule>
     <rule id="8792-767e-1e78-bd0f" name="Vampire Perk: Detect Creatures" publicationId="4d6f-8c48-a5ea-e83c" page="102" hidden="false">
       <description>As a Special Action, this model may spend any number of Stamina points to remove Hidden Tokens from enemy models within 6&quot; and Line of Sight at a cost of 1 Stamina point per Hidden Token removed.</description>
@@ -9417,6 +10964,7 @@ Unless otherwise specified, Summon Spells receive an Upkeep Token – unlike no
     </rule>
     <rule name="Damage Type: Physical" id="3188-a2d3-2a5e-4704" hidden="false" publicationId="4d6f-8c48-a5ea-e83c" page="94">
       <description>All damage is Physical unless a rule specifically states otherwise. There are no special rules covering Physical damage.</description>
+      <alias>Physical</alias>
     </rule>
     <rule name="Dragons and Movement" id="5bb1-e560-23b7-d679" hidden="false" publicationId="1d0d-fac6-d336-636f" page="12">
       <description>In every even-numbered round, beginning in round 2 (so rounds 2, 4, 6, and so on), this model gains the Fly keyword for the duration of any Move or Fall Back Response it is required to take. This also applies to any Ancient Dragon and Mirmulnir.</description>
@@ -12573,8 +14121,7 @@ At the end of the round, each enemy engaged with this model must pass an Enduran
         <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction</characteristic>
         <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[GREEN][RED][YELLOW] (Shock)
 [HELMET]: add [YELLOW]
-[OBLIVION]: Stagger
-</characteristic>
+[OBLIVION]: Stagger</characteristic>
         <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Magicka Boost (1): add Area Effect (2&quot;)</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
       </characteristics>
@@ -12627,8 +14174,7 @@ At the end of the round, each enemy engaged with this model must pass an Enduran
         <characteristic name="Range" typeId="c7f8-b114-74e3-3fcd">12&quot;</characteristic>
         <characteristic name="Skill" typeId="118a-57a7-3da2-c4d0">Destruction</characteristic>
         <characteristic name="Effect" typeId="f944-7503-862e-0bf2">[GREEN][YELLOW][YELLOW][YELLOW] (Shock)
-[HELMET]: add [BLACK]
-</characteristic>
+[HELMET]: add [BLACK]</characteristic>
         <characteristic name="Keywords" typeId="b057-4586-6cab-45f8">Area Effect (3&quot;)</characteristic>
         <characteristic name="Equip Slot" typeId="a01c-2592-f720-633c">One Hand</characteristic>
       </characteristics>

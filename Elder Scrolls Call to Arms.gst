@@ -8692,14 +8692,14 @@ A: Yes</description>
                     <modifierGroup type="and">
                       <modifiers>
                         <modifier type="decrement" value="2" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="append" value="*" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="append" value="*" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="floor" value="1" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
                     <modifierGroup type="and">
                       <modifiers>
                         <modifier type="decrement" value="2" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="append" value="*" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="append" value="*" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="floor" value="1" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
@@ -8735,21 +8735,21 @@ A: Yes</description>
                     <modifierGroup type="and">
                       <modifiers>
                         <modifier type="decrement" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="append" value="*" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="append" value="*" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="floor" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
                     <modifierGroup type="and">
                       <modifiers>
                         <modifier type="decrement" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="append" value="*" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="append" value="*" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="floor" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
                     <modifierGroup type="and">
                       <modifiers>
                         <modifier type="decrement" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="append" value="*" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="append" value="*" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="floor" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
@@ -8785,14 +8785,14 @@ A: Yes</description>
                     <modifierGroup type="and">
                       <modifiers>
                         <modifier type="decrement" value="2" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="append" value="*" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="append" value="*" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="floor" value="1" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
                     <modifierGroup type="and">
                       <modifiers>
                         <modifier type="decrement" value="2" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero"/>
-                        <modifier type="append" value="*" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero" position=""/>
+                        <modifier type="append" value="*" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero"/>
                         <modifier type="floor" value="1" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero"/>
                       </modifiers>
                     </modifierGroup>
@@ -8834,186 +8834,2352 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
       <selectionEntryGroups>
         <selectionEntryGroup name="Standard Boons" id="80a3-ec58-67cc-d9c3" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="10" collapsible="true">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Perk Addition" id="7547-86c9-eff9-28ee" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="14">
+            <selectionEntryGroup name="Perk Purchases" id="7547-86c9-eff9-28ee" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="14" sortIndex="4">
               <comment>long af list do last</comment>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Alchemy Perks" id="19ec-409f-0886-bbf6" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="25" sortIndex="5">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="37d3-238a-d08a-1589" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
+                <selectionEntryGroup name="Sorcery Perks" id="e92e-7c3a-5c25-4516" hidden="false" sortIndex="1" publicationId="0d48-6717-7d1c-2c6c" page="">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Alteration Perks" id="9770-8ea0-c2cf-55db" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="2aea-a863-419f-ba90" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Conjuration Perks" id="163c-f3fe-f37d-b856" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="28">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="f1a5-f2a8-0691-3c85" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Destruction Perks" id="a748-e223-3ef0-e9d5" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="29">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="4c5c-c1e0-77f2-cf34" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Illusion Perks" id="9e31-8aad-f108-4926" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="31">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="93b4-afa5-eb85-d8ec" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Blood Magic Perks" id="b978-9f8f-6fa6-6336" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="28">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="84c5-1d46-80c8-1e38" shared="true"/>
+                                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="16e1-93b0-a99d-b6b1" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Enchanting Perks" id="e183-422b-82eb-cd16" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="30">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="03bd-d045-659f-b234" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Restoration Perks" id="c7c1-0f79-1913-3f89" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="33">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="b0b5-e13e-f45a-5045" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Alchemy Perks" id="19ec-409f-0886-bbf6" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="25">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="37d3-238a-d08a-1589" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Alteration Perks" id="9770-8ea0-c2cf-55db" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="25" sortIndex="4">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="2aea-a863-419f-ba90" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
+                <selectionEntryGroup name="Shadow Perks" id="6724-9622-adb9-8033" hidden="false" sortIndex="2" publicationId="0d48-6717-7d1c-2c6c" page="">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Archery Perks" id="fca2-571e-5bb7-dd6b" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="26">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="4d42-f7a9-a2ca-654e" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Light Armor Perks" id="c209-346f-1a3e-cb3c" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="31">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="8af2-ae59-4a5c-98b8" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Lockpicking Perks" id="8400-7b5d-5183-f3ed" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="32">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7d06-5fcb-c718-e106" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Pickpocket Perks" id="f5cd-01c7-360f-c975" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="33">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7f96-4899-973e-0e11" shared="true"/>
+                                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Sneak Perks" id="8697-d3bc-81dc-4c21" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="35">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="bf6e-ed80-b16a-b9b9" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Speech Perks" id="d713-c100-c336-a35d" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="35">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="dd8f-4143-9e14-8e73" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Archery Perks" id="fca2-571e-5bb7-dd6b" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="26" sortIndex="2">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="4d42-f7a9-a2ca-654e" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
+                <selectionEntryGroup name="Might Perks" id="79a8-2beb-d248-7543" hidden="false" sortIndex="3" publicationId="0d48-6717-7d1c-2c6c" page="">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Block Perks" id="b6b8-5c12-a738-4d28" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="27">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="c65e-1c8e-613b-dc01" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Heavy Armor Perks" id="9dd0-e17a-1dbc-f0a7" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="30">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="e8e8-69e8-5565-af4f" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="One-Handed Perks" id="7ec7-b56e-419c-27e3" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="32">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="64bb-1eb1-1896-f36d" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Two-Handed Perks" id="24d2-9f75-ca34-5953" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="36">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="74fd-ddce-0be6-02c5" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Smithing Perks" id="db0b-4bbb-531b-122e" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="34">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="c7db-eac8-21dc-49a0" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Block Perks" id="b6b8-5c12-a738-4d28" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="27" sortIndex="1">
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Reserve Increases" id="2106-83f6-eb4a-1bf8" hidden="false" sortIndex="1">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Health (Check Prior Value!)" id="21e6-2db7-15d7-72fa" hidden="false" collapsible="true" sortIndex="1">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Health Increase 1 to 2" hidden="false" id="0ae5-60f7-df76-24d3" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="8"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9edc-b736-cab2-48ab"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Health Increase 2 to 3" hidden="false" id="dbc2-3b80-6e2e-3d18" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d2e-b82c-7c5c-760a"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Health Increase 3 to 4" hidden="false" id="85dc-f7e3-fe05-8d69" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="10"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d200-90d3-1fef-122d"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Health Increase 4 to 5" hidden="false" id="e6ce-b525-a236-f691" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="11"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca2a-a3c7-e7ff-4409"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Health Increase 5 to 6" hidden="false" id="8d85-dfe1-11c8-102d" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="11"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7296-f7c5-9e78-e61c"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Health Increase 6 to 7" hidden="false" id="2892-76f5-629b-e07b" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="10"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97c7-dc07-ce94-a70e"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Health Increase 7 to 8" hidden="false" id="9aac-f783-2b6b-320d" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cd1-6b84-d6f5-1c9b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Health Increase 8 to 9" hidden="false" id="5806-f71e-4eed-0040" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c47-78f5-33cd-7e9f"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Health Increase 9 to 10" hidden="false" id="2537-c657-0015-b992" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="8"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="append" value="*" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="append" value="*" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c7b-2a82-3459-7a78"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
                   <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="c65e-1c8e-613b-dc01" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Blood Magic Perks" id="b978-9f8f-6fa6-6336" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="28" sortIndex="6">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
+                    <modifier type="append" value="*" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero">
                       <conditionGroups>
                         <conditionGroup type="and">
                           <conditions>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="84c5-1d46-80c8-1e38" shared="true"/>
-                            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="16e1-93b0-a99d-b6b1" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="self" childId="any" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="append" value="*" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="self" childId="any" shared="true" includeChildSelections="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Conjuration Perks" id="163c-f3fe-f37d-b856" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="28" sortIndex="4">
+                <selectionEntryGroup name="Stamina (Check Prior Value!)" id="b6cc-323d-6339-6c03" hidden="false" collapsible="true" sortIndex="2">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Stamina Increase 0 to 1" hidden="false" id="69e2-2fbe-6462-cd82" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="6"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4f9-c007-cf23-b4bc"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stamina Increase 2 to 3" hidden="false" id="7eac-1104-37c4-f6c4" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="8"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f6f-0b15-1e90-e1d0"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stamina Increase 3 to 4" hidden="false" id="1dd5-6f86-94f1-18fb" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97b2-5765-1185-1b56"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stamina Increase 4 to 5" hidden="false" id="a6a8-56ea-9987-dea0" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="10"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6c1-99d9-fb77-202b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stamina Increase 5 to 6" hidden="false" id="c51f-b41a-9304-efbc" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="640d-daab-6205-f963"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stamina Increase 6 to 7" hidden="false" id="d289-8993-c15c-387b" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6977-d555-8407-3a4d"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stamina Increase 7 to 8" hidden="false" id="763b-1e12-9cba-2f92" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="8"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2972-b957-daf4-b707"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stamina Increase 8 to 9" hidden="false" id="d28a-3666-0eb0-8981" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="8"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd08-e5a7-e3e5-6593"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stamina Increase 9 to 10" hidden="false" id="ae38-7cd2-e5ab-141d" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="8"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9593-cfb3-555b-d019"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stamina Increase 1 to 2" hidden="false" id="de33-06e2-dc2e-914a" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="7"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a367-43cc-7ac3-ded2"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
                   <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="f1a5-f2a8-0691-3c85" shared="true"/>
-                      </conditions>
+                    <modifier type="append" value="*" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="self" childId="any" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="append" value="*" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="self" childId="any" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Destruction Perks" id="a748-e223-3ef0-e9d5" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="29" sortIndex="4">
+                <selectionEntryGroup name="Magicka (Check Prior Value!)" id="272f-74e0-3a8c-cc2c" hidden="false" collapsible="true" sortIndex="3">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Magicka Increase 1 to 2" hidden="false" id="6fe7-f6c6-6af7-cab6" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="8"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b027-ae72-9a88-fa3e"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Magicka Increase 2 to 3" hidden="false" id="9c2e-a295-3c3c-f8fe" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2eea-8016-620e-8176"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Magicka Increase 3 to 4" hidden="false" id="a5c2-021c-cc51-1d47" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="10"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa5f-d67c-0d88-4441"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Magicka Increase 4 to 5" hidden="false" id="cae0-00fb-930e-3da8" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="6"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="11"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56be-f768-d9ac-5fcc"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Magicka Increase 5 to 6" hidden="false" id="b8d0-d77a-1a2e-50ca" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="10"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6064-3b74-56b5-9a75"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Magicka Increase 6 to 7" hidden="false" id="100d-6ac5-17e1-09f8" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="10"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da44-f89f-b06f-6f83"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Magicka Increase 7 to 8" hidden="false" id="180a-be16-580f-f357" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edd6-84b4-d0d6-7abe"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Magicka Increase 8 to 9" hidden="false" id="bf41-2644-4515-4ce2" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="9"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1dd5-fe54-40bb-b695"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Magicka Increase 9 to 10" hidden="false" id="7276-4976-e834-3235" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="8"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="821b-a08a-613f-c785"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Magicka Increase 0 to 1" hidden="false" id="1339-8bd2-7cdc-955b" collective="true" publicationId="0d48-6717-7d1c-2c6c" page="12" sortIndex="">
+                      <costs>
+                        <cost name=" Septims" typeId="c61a-51a3-370d-bf55" value="4"/>
+                        <cost name="Model Count" typeId="b1c3-7317-4f6a-a8b9" value="0"/>
+                        <cost name="Boons" typeId="69c4-9616-5300-e6d0" value="1"/>
+                        <cost name="EXP" typeId="2da8-b1c5-eae1-e47d" value="7"/>
+                        <cost name="Party Boons" typeId="b7d0-13eb-2710-926f" value="0"/>
+                      </costs>
+                      <modifierGroups>
+                        <modifierGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                          <modifierGroups>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                            <modifierGroup type="and">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
+                              </modifiers>
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </modifierGroup>
+                          </modifierGroups>
+                        </modifierGroup>
+                      </modifierGroups>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9e5-ff58-5541-d3da"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
                   <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="4c5c-c1e0-77f2-cf34" shared="true"/>
-                      </conditions>
+                    <modifier type="append" value="*" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="self" childId="any" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Enchanting Perks" id="e183-422b-82eb-cd16" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="30" sortIndex="5">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="03bd-d045-659f-b234" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Heavy Armor Perks" id="9dd0-e17a-1dbc-f0a7" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="30" sortIndex="3">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="e8e8-69e8-5565-af4f" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Illusion Perks" id="9e31-8aad-f108-4926" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="31" sortIndex="4">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="93b4-afa5-eb85-d8ec" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Light Armor Perks" id="c209-346f-1a3e-cb3c" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="31" sortIndex="3">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="8af2-ae59-4a5c-98b8" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Lockpicking Perks" id="8400-7b5d-5183-f3ed" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="32" sortIndex="2">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7d06-5fcb-c718-e106" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="One-Handed Perks" id="7ec7-b56e-419c-27e3" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="32" sortIndex="1">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="64bb-1eb1-1896-f36d" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Pickpocket Perks" id="f5cd-01c7-360f-c975" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="33" sortIndex="2">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7f96-4899-973e-0e11" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Restoration Perks" id="c7c1-0f79-1913-3f89" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="33" sortIndex="5">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="b0b5-e13e-f45a-5045" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Smithing Perks" id="db0b-4bbb-531b-122e" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="34" sortIndex="3">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="c7db-eac8-21dc-49a0" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Sneak Perks" id="8697-d3bc-81dc-4c21" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="35" sortIndex="2">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="bf6e-ed80-b16a-b9b9" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Speech Perks" id="d713-c100-c336-a35d" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="35" sortIndex="5">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="dd8f-4143-9e14-8e73" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Two-Handed Perks" id="24d2-9f75-ca34-5953" hidden="false" publicationId="0d48-6717-7d1c-2c6c" page="36" sortIndex="1">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="74fd-ddce-0be6-02c5" shared="true"/>
-                      </conditions>
+                    <modifier type="append" value="*" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="self" childId="any" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Attribute Increases" id="cfa7-394b-d6ee-449c" hidden="false" sortIndex="2"/>
+            <selectionEntryGroup name="Skill Purchases" id="87dc-7b5f-1bd3-6710" hidden="false" sortIndex="3">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Alchemy" hidden="false" id="3ca5-b140-fc09-a6cd">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="3ca5-b140-fc09-a6cd" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="37d3-238a-d08a-1589" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3df0-7efd-2e82-3651"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Alchemy" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero" join="
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Alchemy" field="4668-ed07-a347-bf37" scope="model-or-unit" affects="profiles.Follower" join="
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="37d3-238a-d08a-1589" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Alteration" hidden="false" id="1532-fa39-a48e-1eb1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="1532-fa39-a48e-1eb1" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2aea-a863-419f-ba90" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3de6-19d6-4a4c-3e5f"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Alteration" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Alteration" field="437f-b05a-e975-87cf" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="2aea-a863-419f-ba90" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Archery" hidden="false" id="6907-553d-8fc1-5a37">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="6907-553d-8fc1-5a37" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4d42-f7a9-a2ca-654e" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b30b-5198-b60d-50d1"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Archery" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Archery" field="8904-8c99-00e7-c376" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="4d42-f7a9-a2ca-654e" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Block" hidden="false" id="6586-8208-7c65-11d2">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="6586-8208-7c65-11d2" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="c65e-1c8e-613b-dc01" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c579-430c-d97b-5734"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Block" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Block" field="f88a-6cf5-9a8a-9f52" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="c65e-1c8e-613b-dc01" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Conjuration" hidden="false" id="0a7d-ebcb-f45c-beb2">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="0a7d-ebcb-f45c-beb2" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f1a5-f2a8-0691-3c85" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e26-2beb-1bab-7df5"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Conjuration" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Conjuration" field="437f-b05a-e975-87cf" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="f1a5-f2a8-0691-3c85" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Destruction" hidden="false" id="42dd-00bd-96f5-c5e5">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="42dd-00bd-96f5-c5e5" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4c5c-c1e0-77f2-cf34" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="330a-e89f-1269-b134"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Destruction" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Destruction" field="437f-b05a-e975-87cf" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="4c5c-c1e0-77f2-cf34" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Enchanting" hidden="false" id="0972-fac7-a5ec-07ac">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="0972-fac7-a5ec-07ac" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="03bd-d045-659f-b234" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c56-5b89-a683-25d8"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Enchanting" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Enchanting" field="4668-ed07-a347-bf37" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="03bd-d045-659f-b234" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Armor" hidden="false" id="82b2-8454-0c86-9e38">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="82b2-8454-0c86-9e38" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e8e8-69e8-5565-af4f" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92da-6568-1250-40db"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Heavy Armor" field="fb58-c970-3c64-d7ea" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Heavy Armor" field="89fb-032d-3fe8-42a8" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="e8e8-69e8-5565-af4f" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Illusion" hidden="false" id="acb2-7f77-8d79-800b">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="acb2-7f77-8d79-800b" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="93b4-afa5-eb85-d8ec" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce28-1fb8-027b-b177"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Illusion" field="7b0a-cc9f-5e49-9b5a" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Illusion" field="437f-b05a-e975-87cf" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="93b4-afa5-eb85-d8ec" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Armor" hidden="false" id="c000-e8e8-eabc-2629">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="c000-e8e8-eabc-2629" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8af2-ae59-4a5c-98b8" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce23-01ed-83da-5860"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Light Armor" field="fb58-c970-3c64-d7ea" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Light Armor" field="89fb-032d-3fe8-42a8" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="8af2-ae59-4a5c-98b8" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lockpicking" hidden="false" id="6f28-1b6e-fb2e-f5a5">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="6f28-1b6e-fb2e-f5a5" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7d06-5fcb-c718-e106" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3a4-8423-92b2-d832"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Lockpicking" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Lockpicking" field="8904-8c99-00e7-c376" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="7d06-5fcb-c718-e106" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="One-Handed" hidden="false" id="3013-b717-7734-9899">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="3013-b717-7734-9899" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="64bb-1eb1-1896-f36d" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34b4-d820-8513-1302"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*One-Handed" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*One-Handed" field="f88a-6cf5-9a8a-9f52" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="64bb-1eb1-1896-f36d" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pickpocket" hidden="false" id="14fc-62c9-3c6c-555c">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7f96-4899-973e-0e11" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="14fc-62c9-3c6c-555c" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e96e-82a4-db42-b5e6"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Pickpocket" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="7f96-4899-973e-0e11" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Restoration" hidden="false" id="57b9-9b2d-503f-32c3">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="57b9-9b2d-503f-32c3" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b0b5-e13e-f45a-5045" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fa2-00fe-095e-606d"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Restoration" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Restoration" field="4668-ed07-a347-bf37" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="b0b5-e13e-f45a-5045" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Smithing" hidden="false" id="92f9-87bd-fc49-cde7">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="92f9-87bd-fc49-cde7" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="c7db-eac8-21dc-49a0" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c92-135a-db96-89b0"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Smithing" field="fb58-c970-3c64-d7ea" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Smithing" field="89fb-032d-3fe8-42a8" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="c7db-eac8-21dc-49a0" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Sneak" hidden="false" id="0e78-54db-3777-c9df">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="0e78-54db-3777-c9df" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="bf6e-ed80-b16a-b9b9" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfac-3295-7d4c-92a9"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Sneak" field="1276-0dd9-53ca-d970" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Sneak" field="8904-8c99-00e7-c376" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="bf6e-ed80-b16a-b9b9" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Speech" hidden="false" id="1e30-611b-f081-564c">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="1e30-611b-f081-564c" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="dd8f-4143-9e14-8e73" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf5c-dd25-0547-ed4c"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Speech" field="19a1-9f7c-8f90-79aa" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Speech" field="4668-ed07-a347-bf37" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="dd8f-4143-9e14-8e73" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Two-Handed" hidden="false" id="5409-501c-337f-9f14">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="parent" childId="5409-501c-337f-9f14" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="74fd-ddce-0be6-02c5" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e41-1ebe-09a0-130d"/>
+                  </constraints>
+                  <modifierGroups>
+                    <modifierGroup type="and">
+                      <modifiers>
+                        <modifier type="append" value="*Two-Handed" field="7863-9734-b481-1521" scope="model-or-unit" affects="profiles.Hero" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="append" value="*Two-Handed" field="f88a-6cf5-9a8a-9f52" scope="model-or-unit" affects="profiles.Follower" join="
+
+">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="add" value="74fd-ddce-0be6-02c5" field="category" scope="model-or-unit">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
@@ -9129,7 +11295,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                         <profile name="Perk: Atronach II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="d9ce-6409-7ba4-3e06" publicationId="0d48-6717-7d1c-2c6c" page="25">
                           <characteristics>
                             <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
-                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model restores +1 Magicka whenever it or any other friendly model within 6” is the target of a Spell. </characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model restores +1 Magicka whenever it or any other friendly model within 6” is the target of a Spell.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -9656,7 +11822,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                     <profile name="Vanguard" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="1f50-fcb1-f27f-1b4c" publicationId="0d48-6717-7d1c-2c6c" page="15">
                       <characteristics>
                         <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
-                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, as a Special Action, this model may gain the Fleet keyword until the end of the round. </characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, as a Special Action, this model may gain the Fleet keyword until the end of the round.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9800,7 +11966,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                     <profile name="Unflinching" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="575c-73b4-a7a3-dbc0" publicationId="0d48-6717-7d1c-2c6c" page="15">
                       <characteristics>
                         <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
-                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, before rolling for Armor Rating, this model may add [BLACK] to its Armor Rating roll. </characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, before rolling for Armor Rating, this model may add [BLACK] to its Armor Rating roll.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9824,7 +11990,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                     <profile name="Yokudan Heritage" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="9200-1a39-f993-3acf" publicationId="0d48-6717-7d1c-2c6c" page="15">
                       <characteristics>
                         <characteristic name="Type" typeId="829d-31f9-4f19-7144">Heritage Boon</characteristic>
-                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, while performing a Melee Attack Skill Test, this model may add [RED] to the Skill Test’s Effect Dice. </characteristic>
+                        <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">Once per game, while performing a Melee Attack Skill Test, this model may add [RED] to the Skill Test’s Effect Dice.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9936,8 +12102,7 @@ normal, but models cannot discard a Block Token to take a Block Skill Test. Thi
       <description>This model may purchase and use Dragon Shouts as Upgrades.</description>
     </rule>
     <rule id="1875-9b07-2a07-aacc" name="Enchanted" publicationId="4d6f-8c48-a5ea-e83c" page="87" hidden="false">
-      <description>An Equipment Card with the Enchanted Keyword already possesses the maximum number of Enchantments and may not be enhanced by attaching further Enchantments unless a Perk allows otherwise. As soon as a Weapon Card receives an Enchantment Attachment, it becomes Enchanted. In addition, all Spells are considered ‘Enchanted’. Enchantment has no innate effect, but a Special Rule may specify an interaction with
-an Enchanted item, or a certain foe might be resistant to or vulnerable to Enchanted Attacks. The Enchanted Keyword also grants the Magic damage type.</description>
+      <description>An Equipment Card with the Enchanted Keyword already possesses the maximum number of Enchantments and may not be enhanced by attaching further Enchantments unless a Perk allows otherwise. As soon as a Weapon Card receives an Enchantment Attachment, it becomes Enchanted. In addition, all Spells are considered ‘Enchanted’. Enchantment has no innate effect, but a Special Rule may specify an interaction with an Enchanted item, or a certain foe might be resistant to or vulnerable to Enchanted Attacks. The Enchanted Keyword also grants the Magic damage type.</description>
     </rule>
     <rule id="0550-3332-7a93-ab5b" name="Ethereal" publicationId="4d6f-8c48-a5ea-e83c" page="87" hidden="false">
       <description>This model may Move through other models and Impassable Terrain as though they were not there (although it may not end its Move on top of or overlapping them) and adds [RED] to its Armor Rating against non-Enchanted Attacks.</description>

@@ -105,6 +105,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -145,6 +146,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -194,6 +196,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -212,8 +215,8 @@
         <categoryLink id="6c76-40b8-98e0-dee7" name="Conjuration Skill" hidden="false" targetId="f1a5-f2a8-0691-3c85" primary="false"/>
         <categoryLink id="a9c8-b896-dca5-7452" name="Destruction Skill" hidden="false" targetId="4c5c-c1e0-77f2-cf34" primary="false"/>
         <categoryLink id="3bd4-0558-4108-3a9b" name="Speech Skill" hidden="false" targetId="dd8f-4143-9e14-8e73" primary="false"/>
-        <categoryLink targetId="6df4-3d08-99df-65d2" id="e556-3a41-3eee-d9eb" primary="false" name="Dunmer"/>
-        <categoryLink targetId="7975-461a-3ea6-a65b" id="4565-6259-14e6-e84e" primary="false" name="Elf"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="e556-3a41-3eee-d9eb" primary="false" name="Race: Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="4565-6259-14e6-e84e" primary="false" name="Racial Group: Elf"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -233,6 +236,7 @@
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -270,6 +274,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -306,6 +311,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -341,6 +347,7 @@
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -359,8 +366,8 @@
         <categoryLink id="d5e1-3ffb-6502-cf34" name="Light Armor Skill" hidden="false" targetId="8af2-ae59-4a5c-98b8" primary="false"/>
         <categoryLink id="288b-8051-eca7-473a" name="Archery Skill" hidden="false" targetId="4d42-f7a9-a2ca-654e" primary="false"/>
         <categoryLink id="7c2a-40c0-3472-1651" name="Lockpicking Skill" hidden="false" targetId="7d06-5fcb-c718-e106" primary="false"/>
-        <categoryLink targetId="6df4-3d08-99df-65d2" id="b5f2-1ceb-9902-6943" primary="false" name="Dunmer"/>
-        <categoryLink targetId="7975-461a-3ea6-a65b" id="6dcd-3480-8027-4241" primary="false" name="Elf"/>
+        <categoryLink targetId="6df4-3d08-99df-65d2" id="b5f2-1ceb-9902-6943" primary="false" name="Race: Dunmer"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="6dcd-3480-8027-4241" primary="false" name="Racial Group: Elf"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -380,6 +387,7 @@
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -417,6 +425,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -455,6 +464,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -485,6 +495,7 @@
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -515,6 +526,7 @@
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -544,6 +556,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -581,6 +594,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -617,6 +631,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -667,6 +682,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -753,6 +769,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -791,6 +808,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -832,6 +850,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -874,6 +893,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -913,6 +933,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -954,6 +975,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -996,6 +1018,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1033,6 +1056,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1077,6 +1101,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1121,6 +1146,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1166,6 +1192,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1212,6 +1239,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1237,7 +1265,7 @@
         <categoryLink targetId="bf6e-ed80-b16a-b9b9" id="35b3-8cb8-a4ad-1894" primary="false" name="Sneak Skill"/>
         <categoryLink targetId="9797-61ac-cbe1-cccd" id="bb85-fe2d-a7cc-6428" primary="false" name="Path of Shadow"/>
         <categoryLink targetId="f1a5-f2a8-0691-3c85" id="eb80-a91d-bc71-ae33" primary="false" name="Conjuration Skill"/>
-        <categoryLink targetId="7975-461a-3ea6-a65b" id="aaf2-c507-5ac3-090c" primary="false" name="Elf"/>
+        <categoryLink targetId="7975-461a-3ea6-a65b" id="aaf2-c507-5ac3-090c" primary="false" name="Racial Group: Elf"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -1257,6 +1285,7 @@
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1304,6 +1333,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1350,6 +1380,7 @@
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="ccb3-0925-8a2a-6ab7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1394,6 +1425,7 @@
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b13-d81a-9048-0fb2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="greaterThan" value="0" field="selections" scope="roster" childId="34c6-abbe-c8fe-2420" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="b7aa-4b7c-29c1-1bb5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>

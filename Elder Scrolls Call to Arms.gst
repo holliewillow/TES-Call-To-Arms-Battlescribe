@@ -895,7 +895,7 @@ A: Yes</description>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry id="40f7-3544-9648-75e1" name="ToT: Untold Legends (Party Progression)" publicationId="0d48-6717-7d1c-2c6c" hidden="false" collective="false" import="true" type="upgrade" defaultAmount="0" page="3-37" sortIndex="1">
+    <selectionEntry id="40f7-3544-9648-75e1" name="ToT: Untold Legends (Party Progression)" publicationId="0d48-6717-7d1c-2c6c" hidden="true" collective="false" import="true" type="upgrade" defaultAmount="0" page="3-37" sortIndex="1">
       <categoryLinks>
         <categoryLink id="b177-b67c-a4c0-8c4b" name="Configuration" hidden="false" targetId="fb89-efb1-54e4-59c5" primary="false"/>
         <categoryLink targetId="b2e8-159c-8939-1f97" id="e00e-137c-3dc3-f229" primary="true" name="Untold Legends"/>
@@ -2983,7 +2983,7 @@ A: Yes</description>
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry id="f675-28a6-b947-2dd1" name="College Of Winterhold" page="TBD" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f675-28a6-b947-2dd1" name="College Of Winterhold" page="TBD" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f39-56f3-737b-57d7" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5379-daf6-55f8-6bf6" type="min"/>
@@ -15996,7 +15996,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                         <profile name="Perk: Ranger II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="7efc-a9c9-266c-ee61" publicationId="0d48-6717-7d1c-2c6c" page="26">
                           <characteristics>
                             <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
-                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">When it is Engaged, this model may Attack using an equipped Bow as if it were a Hybrid Weapon. </characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">When it is Engaged, this model may Attack using an equipped Bow as if it were a Hybrid Weapon.</characteristic>
                           </characteristics>
                           <alias>Ranger II</alias>
                         </profile>
@@ -16208,7 +16208,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                         <profile name="Perk: Gargoyle Master II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="0c86-6dfd-cc37-ec0d" publicationId="0d48-6717-7d1c-2c6c" page="28">
                           <characteristics>
                             <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
-                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">All Gargoyles Summoned by this model gain one extra Action in their first activation and gain the Resistance (Physical) keyword. </characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">All Gargoyles Summoned by this model gain one extra Action in their first activation and gain the Resistance (Physical) keyword.</characteristic>
                           </characteristics>
                           <alias>Gargoyle Master II</alias>
                         </profile>
@@ -16256,7 +16256,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                         <profile name="Perk: Atromancy II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="5139-67d1-ccd8-156f" publicationId="0d48-6717-7d1c-2c6c" page="28">
                           <characteristics>
                             <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
-                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">All Atronachs Summoned by this model add [YELLOW] to their Armor Rating and their Preferred Attack Profile. </characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">All Atronachs Summoned by this model add [YELLOW] to their Armor Rating and their Preferred Attack Profile.</characteristic>
                           </characteristics>
                           <alias>Atromancy II</alias>
                         </profile>
@@ -16293,7 +16293,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                         <profile name="Perk: Mystic Binding II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="eb17-d170-7335-18d4" publicationId="0d48-6717-7d1c-2c6c" page="27">
                           <characteristics>
                             <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
-                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model adds [YELLOW] to its Melee Attacks with Bound Weapons. Bound Weapons also gain the Absorb Magicka (1) Keyword. </characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model adds [YELLOW] to its Melee Attacks with Bound Weapons. Bound Weapons also gain the Absorb Magicka (1) Keyword.</characteristic>
                           </characteristics>
                           <alias>Mystic Binding II</alias>
                         </profile>
@@ -16378,7 +16378,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                         <profile name="Perk: Augmented Flames II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="007c-24ae-b8aa-9902" publicationId="0d48-6717-7d1c-2c6c" page="29">
                           <characteristics>
                             <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
-                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">When this model casts any Destruction Spell, add [YELLOW] to the Attack. The model being Attacked gains the Weakness (Fire) keyword for the duration of Attack. Models with the Resistance (Fire) lose this keyword when being Attacked by this model. </characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">When this model casts any Destruction Spell, add [YELLOW] to the Attack. The model being Attacked gains the Weakness (Fire) keyword for the duration of Attack. Models with the Resistance (Fire) lose this keyword when being Attacked by this model.</characteristic>
                           </characteristics>
                           <alias>Augmented Flames II</alias>
                         </profile>
@@ -16500,7 +16500,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                         <profile name="Perk: Fire Enchanter II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="4b4c-f808-cbc4-a42e" publicationId="0d48-6717-7d1c-2c6c" page="30">
                           <characteristics>
                             <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
-                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">When this model makes an Attack with a weapon that has an Enchantment that causes Fire Damage, add [RED] to the Attack. </characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">When this model makes an Attack with a weapon that has an Enchantment that causes Fire Damage, add [RED] to the Attack.</characteristic>
                           </characteristics>
                           <alias>Fire Enchanter II</alias>
                         </profile>
@@ -17110,7 +17110,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                         <profile name="Perk: Bladesman II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="1536-e884-0a4e-c500" publicationId="0d48-6717-7d1c-2c6c" page="32">
                           <characteristics>
                             <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
-                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model adds [GREEN] and Follow-up (1) to its Melee Attacks with Swords. If the Melee Weapon already has the Follow-Up (1) rule, increase this to Follow-Up (2). </characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model adds [GREEN] and Follow-up (1) to its Melee Attacks with Swords. If the Melee Weapon already has the Follow-Up (1) rule, increase this to Follow-Up (2).</characteristic>
                           </characteristics>
                           <alias>Bladesman II</alias>
                         </profile>
@@ -17184,7 +17184,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                         <profile name="Perk: Hack and Slash II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="e345-3402-288a-ab64" publicationId="0d48-6717-7d1c-2c6c" page="32">
                           <characteristics>
                             <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
-                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model adds [GREEN] and the Bleed keyword to all Melee Attacks with War Axes. </characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model adds [GREEN] and the Bleed keyword to all Melee Attacks with War Axes.</characteristic>
                           </characteristics>
                           <alias>Hack and Slash II</alias>
                         </profile>
@@ -17476,8 +17476,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                         <profile name="Perk: Smithing (Iron, Steel, Elven)" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="9323-9d68-0753-bf8a" publicationId="0d48-6717-7d1c-2c6c" page="34">
                           <characteristics>
                             <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
-                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">[Adds Iron, Steel, and Elven to the material types affected by this model&apos;s Smithing (Type) Perk. Otherwise unchanged from original.]
-</characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">[Adds Iron, Steel, and Elven to the material types affected by this model&apos;s Smithing (Type) Perk. Otherwise unchanged from original.]</characteristic>
                           </characteristics>
                           <alias>Smithing II</alias>
                         </profile>
@@ -17647,7 +17646,7 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                         <profile name="Perk: Persuasion II" typeId="aa10-ba07-8f15-9f8e" typeName="Untold Legends: Boon/Injury" hidden="false" id="ecfd-5a71-4bb1-0d54" publicationId="0d48-6717-7d1c-2c6c" page="35">
                           <characteristics>
                             <characteristic name="Type" typeId="829d-31f9-4f19-7144">Perk Upgrade</characteristic>
-                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model may perform the Rally Command Action even if it is not the Party Champion. In addition, when it does so, this model and all friendly models within 6” restore 1 Stamina. </characteristic>
+                            <characteristic name="Effect" typeId="2e03-10c8-8edb-253f">This model may perform the Rally Command Action even if it is not the Party Champion. In addition, when it does so, this model and all friendly models within 6” restore 1 Stamina.</characteristic>
                           </characteristics>
                           <alias>Persuasion II</alias>
                         </profile>

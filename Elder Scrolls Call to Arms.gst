@@ -9260,7 +9260,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9269,7 +9268,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9299,7 +9297,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9308,7 +9305,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9338,7 +9334,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9347,7 +9342,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9377,7 +9371,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9386,7 +9379,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9416,7 +9408,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9425,7 +9416,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9455,7 +9445,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9464,7 +9453,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9494,7 +9482,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9503,7 +9490,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9533,7 +9519,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9542,7 +9527,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9572,8 +9556,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="append" value="*" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="4d71-6d31-a8de-f417" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9582,8 +9564,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="append" value="*" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="e3fb-6d75-7508-4fd4" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9639,7 +9619,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9648,7 +9627,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9678,7 +9656,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9687,7 +9664,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9717,7 +9693,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9726,7 +9701,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9756,7 +9730,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9765,7 +9738,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9795,7 +9767,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9804,7 +9775,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9834,7 +9804,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9843,7 +9812,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9873,7 +9841,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9882,7 +9849,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9912,7 +9878,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9921,7 +9886,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9951,7 +9915,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9960,7 +9923,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -9990,7 +9952,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="a8f4-62f6-ba74-ea48" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -9999,7 +9960,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="d191-94a6-3175-e23b" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -10055,7 +10015,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -10064,7 +10023,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -10094,7 +10052,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -10103,7 +10060,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -10133,7 +10089,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -10142,7 +10097,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -10172,7 +10126,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -10181,7 +10134,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -10211,7 +10163,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -10220,7 +10171,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -10250,7 +10200,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -10259,7 +10208,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -10289,7 +10237,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -10298,7 +10245,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -10328,7 +10274,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -10337,7 +10282,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -10367,7 +10311,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -10376,7 +10319,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
@@ -10406,7 +10348,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
-                                <modifier type="ceil" value="10" field="e74e-37df-e0cb-70ec" scope="model-or-unit" affects="profiles.Hero"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b9a4-31a5-b4ed-b4c7" shared="true"/>
@@ -10415,7 +10356,6 @@ After you have rolled an Injury, it is added to the model’s entry on the Part
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="increment" value="1" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
-                                <modifier type="ceil" value="10" field="1235-df6f-cb26-2230" scope="model-or-unit" affects="profiles.Follower"/>
                               </modifiers>
                               <conditions>
                                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ba61-d304-9352-ec15" shared="true"/>
